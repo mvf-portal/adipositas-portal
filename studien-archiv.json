@@ -1,5 +1,44 @@
 [
  {
+  "pmid": "42599915",
+  "journal": "PLoS One",
+  "year": "2026",
+  "author": "Muilwijk M et al.",
+  "pubdate": "14.08.2026",
+  "added": "14.08.2026",
+  "transfer": "Niederlande, vergleichbares System; dokumentiert räumliche Ungleichheit, relevant für Verhältnisprävention.",
+  "title": "Ecosyndemic Cluster in Niederlanden: Adipositas clustert räumlich mit Armut, schlechtem Umfeld und psychischer Belastung",
+  "sum": "Niederländische Nachbarschafts-Clusteranalyse von 12.420 bewohnten administrativen Bezirken mit Daten zu Gesundheit, obesogener Umwelt und sozioökonomischem Status (2016).",
+  "result": "Fünf Nachbarschaftscluster identifiziert. Der ‚Ecosyndemic Cluster' (n=1.070) zeigte höchste Adipositaslast (17 %), chronische Erkrankungen (36 %) und Angst/Depression (55 %), kombiniert mit ungünstiger Lebensmittelumgebung und niedriger sozioökonomischer Position. Der ‚Privilegierte Cluster' (n=6.425) hatte niedrigere Adipositasprävalenz (12 %). Räumliche Clusterung stark (Morans I=0,58).",
+  "aufgenommen": "2026-08-26"
+ },
+ {
+  "pmid": "42555576",
+  "journal": "PLoS One",
+  "year": "2026",
+  "author": "Hu Y",
+  "pubdate": "05.08.2026",
+  "added": "05.08.2026",
+  "transfer": "England, comparable Sozialversicherungssystem; zeigt, dass nationale Strukturinterventionen (nicht ort-spezifische) erforderlich sind.",
+  "title": "Strukturelle Determinanten der Adipositas in England: Essensumgebung und Inaktivität, nicht städtisch-ländlich",
+  "sum": "Räumlich-ökonomische Analyse mit 151 englischen Upper-Tier-Local-Authorities (2023/24) mittels Spatial Error Model zur Identifikation von Adipositas-Determinanten und räumlicher Variabilität.",
+  "result": "Adipositasprävalenz zeigte starkes räumliches Clustering (Morans I=0,58). Spatial Error Model (AICc 806,4) übertraf OLS und Geographically Weighted Regression; eliminierte Residualautokorrelation (Morans I=−0,03). Schnellimbiss-Dichte zeigte robuste negative Assoziation (Urban Paradox); physische Inaktivität und niedriger Obst-/Gemüsekonsum waren signifikante positive Treiber. Koeffizienten waren räumlich stationär, nicht heterogen.",
+  "aufgenommen": "2026-08-26"
+ },
+ {
+  "pmid": "42550510",
+  "journal": "JAMA Netw Open",
+  "year": "2026",
+  "author": "Pedersen DC et al.",
+  "pubdate": "03.08.2026",
+  "added": "04.08.2026",
+  "transfer": "Dänemark, vergleichbares Sozialversicherungssystem; dokumentiert langfristige Reproduktionsfolgen von Kindheitsobesitas.",
+  "title": "Adipositas in der Kindheit verzögert Geburtsalter im Erwachsenenalter, besonders ab Alter 35",
+  "sum": "Dänische bevölkerungsbasierte Längsschnittstudie von 60.864 Frauen mit Schulgesundheitsdaten (Alter 6–15 Jahre) und Reproduktionsoutcomes bis 2022; BMI-Trajektorienanalyse mit Cox-Regression.",
+  "result": "Frauen mit Adipositas-Trajektorie in der Kindheit hatten niedrigere Hazard-Ratios für Geburten als Frauen mit Normalgew icht, abnehmend mit steigendem Alter (Alter 25–29 Jahre: HR 0,78; Alter 35–45 Jahre: HR 0,56). Keine Assoziation mit primärer oder jeglicher Infertilität. Verzögerung der Erstgeburt nahm mit Alter zu, besonders im späteren reproduktiven Fenster.",
+  "aufgenommen": "2026-08-26"
+ },
+ {
   "pmid": "42554343",
   "journal": "Pediatr Obes",
   "year": "2026",
