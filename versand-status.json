@@ -2,7 +2,7 @@
  "hub": "Knowledge-Hub Adipositas",
  "domain": "adipositas.m-vf.de",
  "datum": "2026-08-26",
- "stand": "gestoppt",
+ "stand": "terminiert",
  "titel": "MVF Adipositas-Newsletter 26.08.2026",
  "betreff": "Neueste Studien - Adipositas – 24. August 2026 bis 26. August 2026",
  "anzahl": 10,
@@ -18,12 +18,10 @@
   "42579277",
   "42543796"
  ],
- "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098555",
- "termin_utc": null,
- "empfaenger": 0,
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098569",
+ "termin_utc": "2026-08-26T08:00:00+00:00",
+ "empfaenger": 1,
  "listengroesse": 5903,
- "beanstandungen": [
-  "das Empfaengersegment ist leer - niemand wuerde die Ausgabe bekommen"
- ],
+ "beanstandungen": [],
  "aussortiert": []
 }
