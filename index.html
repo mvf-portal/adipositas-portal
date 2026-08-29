@@ -1253,7 +1253,6 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-09-22", "2026-09-02", 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
 const NEWS_STAND = "29.08.2026";
-const NEWS_MEHR = "https://www.monitor-versorgungsforschung.de/?s=Adipositas";
 const NEWS = [
   {titel:"Deutsche Adipositas-Gesellschaft fordert evidenzbasierte Versorgungspfade und spezifische Adipositas-Therapie", datum:"2026-08-11", url:"https://www.monitor-versorgungsforschung.de/news/deutsche-adipositas-gesellschaft-fordert-evidenzbasierte-versorgungspfade-und-spezifische-adipositas-therapie/"},
   {titel:"Meilenstein in der Adipositastherapie: Wegovy® Tablette erhält EU-Zulassung", datum:"2026-08-11", url:"https://www.monitor-versorgungsforschung.de/news/meilenstein-in-der-adipositastherapie-wegovy-tablette-erhaelt-eu-zulassung/"},
@@ -1456,15 +1455,14 @@ STUDIES.forEach(s=>{
     }
     liste.appendChild(li);
   });
-  if(typeof NEWS_MEHR !== 'undefined' && NEWS_MEHR){
-    const mehr = document.createElement('a');
-    mehr.className = 'magazin-mehr';
-    mehr.href = NEWS_MEHR;
-    mehr.target = '_blank';
-    mehr.rel = 'noopener';
-    mehr.textContent = 'Weitere Beitr\u00e4ge \u2197';
-    kasten.appendChild(mehr);
-  }
+  // Der Newsfeed von m-vf.de - dieselbe Adresse in allen zwoelf Hubs.
+  const mehr = document.createElement('a');
+  mehr.className = 'magazin-mehr';
+  mehr.href = 'https://www.monitor-versorgungsforschung.de/news/';
+  mehr.target = '_blank';
+  mehr.rel = 'noopener';
+  mehr.textContent = 'Weitere Beitr\u00e4ge \u2197';
+  kasten.appendChild(mehr);
   kasten.hidden = false;
 })();
 
