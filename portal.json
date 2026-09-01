@@ -2,6 +2,7 @@
   "_": "Themenprofil Adipositas. Zehntes Portal. Grundlage ist die Machbarkeitsmessung vom 24.08.2026: 231.870 Arbeiten gesamt, 12.163 in den letzten zwoelf Monaten (33,3 pro Tag), 706 in den letzten 30 Tagen; Europa-Pool 1.425, davon 530 mit Deutschlandbezug - der groesste Europa-Anteil der ganzen Reihe. Ueberschneidung mit den neun Schwesterhubs rund 10 Prozent, groesster Nachbar NCD mit 2,5 Prozent, danach KI 2,3, Gender 1,5, Longevity 1,2; alle uebrigen unter 1 Prozent. 89,8 Prozent des Suchraums beruehrt kein anderer Hub - der sauberste Zuschnitt der Reihe. Datenbanken am 24.08.2026 mit linkpruefung.py doppelt geprueft; das Phantasiewort hatte dabei bewusst eine ANDERE Laenge als der echte Begriff - bei gleicher Laenge sieht eine Seite, die den Begriff nur zurueckspiegelt, wie eine Live-Suche aus.",
   "_STAMMDATEN": "Kennungen und Namen.",
   "DOMAIN": "adipositas.m-vf.de",
+  "HUB": "adipositas",
   "REPO": "mvf-portal/adipositas-portal",
   "TITEL": "Knowledge-Hub Adipositas",
   "TITEL_KURZ": "Adipositas",
