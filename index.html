@@ -1378,62 +1378,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "1. Sept. 2026, 05:47 Uhr";
+const SNAP_DATE = "2. Sept. 2026, 05:46 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Clin Transplant", year:"2026", pmid:"42665576",
-    author:"Lavenburg LM et al.", pubdate:"Sept. 2026",
-    added:"28.08.2026",
-    title:"Adipositas-Gewichtsmanagement-Programme für Nierentransplantations-Kandidaten: Barrieren und Akzeptanz",
-    sum:"Monozentrische US-Studie zur Identifikation von Faktoren für Annahme und Inanspruchnahme von Gewichtsmanagement-Programmen bei 59 Nierentransplantations-Kandidaten mit Adipositas.",
-    result:"50,8 % (30/59) akzeptierten das Überweisungsangebot, aber nur 15,3 % (9/59) nahmen tatsächlich Kontakt auf. Höherer BMI (Median 47 vs. 45; p=0,002) und nähere Entfernung zur Transplantationsklinik (20 vs. 48 Meilen; p=0,010) erhöhten Akzeptanz. Multivariable Modelle: jede Meile Distanz reduzierte Akzeptanz um 2 % (OR 0,98; 95%-KI 0,96–1,00); jede BMI-Einheit erhöhte sie um 22 % (OR 1,22; 95%-KI 1,03–1,45).",
-    transfer:"USA, eingeschränkt – Struktur und Kostenübernahme unterscheiden sich von deutschem System"
+    journal:"PLoS Med", year:"2026", pmid:"42678958",
+    author:"Wang H et al.", pubdate:"01.09.2026",
+    added:"01.09.2026",
+    title:"Mütterliche Adipositas: erhöhtes Sterblichkeitsrisiko der Nachkommen bis ins junge Erwachsenenalter",
+    sum:"Kohorte von 2,61 Millionen schwedischen Neugeborenen (1982–2014) mit Verfolgung bis 2023 auf Assoziationen zwischen mütterlichem BMI und Sterblichkeit der Nachkommen.",
+    result:"21.981 Todesfälle (0,8 %) dokumentiert. Mütterliche Adipositas Grad III (BMI ≥40): HR 1,92 (95% KI [1,59–2,33]; p&lt;0,001) für Gesamtsterblichkeit vs. Normalgewicht; Dosis-Wirkungs-Beziehung über alle Grade.",
+    transfer:"Skandinavien, registergestützte Langzeitdaten, ähnliches Versicherungssystem"
   },
   {
-    journal:"Pediatr Obes", year:"2026", pmid:"42675013",
-    author:"Skodvin VA et al.", pubdate:"Sept. 2026",
+    journal:"Endocrinol Diabetes Metab", year:"2026", pmid:"42673571",
+    author:"Kow CS et al.", pubdate:"Sept. 2026",
     added:"31.08.2026",
-    title:"ADHS-Symptome als Prädiktor für schlechtere BMI-Ergebnisse bei familienbasierter Verhaltensbehandlung schwerer Adipositas bei Jugendlichen",
-    sum:"Norwegische Studie mit 90 Jugendlichen (Median 13,2 Jahre) mit schwerer Adipositas in 17-Sitzungen-Familienbehandlung (FBT) zum Einfluss psychischer Symptome auf BMI-Abnahme.",
-    result:"Durchschnittliche BMI-Reduktion während FBT: -3,80 (%IOTF25) und -0,08 (BMIz). Höhere ADHS-Symptomwerte vorhersagend für kleinere BMI-Reduktion (0,31 Einheiten %IOTF25, p=0,02; 0,01 Einheiten BMIz, p=0,03 pro T-Score-Punkt). Selbstwertgefühl, emotionale Dysregulation, internalisierend/externalisierend Probleme nicht signifikant. Familienunterstützung sollte für Kinder mit ADHS intensiviert werden.",
-    transfer:"Norwegen, Nordeuropa – vergleichbares Gesundheitssystem, ähnliche Versorgungsstruktur"
+    title:"Gewichtszunahme nach Absetzen von Semaglutid/Tirzepatid: 50 % Rückgang in 7,5 Monaten",
+    sum:"Bayesische Metaanalyse von 6 Studien mit 1.776 Teilnehmern zur Gewichtsrückgang-Trajektorie nach Absetzen von GLP-1-Rezeptoragonisten.",
+    result:"Bei Absetzen durchschnittlich 15,35 kg Gewichtsverlust (95% CrI [11,18–19,60]); danach Rückgang 1,04 kg/Monat (95% CrI [0,80–1,29]). 50 % des Gewichtsverlusts projiziert bis 7,50 Monate (95% CrI [5,05–10,57]), Rückkehr zum Ausgangsgewicht in 15,00 Monaten (95% CrI [10,10–21,13]).",
+    transfer:"USA/international, Abbruchquoten und Gewichtsverlauf zentral für Versorgungsentscheidung"
   },
   {
-    journal:"Womens Health (Lond)", year:"2026", pmid:"42664494",
-    author:"Al Mansoori A et al.", pubdate:"28.08.2026",
-    added:"28.08.2026",
-    title:"Depression bei schwangeren Frauen nach bariatrischer Chirurgie in VAE: Sleeve häufiger betroffen als Bypass",
-    sum:"Deskriptive Querschnittsstudie mit 41 schwangeren Frauen mit Anamnese bariatrischer Chirurgie in Abu Dhabi zur Prävalenz und Assoziationen perinatalaler Depression.",
-    result:"Depression bei 46,3 % der Teilnehmerinnen (Edinburgh Postnatal Depression Scale); 2,7 % schwere Depression. Sleeve-Gastrektomie-Gruppe zeigte höhere EPDS-Scores als Roux-en-Y-Bypass-Gruppe (U=220.000, p=0,015). Keine signifikanten Unterschiede nach Alter, Menopausenstatus oder soziodemografischen Merkmalen. Kleine Stichprobe, aber Befunde deuten auf erhöhtes Depressionsrisiko nach Sleeve.",
-    transfer:"VAE, Mittlerer Osten – begrenzt vergleichbar, andere Versorgungsstrukturen"
+    journal:"JAMA Netw Open", year:"2026", pmid:"42678697",
+    author:"Alonso-Bastida A et al.", pubdate:"01.09.2026",
+    added:"01.09.2026",
+    title:"Werbeverbote für Junkfood im TV: 271.000 Übergewichtsfälle in mexikanischen Kindern vermieden",
+    sum:"Simulationsmodell zur Auswirkung kompletter Entfernung von TV-Werbung für ungesunde Lebensmittel auf Energiezufuhr und Adipositas bei 10- bis 17-Jährigen in Mexiko.",
+    result:"Werbeentfernung assoziiert mit projiziertem Rückgang von 47 kcal/Tag (95% UI [3–92]), Gewichtsreduktion 1,2 kg/Kind in 1 Jahr (95% UI [0,1–2,2]). Adipositasprävalenz sank um 8,3 % (95% UI [0,3–18,1%]), entsprechend 271.000 vermiedenen Fällen.",
+    transfer:"Lateinamerika, Präventionsstrategie auf Bevölkerungsebene, übertragbar auf DACH"
   },
   {
-    journal:"BMC Psychol", year:"2026", pmid:"42552546",
-    author:"Kaluza L et al.", pubdate:"04.08.2026",
-    added:"05.08.2026",
-    title:"Transkutane Vagusnervstimulation gegen Adipositas-assoziierte Entzündung: Studienprotokoll",
-    sum:"Deutsches Studienprotokoll einer randomisierten, sham-kontrollierten Crossover-Studie zu tVNS bei Adipositas (BMI 27–35 kg/m²) zur Reduktion chronischer niedriger Entzündungsmarker.",
-    result:"Geplante Studie mit N=60 Teilnehmern; 14-Tage-Phasen mit hochintensiver vs. niedriger tVNS (≥30 min täglich). Primär: periphere und zentrale Entzündungsmarker sowie Motivation und Stimmung mit gemischten neurologischen und immunologischen Messungen. Multiples Outcome-Profil geplant (noch keine Ergebnisse).",
-    transfer:"Deutsche Klinik, direkt übertragbar auf deutsches Gesundheitssystem"
+    journal:"Med Sci (Basel)", year:"2026", pmid:"42506351",
+    author:"Vicente-Herrero MT et al.", pubdate:"09.07.2026",
+    added:"27.07.2026",
+    title:"Adipositas erklärt Ungleichheiten in Kardiometabolika: 53–72 % der Assoziation mit Bildung",
+    sum:"Querschnittstudie mit 3.108 arbeitstätigen Erwachsenen in Spanien zur Mediationsrolle von Adipositas in der Assoziation zwischen Sozioökonomie und kardiometabolischen Ergebnissen.",
+    result:"Starker sozioökonomischer Gradient für alle kardiometabolischen Ergebnisse (p für Trend &lt;0,001). Einbeziehung von Adipositas reduzierte Effektschätzer um ca. 53–72 % für Fettleber, Insulinresistenz und metabolisches Syndrom. Adipositas war mit ~28 % Abschwächung der Fettleberassoziation verbunden.",
+    transfer:"Südeuropa, arbeitstätige Bevölkerung, vergleichbare Sozialstruktur"
   },
   {
-    journal:"Scand J Surg", year:"2026", pmid:"42473743",
-    author:"Skogar ML et al.", pubdate:"20.07.2026",
-    added:"20.07.2026",
-    title:"Adipositas bei Ösophagektomie: kein erhöhtes Operationsrisiko, aber mehr Thromboembolien",
-    sum:"Schwedische Kohortenstudie mit Daten von 1.494 Ösophagektomie-Patienten (2006–2018) zum Zusammenhang zwischen BMI und perioperativen sowie langfristigen Ergebnissen.",
-    result:"Von 227 Patienten (15,2 %) mit Adipositas zeigten sich keine erhöhten chirurgischen Komplikationen (OR 0,92; 95%-KI 0,62–1,39), aber erhöhtes Risiko für nicht-chirurgische Komplikationen wie Lungenembolie (OR 1,64; 95%-KI 1,10–2,45). Adipositas war mit verbesserter Langzeitüberlebensrate assoziiert (HR 0,75; 95%-KI 0,57–0,98), möglicherweise durch reverse causation durch prä-diagnostischen Gewichtsverlust verzerrt.",
-    transfer:"Skandinavische nationale Registerdaten, vergleichbare Kliniken-Infrastruktur mit Deutschland"
+    journal:"BJS Open", year:"2026", pmid:"42479664",
+    author:"Skogar ML et al.", pubdate:"03.07.2026",
+    added:"21.07.2026",
+    title:"Thromboembolieprophylaxe nach Adipositaschirurgie: postoperative Gabe reduziert Blutung ohne VTE-Anstieg",
+    sum:"Nationale retrospektive Kohortenstudie mit 83.801 Patienten aus dem schwedischen Adipositaschirurgie-Register zur optimalen Timing und Dauer der Thromboprophylaxe.",
+    result:"VTE-Inzidenz 0,1 % (76 Patienten), postoperative Blutung 1,6 % (1.373). Postoperatives Starten vs. präoperativ assoziiert mit niedrigerem intraoperativem Blutungsrisiko (aOR 0,52; 95% KI [0,37–0,74]). Keine signifikante Assoziation zwischen Prophylaxe-Dauer und VTE oder postoperativer Blutung.",
+    transfer:"Skandinavien, nationale Registerdaten, vergleichbare Chirurgie-Standards"
   },
   {
-    journal:"Front Public Health", year:"2026", pmid:"42500011",
-    author:"Zhumadilova A et al.", pubdate:"10.07.2026",
-    added:"25.07.2026",
-    title:"Sozioökonomische Gradienten und Adipositas bei Älteren in Kasachstan: reverses Muster in früher Nutrition-Transition",
-    sum:"Querschnittsstudie mit 977 älteren Erwachsenen (50–74 Jahre) aus urban und rural gelegenen Gebieten der Astana-Region zur Prävalenz und sozioökonomischen Korrelaten von Übergewicht und Adipositas.",
-    result:"Gesamtprävalenz: 37 % übergewichtig, 44 % adipös, 72 % zentrale Adipositas. Reverses Muster (unerwartetes Ergebnis für ein Low-Income-Setting): höhere Vermögensausstattung assoziiert mit Übergewicht/Adipositas (Trend p=0,038 und p=0,002). Höhere Schulbildung protektiv; zentrale Adipositas stark mit Diabetes, Hypertonie, Hypercholesterinämie assoziiert (alle konsistent über Modelle). Ländlicher Raum protektiv gegen zentrale Adipositas (OR 0,43; 95%-KI 0,30–0,64).",
-    transfer:"Kasachstan, Transitionsland – begrenzt vergleichbar, zeigt andere sozioökonomische Muster als wohlhabende Länder"
+    journal:"J Clin Hypertens (Greenwich)", year:"2026", pmid:"42496046",
+    author:"Aihaiti R et al.", pubdate:"Juli 2026",
+    added:"24.07.2026",
+    title:"Hyperandrogenismus und Adipositas erhöhen Präeklampsie-Risiko nach Embryotransfer um das 7,5-Fache",
+    sum:"Retrospektive Kohorte von 1.556 Frauen, die sich einer Befruchtung mit gefrorenem Embryo unterzogen, zur Auswirkung kombinierter Hyperandrogenismus und Übergewicht/Adipositas auf Schwangerschaftskomplikationen.",
+    result:"Kombiniert Hyperandrogenismus + Übergewicht/Adipositas: 13,3 % Präeklampsie (aOR 7,53; 95% KI [3,72–15,23]) vs. Kontrolle (1,8 %); Frühgeburtlichkeit 23,3 % (aOR 3,67; 95% KI [1,85–7,28]) vs. 6,3 %. Isolierte Adipositas: aOR 3,45 für Gestationsbluthochdruck.",
+    transfer:"China, Fertilitätspopulation, zeigt Adipositas-Effekt auch ohne GLP-1-Verfügbarkeit"
+  },
+  {
+    journal:"Sante Publique", year:"2026", pmid:"42547407",
+    author:"Alessandrin A et al.", pubdate:"2026",
+    added:"03.08.2026",
+    title:"Adipositasversorgung in französischen Zentren: COVID-19-Pandemie störte Behandlungsabläufe",
+    sum:"Qualitative und quantitative Studie zu Auswirkungen von Lockdowns und Ausgangssperren auf Patienten in spezialisierten Adipositaszentren (CSOs) in Nouvelle-Aquitaine, Frankreich.",
+    result:"Lockdowns und Ausgangssperren führten zu Unterbrechungen in den Behandlungsabläufen; die Studie zeigt spezifische Versorgungsprobleme dieser Patientengruppe während der Pandemie auf.",
+    transfer:"Frankreich, vergleichbares öffentliches Gesundheitssystem und Versorgungsstruktur"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1449,9 +1458,9 @@ const RADAR_FRISTEN = [["2026-09-22", "2026-10-20", "2026-10-20", "2026-09-02", 
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "01.09.2026";
+const NEWS_STAND = "02.09.2026";
 const NEWS = [
-  {titel:"Adipositas-Therapie: KI-Modell prognostiziert Behandlungserfolg", datum:"2026-08-31", url:"https://www.monitor-versorgungsforschung.de/news/adipositas-therapie-ki-modell-prognostiziert-behandlungserfolg/"},
+  {titel:"Orale Adipositastherapie für Selbstzahler: GreenMedical erweitert Angebot", datum:"2026-09-01", url:"https://www.monitor-versorgungsforschung.de/news/orale-adipositastherapie-fuer-selbstzahler-greenmedical-erweitert-angebot/"},
   {titel:"Meilenstein in der Adipositastherapie: Wegovy® Tablette erhält EU-Zulassung", datum:"2026-08-11", url:"https://www.monitor-versorgungsforschung.de/news/meilenstein-in-der-adipositastherapie-wegovy-tablette-erhaelt-eu-zulassung/"},
 ];
 // === NEWS-BLOCK-ENDE ===
@@ -1459,6 +1468,7 @@ const NEWS = [
 // Fremde Pressemeldungen zum Thema — taeglich von scripts/newsfeed.py
 // === PRESSE-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
 const PRESSE = [
+  {titel:"Lilly startet Aufklärungskampagne für mehr Verständnis und weniger Vorurteile / Adipositas ist keine Frage der Willenskraft", datum:"2026-09-01", url:"https://www.presseportal.de/pm/19840/6343914", quelle:"presseportal.de"},
   {titel:"Adipositas: Studie entwickelt KI-Prognose über Behandlungserfolg", datum:"2026-08-31", url:"http://idw-online.de/de/news876514", quelle:"idw"},
 ];
 // === PRESSE-BLOCK-ENDE ===
