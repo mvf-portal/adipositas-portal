@@ -1378,71 +1378,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "7. Sept. 2026, 05:49 Uhr";
+const SNAP_DATE = "8. Sept. 2026, 05:49 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Endocrinol Diabetes Metab", year:"2026", pmid:"42700367",
-    author:"Shirmohammadi E et al.", pubdate:"Sept. 2026",
-    added:"05.09.2026",
-    title:"Bariatrische Chirurgie reduziert kardiovaskuläre Ereignisse stärker als GLP-1-Agonisten",
-    sum:"Systematischer Review und Netzwerk-Metaanalyse (43 Studien, 932.380 Patienten): Vergleich von bariatrischer Chirurgie und GLP-1-Rezeptoragonisten für kardiovaskuläre Ergebnisse (MACE, Herzinsuffizienz, Myokardinfarkt) bei Adipositas.",
-    result:"Bariatrische Chirurgie war mit signifikant größerer Risikoreduktion assoziiert als GLP-1-Agonisten: MACE (BS: HR 0,66 [0,60–0,74] vs. GLP-1: HR 0,85 [0,77–0,94]); Herzinsuffizienz (BS: HR 0,45 [0,38–0,53] vs. GLP-1 nicht signifikant); Myokardinfarkt (BS: HR 0,53 [0,45–0,63] vs. GLP-1 nicht signifikant). Hohe Heterogenität (I²: 66–93%) bestand, aber die Richtung war konsistent. GLP-1-Agonisten bleiben wirksam für Nicht-Chirurgie-Kandidaten, aber BS zeigte überlegene Ergebnisse in allen kardiovaskulären Endpunkten.",
-    transfer:"Systemische Übersicht mit globalen Daten; Übertragbarkeit abhängig von Erstattungspolitik (Deutschland: Chirurgie-Einzelfallprüfung, GLP-1 außerhalb SGB V)"
+    journal:"Diabetes Metab Res Rev", year:"2026", pmid:"42704620",
+    author:"Tang L et al.", pubdate:"Sept. 2026",
+    added:"07.09.2026",
+    title:"EASO-Rahmen: Morbidität statt BMI allein sagt Herzinsuffizienzrisiko voraus",
+    sum:"UK-Biobank-Analyse (449.550 Teilnehmende, 15,5 Jahre Follow-up) zur Frage, ob das neue EASO-Adipositas-Framework mit Morbidität bessere Risikostratifizierung für Herzinsuffizienz liefert als BMI allein.",
+    result:"Das EASO-Framework reclassifizierte 15,6 % der Übergewichtigen als adipös (Prävalenz 24,5 % → 40,1 %). Entscheidend: Übergewicht ohne Morbidität (WHtR &lt;0,5 und keine Begleitererkrankung) zeigte NIEDRIGES Risiko (HR 0,84 [0,80–0,89]), während Morbidität – nicht der BMI-Wert – das Risiko trieb. Übergewicht mit Morbidität: HR 1,32 [1,25–1,39]; BMI ≥30: HR 1,62 [1,53–1,71]. Morbidität erklärte die Risikozunahme über alle Gewichtskategorien hinweg.",
+    transfer:"UK Biobank (generalisierbar auf europäische Systeme), Framework betont Funktionsstatus statt Kilogramm."
   },
   {
-    journal:"Int J Cardiol", year:"2026", pmid:"42641818",
-    author:"Ventura D et al.", pubdate:"15.11.2026",
+    journal:"Diabetes Res Clin Pract", year:"2026", pmid:"42641806",
+    author:"Qiao X et al.", pubdate:"25.08.2026",
     added:"25.08.2026",
-    title:"Arteriale Steifheit im Kindesalter: Adipositas verschärft die Progression bis ins Jugendalter",
-    sum:"Längsstudie an 118 Kindern aus Portugal (8–9 und 13–14 Jahre): Karotis-femorale Pulswellengeschwindigkeit stieg von 5,01 auf 6,30 m/s; bei Übergewicht/Adipositas war sie in der Adoleszenz signifikant höher als bei Normalgewicht.",
-    result:"PWV wuchs mit p&lt;0,001 über die Zeit. Im adjustierten Modell blieben PWV im Alter 8–9 Jahren (β=0,39; p=0,039) und BMI-z-Score im Alter 13–14 (β=0,33; p&lt;0,001) unabhängige Prädiktoren der späteren PWV. Die kardiovaskuläre Verfolgung beginnt in der Kindheit; Gewichtsmanagement in kritischen Entwicklungsphasen könnte die Langzeitgesundheit optimieren.",
-    transfer:"Portugal, vergleichbares europäisches Gesundheitssystem"
+    title:"Neue Adipositas-Definitionen erhöhen Diagnose-Prävalenz, aber nur Lancet-Kriterien sagen Folgeerkrankungen voraus",
+    sum:"UK Biobank (498.353 Teilnehmende) zum Vergleich von BMI-basierten, EASO- und Lancet-Adipositas-Definitionen hinsichtlich Prävalenz und Vorhersagekraft für Typ-2-Diabetes, kardiovaskuläre Ereignisse, Nierenversagen und Mortalität.",
+    result:"EASO identifizierte 29,6 %, Lancet-Kriterien 63,4 % als adipös (vs. 24,8 % WHO-BMI). Unter Lancet-Kriterien diagnostizierte \"klinische Adipositas\" zeigte höchstes Risiko: Typ-2-Diabetes HR 12,33 [11,74–12,96], kardiovaskuläre Ereignisse HR 4,02 [3,89–4,16], Nierenversagen HR 7,13 [6,11–8,33], Mortalität HR 3,07 [2,99–3,15]. Übergewicht nach EASO oder Lancet war teilweise protektiv. Ethnische Unterschiede: Asien zeigten höhere Prevalenzen.",
+    transfer:"UK Biobank, aber Framework-Wahl bestimmt Risikostratifizierung und Behandlungsindikation unmittelbar."
   },
   {
-    journal:"Diabetes Res Clin Pract", year:"2026", pmid:"42543084",
-    author:"Miya A et al.", pubdate:"02.08.2026",
-    added:"02.08.2026",
-    title:"Insulinresistenz, nicht Leberfibrose, bestimmt Insulinclearance bei Adipositas Klasse 3",
-    sum:"Querschnittanalyse bei 69 Adipositas-Klasse-3-Patienten (57% Prädiabetes) mit Leberbiopsie zur bariatrischen Chirurgie: Beziehung zwischen Insulinkinetik und Leberpathologie (Steatose, Inflammation, Ballonierung, Fibrose).",
-    result:"33% ohne MASLD, 23% mit reiner Steatose, 44% mit MASH. Kein hepatisches histologisches Merkmal korrelierte mit Insulinclearance (alle p&gt;0,15). In der multivariablen Regression waren nur HOMA-IR (B=−0,101; p=0,005) und orale Glukose-Insulinsensitivität (B=0,0070; p=0,001) unabhängige Prädiktoren der Insulinclearance – nicht Leberfetthalt, Steatosis-Grad oder Fibrose. Dies widerlegt die Annahme, dass hepatische histologische Schwere die Insulinclearance bei schwerer Adipositas treibt.",
-    transfer:"Deutschland (Düsseldorf), direkt übertragbar auf DACH-Versorgung"
+    journal:"Front Endocrinol (Lausanne)", year:"2026", pmid:"42676488",
+    author:"Zhu M et al.", pubdate:"17.08.2026",
+    added:"01.09.2026",
+    title:"Schlafstörungen und Adipositas-Inzidenz bei postmenopausalen Frauen: U-förmig für Dauer, linear für Störung",
+    sum:"UK Biobank (68.419 nicht-adipöse postmenopausale Frauen, 13,33 Jahre Follow-up) zur Frage, ob multidimensionale Schlafmuster (Dauer, Insomnie, Chronotyp, Schnarchen, Tagesschläfrigkeit) die Adipositas-Inzidenz vorhersagen.",
+    result:"1.146 Adipositas-Fälle dokumentiert. Schlafmuster und Inzidenz: Kurz-Schlaf (≤6 h): HR 1,214; Lang-Schlaf (≥10 h): HR 1,654; häufige Insomnie: HR 1,320; Abend-Chronotyp: HR 1,224; Schnarchen: HR 1,234. U-förmige Beziehung der Schlafdauer zur Adipositas. Explorative indirekte Effekte über Inflammation und Lipide waren schwach. Keine signifikante Modifizierung durch Alter, Geschlecht, BMI-Ausgangswert.",
+    transfer:"UK Biobank, Verhältnisse auf populationsebene; gezielte Schlaf-Intervention verdient Test."
   },
   {
-    journal:"RMD Open", year:"2026", pmid:"42457215",
-    author:"Madsen N et al.", pubdate:"15.07.2026",
-    added:"15.07.2026",
-    title:"Adipositas verschärft psoriatische Arthritis und reduziert Biologika-Wirksamkeit",
-    sum:"Narrative Übersicht (nicht-systematische Suche) über Adipositas als Risikofaktor und Komorbidität bei psoriatischer Arthritis, mit Analyse der Interaktion mit Entzündung, Behandlungsresponse und Lebensqualität.",
-    result:"Adipositas verstärkt psoriatische Arthritis durch systemische Entzündung, Adipokinregulation und mechanische Gelenkbelastung, führt zu schlechterer Krankheitsaktivität und reduzierter Biologika-Wirksamkeit. Gewichtsverlust verbessert Krankheitsaktivität und therapeutische Effizienz, aber Effekte auf Pathophysiologie sind untererforscht. Klinische Leitlinien empfehlen koordinierte Versorgung (Rheumatologe, Ernährung, Bewegung), aber weitere Forschung zu Gewichtsmanagement-induzierten zytokinen Veränderungen ist erforderlich. Adipositas sollte als Risikofaktor in integrale PsA-Verwaltung anerkannt werden.",
-    transfer:"Großbritannien/internationale Evidenz, Qualitätsbewertung und Kohärenz mit deutschem Versorgungsauftrag"
+    journal:"Cardiovasc Diabetol", year:"2026", pmid:"42693449",
+    author:"Dai F et al.", pubdate:"26.07.2026",
+    added:"04.09.2026",
+    title:"Inflammations-Metabolismus-Adipositas-Index sagt Herzinsuffizienz stufenweise voraus, Effekt auf Stage 3–4 stärkst",
+    sum:"English Longitudinal Study of Ageing (1.946 ≥50-Jährige, 12 Jahre Follow-up) zu Frage, ob ein Composite-Index aus CRP, Triglycerid-Glucose-Index und Waist-to-Height-Ratio (CTGW) longitudinal Herzinsuffizienz besser vorhersagt als Einzelmarker.",
+    result:"113 Herzinsuffizienz-Fälle (5,8 %). Drei Trajektorien: low-stable (n=697), moderate-metabolic (n=943), high-inflammatory (n=306). High-inflammatory: HR 2,69 [1,46–4,93]; moderate-metabolic: HR 1,96 [1,17–3,29]. Kumulative Belastung (höchstes Quartil): HR 2,35 [1,31–4,24]. Nicht-linearer Dosis-Effekt (Schwellenwert ≈8,2). Effekt-Modifikation durch CKM-Stage: Stärkste Assoziation in Stage 3–4 (HR 2,37 [1,24–4,53]). Jede SD-Zunahme: 19 % Risikoanstieg (HR 1,19 [1,04–1,36]).",
+    transfer:"Britische Kohortendaten, Messung von Entzündung und Metabolismus über alle Gewichtskategorien hinweg."
   },
   {
-    journal:"Diabetes Obes Metab", year:"2026", pmid:"42443134",
-    author:"Kjærgaard K et al.", pubdate:"13.07.2026",
-    added:"13.07.2026",
-    title:"Semaglutid-Nutzer in Dänemark: 45% bleiben bei 1 mg, Gewichtsverlust und Begleitmedikationen reduziert",
-    sum:"Querschnittserhebung in 28 dänischen Apotheken (N=767 Nutzer, 52% Rücklaufquote): Behandlungsmuster und Effekte von Semaglutid zur Gewichtsreduktion, einschließlich Dosierung, Gewichtsverlust nach Behandlungsdauer und Medikamentenreduktion.",
-    result:"45% der Nutzer blieben auf 1 mg, nur 8% erwarteten 2,4 mg zu erreichen. Gewichtsverlust variierte nach Dauer: 1–3 Monate 6% (IQR 3–7), &gt;1 Jahr 20% (IQR 15–26). 24% berichteten Reduktion/Absetzen von Begleitmedikamenten (30% bei Muskel-/Gelenkschmerzen, 24% bei Antihypertonika). Von 42 Erstnutzern waren 83% nach 6 Monaten noch in Therapie. Diese Daten zeigen individuelle Dosierungsanforderungen und real-world-Nutzungsmuster jenseits von Zulassungsstudien.",
-    transfer:"Dänemark, vergleichbares skandinavisches Gesundheitssystem"
+    journal:"J Sports Sci", year:"2026", pmid:"42482328",
+    author:"Huang Y et al.", pubdate:"21.07.2026",
+    added:"22.07.2026",
+    title:"Alltags-Bewegungsmuster mediieren 37–49 % der Adipositas-Mortalitäts-Assoziation; optimale Zusammensetzung für Frauen und Männer unterschiedlich",
+    sum:"UK Biobank (90.289 Teilnehmende, 7-Tage-Wrist-Beschleunigungsmessung) zur Frage, wie 24-Stunden-Bewegungsmuster (leichte Aktivität, moderate-vigorous, Stillzeit, Schlaf) unter dem EASO-Adipositas-Framework die Mortalität mediieren und welche Zeitverteilung optimal ist.",
+    result:"Kompositionelle Mediation: 37,7–49,0 % der Adipositas-Mortalitäts-Assoziation über Bewegung. MVPA trug am stärksten bei. Geschlechtsspezifische Effekte: Männer 59,2 % mediert (43,0 % via MVPA), Frauen 38,6 % (20,9 % via MVPA). Optimale tägliche Zusammensetzung: Frauen 1 h MVPA + 7 h leichte PA + 7 h Stillzeit + 9 h Schlaf; Männer 1,5 h MVPA + 7 h + 7 h + 8,5 h. Isotemporale Substitution: Ersetzen leichter durch moderate Aktivität senkt Mortalität progressiv.",
+    transfer:"UK Biobank, objektivierte Bewegungsdaten; Empfehlungen sind geschlechtsspezifisch und praktisch umsetzbar."
   },
   {
-    journal:"Diabetes Obes Metab", year:"2026", pmid:"42443134",
-    author:"Kjærgaard K et al.", pubdate:"13.07.2026",
-    added:"13.07.2026",
-    title:"Schlaf und Adipositasrisiko bei postmenopausalen Frauen über 13 Jahre",
-    sum:"Prospektive Kohorte von 68.419 nicht-adipösen postmenopausalen Frauen aus UK Biobank: Multidimensionale Schlafvariablen (Dauer, Insomnie, Chronotyp, Schnarchen, Tagesschläfrigkeit) als Prädiktoren für Adipositas-Inzidenz über 13,33 Jahre Nachbeobachtung.",
-    result:"1.146 Adipositas-Fälle in 13,33 Jahren. Kurzer Schlaf (≤6h: HR=1,214) und langer Schlaf (≥10h: HR=1,654) zeigten U-förmige Kurven mit erhöhtem Adipositasrisiko. Häufige Insomnie (HR=1,320), Abendtyp (HR=1,224) und Schnarchen (HR=1,234) waren unabhängige Risikofaktoren. Explorative Biomarker-Analysen deuteten auf Inflammation und Lipidveränderungen hin, waren aber hypothesengenerierend. Schlafgesundheit sollte in Adipositäsprävention bei Frauen integriert werden.",
-    transfer:"UK Biobank, übertragbar auf deutsches Gesundheitssystem"
-  },
-  {
-    journal:"Cent Eur J Public Health", year:"2026", pmid:"42444424",
-    author:"Saavaste J et al.", pubdate:"Juni 2026",
-    added:"14.07.2026",
-    title:"Adipositas kostet Estlands Gesundheitssystem 125 Millionen Euro jährlich",
-    sum:"Kostenanalyse für Estland 2021 mit Bevölkerungsattribuabilitätsfraktion-Ansatz: Direkte und indirekte Kosten der Adipositas wurden geschätzt unter Berücksichtigung von 29 assoziierten Erkrankungen.",
-    result:"Direkte Kosten 112,7 Mio. EUR (95% waren Behandlungskosten), indirekte Kosten 12 Mio. EUR. Gesamtkosten 125 Mio. EUR pro Jahr (116 EUR pro Erwachsenem); davon 50,3 Mio. EUR auf Übergewicht, 74,4 Mio. EUR auf Adipositas entfallend. Dies entspricht 6,9% der nationalen Gesundheitsausgaben. Die hohe Krankheitslast unterstreicht Adipositas als erhebliche Belastung für das Gesundheitssystem.",
-    transfer:"Estland, EU-vergleichbares Sozialversicherungssystem"
+    journal:"Nutrients", year:"2026", pmid:"42514356",
+    author:"Wawrzyniak A et al.", pubdate:"13.07.2026",
+    added:"28.07.2026",
+    title:"Ernährungswissen allein reicht nicht: Verhältnisse (Umwelt, Fertigkeiten) bestimmen Essverhalten bei adipösen Jugendlichen",
+    sum:"Querschnittstudie an 1.440 polnischen Schülern (10–18 Jahre) zur Frage, wie Ernährungswissen (NRK) und -praxis (NRP) nach BMI-Status differieren und welche Faktoren diese Kluft erklären.",
+    result:"Adipöse Schüler zeigten signifikant niedriges Wissen (NRK 46 % vs. Normalgewicht 52–53 %, p&lt;0,05) und Praxis (NRP 30 % vs. 33–34 %). Hohes Wissen assoziiert mit: älterem Alter, weiblichem Geschlecht, urbaner Lebensort (bei Übergewicht/Adipositas), höherer mütterlicher Bildung (bei Normal-/Untergewicht). Bessere Praxis assoziiert mit höherem Wissen PLUS höherer körperlicher Aktivität UND ländlicher/kleinstädtischer Umgebung (protektiv für Normalgewicht). Schlussfolgerung: Wissen ist notwendig, aber nicht ausreichend; praktische Fertigkeiten und Umweltfaktoren spielen entscheidende Rolle.",
+    transfer:"Polen, aber Befunde auf deutsches Schulsystem übertragbar (Unterschicht-Gradienten, Umwelteinflüsse)."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1458,7 +1449,7 @@ const RADAR_FRISTEN = [["2026-09-22", "2026-10-20", "2026-10-20", "2026-09-07", 
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "07.09.2026";
+const NEWS_STAND = "08.09.2026";
 const NEWS = [
   {titel:"Orale Adipositastherapie für Selbstzahler: GreenMedical erweitert Angebot", datum:"2026-09-01", url:"https://www.monitor-versorgungsforschung.de/news/orale-adipositastherapie-fuer-selbstzahler-greenmedical-erweitert-angebot/"},
   {titel:"Meilenstein in der Adipositastherapie: Wegovy® Tablette erhält EU-Zulassung", datum:"2026-08-11", url:"https://www.monitor-versorgungsforschung.de/news/meilenstein-in-der-adipositastherapie-wegovy-tablette-erhaelt-eu-zulassung/"},
