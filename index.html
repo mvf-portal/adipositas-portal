@@ -1378,62 +1378,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "12. Sept. 2026, 06:21 Uhr";
+const SNAP_DATE = "13. Sept. 2026, 08:31 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Clin Obes", year:"2026", pmid:"42728234",
-    author:"Wu R et al.", pubdate:"Okt. 2026",
+    journal:"Eur J Pediatr", year:"2026", pmid:"42722906",
+    author:"Haridas DN et al.", pubdate:"11.09.2026",
     added:"11.09.2026",
-    title:"Strukturierte Schulungen für Adipositasbetreuende verbessern Fachkompetenz um 41%",
-    sum:"Metaanalyse von 18 Studien (2020–2026) zu Effektivität strukturierter Weiterbildungsprogramme für Gesundheitsfachpersonen in Adipositasmanagement, gemessen an Praxiskompetenz und patientenrelevanten Ergebnissen.",
-    result:"Poolierte Analyse (7 Studien) zeigte signifikante Verbesserungen der Fachkompetenz (SMD=0,41; 95%-KI 0,12–0,70; p&lt;0,01). Programme ≥4 h erzeugten stärkere Effekte (SMD=0,68; 95%-KI 0,30–1,07; p&lt;0,01) als kürzere Interventionen. RCTs zeigten Effekt (SMD=0,53), Nicht-RCTs nicht. Persistentes Problem bleibt geringe Engagement-Rate in digital gestützten Angeboten.",
-    transfer:"Deutschland: Fachkompetenz ist trainierbar; Länge und Intensität entscheidend – relevant für Aus- und Weiterbildung in Praxen und Kliniken."
+    title:"Häusliche Umgebung in Infanz/Kleinkindzeit mediert nicht Mutter-BMI-zu-Kind-Adipositas-Assoziation",
+    sum:"Retrospektive Kohortenstudie aus ECHO-Programm (USA) an 1.341 Mutter-Kind-Paaren zur Frage, ob Qualität des häuslichen Umfelds (IT-HOME) die Assoziation zwischen mütterlichem Prä-Schwangerschafts-BMI und Kindheits-BMI z-Score (Alter 3–6 Jahre) mediiert.",
+    result:"Kinder von übergewichtigen/adipösen Müttern hatten signifikant höhere BMI z-Scores als Kinder von normalgewichtigen Müttern, konsistent über sechs IT-HOME-Subskalen und Gesamt-IT-HOME z-Score. Häusliche Umgebung medierte diese Assoziation nicht (kein signifikanter indirekter Effekt über Responsivität, Annahme, Lernmaterialien, Organisation, Varietät, Elternbeteiligung).",
+    transfer:"USA-Kohorte, struktureller Aufbau unterscheidet sich; aber zeigt Grenzen von Umfeld-Interventionen allein ohne Diet/Bewegung-Fokus – relevant für deutsche Familien-Adipositas-Programme."
   },
   {
-    journal:"Clin Obes", year:"2026", pmid:"42723356",
-    author:"Argente J et al.", pubdate:"Okt. 2026",
-    added:"11.09.2026",
-    title:"Seltene Adipositas-Gene: MC4R-Defekte – Pathwege und klinische Betreung definiert",
-    sum:"Konsensus-Konferenz (IMPROVE 2025, Prag) von 161 Klinikern aus 19 Ländern zu monogenen Adipositasformen und Hyperphagie im MC4R-Pathway, mit Updates zu Diagnostik, natürlichem Verlauf und Therapie.",
-    result:"Zentrale Erkenntnisse: MC4R-Pathway-Defekte und Bardet-Biedl-Syndrom erfordern spezifische genetische Diagnostik; frühe Intervention und multidisziplinäre Betreuung (inkl. Verhaltensansätze und zielgerichtete Medikamente) verbessernn Lebensqualität; Patientenversorgung steht zentral. Praktische Modelle für spezialisierte Zentren beschrieben.",
-    transfer:"Europa (Deutschland, Niederlande, Frankreich, UK vertreten): Seltene Formen erfordern Spezialisierung und Vernetzung – Implikation für Referralstrukturen."
+    journal:"Eur J Pediatr", year:"2026", pmid:"42722762",
+    author:"Sunman B et al.", pubdate:"10.09.2026",
+    added:"10.09.2026",
+    title:"HOMA-IR ≥3,39 identifiziert Kinder mit Adipositas und erhöhtem obstruktivem Schlafapnoe-Risiko",
+    sum:"Retrospektive Querschnittstudie an 90 Kindern mit Adipositas (6–18 Jahre) zu Assoziation zwischen Insulinresistenz (HOMA-IR) und obstruktivem Schlafapnoe (OSA)-Schweregrad.",
+    result:"43,3 % (39/90) mit OSA. Mediane HOMA-IR signifikant höher in OSA-Gruppe (p=0,014). OAHI positiv korreliert mit HOMA-IR (ρ=0,325, p=0,002). Nach Adjustierung für Alter, Geschlecht, BMI z-Score, Schlafeffizienz, Pubertätsstatus: HOMA-IR unabhängig assoziiert mit OSA-Schweregrad (β=0,691, p=0,025). ROC-Analyse: HOMA-IR-Cutoff 3,39 mit 72 % Sensitivität, 59 % Spezifität.",
+    transfer:"Türkei (Hacettepe), aber Methode (HOMA-IR) und Schlaflabor-Zugang standard in Europa; praktisches Risiko-Screening-Tool für Primärversorgung."
   },
   {
-    journal:"Int J Epidemiol", year:"2026", pmid:"42727090",
-    author:"Lawal L et al.", pubdate:"18.08.2026",
-    added:"11.09.2026",
-    title:"Höhere Adipositas erhöht Infektionssterblichkeit 2,5-fach – Mendelian-Randomization-Studie",
-    sum:"Mendelian-Randomization-Analyse bei 126.491 mexikanischen Erwachsenen (Alter 35–74 Jahre) über 20 Jahre Nachverfolgung zum Effekt verschiedener Adipositätsmaße auf infektionsassoziierte Mortalität.",
-    result:"2.592 infektionsbedingte Todesfälle; genotypisch vorhergesagte höhere Fettmasse-Prozentsatz assoziiert mit HR 2,54 (95%-KI 1,91–3,38) für Infektionstod; Fettmasse-Prozentsatz zeigte stärkere Assoziation als BMI oder Hüftumfang. Assoziation über sechs Infektionssubtypen konsistent. Ergebnis deutet auf kausalen Zusammenhang hin.",
-    transfer:"Mexiko, aber universal relevant: Adipositas erhöht nicht nur cardiometabole, sondern auch Infektionsrisiko – Versorgungsargument für Gewichtsintervention."
+    journal:"PeerJ", year:"2026", pmid:"42729958",
+    author:"Qi H et al.", pubdate:"08.09.2026",
+    added:"12.09.2026",
+    title:"Gewichtsrebound nach GLP-1-Agonisten-Absetzen: 17,9 % Differenz zu Fortsetzer-Gruppe",
+    sum:"Systematische Übersicht mit Meta-Analyse von sechs RCTs zu Gewichtsveränderungen nach Diskontinuation von GLP-1-Rezeptoragonisten (Tirzepatid, Semaglutid, Liraglutid, Dulaglutid) bei übergewichtigen/adipösen Erwachsenen.",
+    result:"8.993 Patienten (5.553 Diskontinuation, 3.440 Fortsetzung); Mittlere Gewichtsdifferenz zwischen Gruppen 17,90 % (95%-KI [14,11–21,69], p‹0,0001). Tirzepatid-Rebound signifikant höher als Semaglutid. Gastrointestinale Nebenwirkungen nahmen nach Absetzen ab, kardiovaskuläre Ereignisse unbeeinflusst. Heterogenität I² = 59 %.",
+    transfer:"Überwiegend nicht-deutsche Studien; zentral für Versorgungsrealtität: Wie lange müssen Patienten das Mittel nehmen? Kosten-Nutzen bei Wiederzunahme unklar."
   },
   {
-    journal:"JAMA Netw Open", year:"2026", pmid:"42599706",
-    author:"Mandic M et al.", pubdate:"03.08.2026",
-    added:"14.08.2026",
-    title:"Adipositas vor Darmkrebs-Diagnose: Das 'Paradoxon' erklärt durch Tumorbedingte Gewichtsverluste",
-    sum:"Bevölkerungsbasierte Fall-Kontroll-Studie mit prospektiver Nachverfolgung (5521 Darmkrebspatienten aus Südwestdeutschland 2001–2016) zum Einfluss von BMI bei Diagnose und prädiagnostischem Gewichtsverlust auf Gesamtüberleben, Darmkrebsspezifisches Überleben und Rezidivfreiheit.",
-    result:"2.429 Todesfälle über 5,2 Jahre Median-Nachverfolgung; prädiagnostischer Gewichtsverlust &gt;10% mit HR 1,55 (95%-KI 1,39–1,72) für schlechteres Überleben assoziiert. Nach gegenseitiger Anpassung für BMI bei Diagnose und prädiagnostischen Gewichtswandel wurden vermeintliche Übergewichts-Schutzeffekte auf Null reduziert. Schlussfolgerung: Adipositas-Paradoxon erklärt durch okkulte Krebssymptomatik.",
-    transfer:"Deutsche Klinikdaten, vergleichbare klinische Praxis; zeigt, dass BMI ohne Gewichtsverlauf-Kontext irreführend ist – wichtig für Stratifizierung."
+    journal:"Front Public Health", year:"2026", pmid:"42729286",
+    author:"Wang C et al.", pubdate:"28.08.2026",
+    added:"12.09.2026",
+    title:"Körperrundeindex und Taille-Größe-Verhältnis beste Indikatoren für Hypertonie bei Adipositas",
+    sum:"Querschnittstudie an 117.609 chinesischen Erwachsenen zur Diskriminanzfähigkeit von zehn Adipositas-Indikatoren für Hypertonie.",
+    result:"Körperrundeindex (BRI) und Taille-Größe-Verhältnis (WHtR) zeigten die höchste Diskriminanzfähigkeit (AUC: 0,686–0,721). Optimale Cut-offs: BRI 3,66, WHtR 0,52. Jede Einheit Anstieg der BRI z-score war mit 51 % erhöhter Hypertonie-Wahrscheinlichkeit assoziiert (OR 1,51 [1,48–1,53]), WHtR mit 53 % (OR 1,53 [1,50–1,55]). Dosisschema nicht-linear.",
+    transfer:"China, nationale Datenbank; Indikatoren sind klinisch einfach anwendbar, übertragbar auf Primärversorgung weltweit."
   },
   {
-    journal:"Obes Surg", year:"2026", pmid:"42474954",
-    author:"Turró Araú R et al.", pubdate:"20.07.2026",
-    added:"20.07.2026",
-    title:"Endoskopische Magenplikation erreicht 14,75 % Gewichtsverlust in 6 Monaten – europäische Multicenter-Studie",
-    sum:"Retrospektive Multicenter-Kohortenstudie (54 Patienten über 6 Zentren in Europa) zur technischen Reproduzierbarkeit, klinischen Wirksamkeit und Sicherheit der MEGA-Technik (modifizierte endoskopische Gastroplizierung mit 2 G-LIX-Devices) bei Adipositas.",
-    result:"Mittlerer Gewichtsverlust 14,75±6,24 % TBWL (total body weight loss) bzw. 56,17±33,75 % EBWL (excess body weight loss); 81,5 % der Patienten erreichten ≥10 % TBWL. Keine schweren unerwünschten Ereignisse. Keine signifikanten Unterschiede zwischen Zentren (p=0,406). Keine Korrelation Anzahl Nähte–Gewichtsverlust.",
-    transfer:"Europa (Spanien, Italien, Niederlande, Österreich, Deutschland): Kostengünstige endoskopische Alternative zu Chirurgie; langzeitdaten fehlen noch."
+    journal:"Diabetes Obes Metab", year:"2026", pmid:"42557058",
+    author:"Cho Y et al.", pubdate:"05.08.2026",
+    added:"05.08.2026",
+    title:"Slow-Burn-Phänotyp: Kardiovaskuläres Risiko bei niedriger relativer Kalorienaufnahme trotz normales BMI",
+    sum:"Analyse von 160.905 Biobank-Teilnehmern zur Frage, ob eine niedrigere als erwartete Energieaufnahme relativ zu BMI, Alter und Geschlecht kardiovaskuläres Risiko kennzeichnet.",
+    result:"Niedrige relative Kalorienaufnahme (‹30. Perzentil) assoziiert mit erhöhtem 3-Punkt-MACE-Risiko (aHR 1,07 [1,01–1,14]) und Myokardinfarkt-Risiko (aHR 1,15 [1,06–1,25]). Normalgewichtige mit Low-Intake-Phänotyp zeigten 17 % höheres MACE-Risiko (aHR 1,17 [1,04–1,33]). Niedrige Muskelkraft erklärte 5,2 % des Überschussrisikos.",
+    transfer:"UK Biobank, vergleichbares Gesundheitssystem; Imitiert deutsche Versorgungsrealität mit BMI-zentrierter Risikostratifizierung."
   },
   {
-    journal:"Diabetes Res Clin Pract", year:"2026", pmid:"42442551",
-    author:"Rubinstein G et al.", pubdate:"13.07.2026",
-    added:"13.07.2026",
-    title:"Cushing-Remission heilt metabolische Schäden nicht: Diabetes siebenfach häufiger nach 7 Jahren",
-    sum:"Longitudinale Kohortenstudie (99 Cushing-Patienten vs. 396 alters- und geschlechtsgematcht Kontrollen aus KORA) zur Persistenz metabolischer Störungen 7 Jahre nach biochemischer Remission vom Cushing-Syndrom.",
-    result:"Trotz langfristiger Verbesserung nach Remission: höhere Fettmasse (39% vs. 35%, p=0,0013), erhöhte Waist-to-Hip-Ratio (0,89 vs. 0,82, p&lt;0,0001), erhöhtes HbA1c (5,5% vs. 5,4%, p=0,0087), Diabetes 19% vs. 4% (p&lt;0,0001). Entzündungsmarker stark assoziiert – deuten auf anhaltende inflammatorische Pathologie hin.",
-    transfer:"Deutschland: Deutsche LMU-München-Daten; zeigt, dass hormonelle Heilung Organschäden nicht umkehrt – Nachsorge und Metabolische Reha notwendig."
+    journal:"Maturitas", year:"2026", pmid:"42470749",
+    author:"Ma Z et al.", pubdate:"18.07.2026",
+    added:"18.07.2026",
+    title:"Kardiovaskulär-renales-metabolisches Syndrom Stufe 4 verdoppelt bis vervierfacht Arthrose-Risiko, besonders bei jüngeren Personen",
+    sum:"Prospektive Kohortenstudie an 256.364 UK-Biobank-Teilnehmern ohne baseline-Arthrose zu Assoziation zwischen kardiovaskulär-renales-metabolisches (CKM) Syndrom-Stadien (0–4) und Inzidenz von Hüft-/Knie-Arthrose über 11 Jahre.",
+    result:"8.209 Hüft-, 12.729 Knie-Arthrose-Fälle. Stage 4 vs. Stage 0: Hüftarthrose HR 1,76 (1,58–1,95), Kniearthrose HR 2,67 (2,44–2,93). Stärker bei &lt;60 Jahren. Geschlechtsdifferenzen: Hüfte risikanter bei Männern, Knie bei Frauen. Genetische Hochrisiko + Stage 4: Hüfte HR 3,10 (2,60–3,70), Knie HR 4,00 (3,42–4,68). Additive Interaktion signifikant.",
+    transfer:"UK Biobank, aber Arthrose-Definition und Metabolismus-Messung sind international standard; zeigt Langzeit-Funktionsverlust durch Adipositas-Syndrom – relevant für deutsche Versorgungsplanung älterer Patienten."
+  },
+  {
+    journal:"JAMA Netw Open", year:"2026", pmid:"42485041",
+    author:"Bager MD et al.", pubdate:"01.07.2026",
+    added:"22.07.2026",
+    title:"Hormonelle Verhütung verdoppelt Semaglutid-Initiierung bei jungen Frauen – Gewichtszunahme-Sorge als Stimulus",
+    sum:"Dänische Register-Fall-Kontroll-Studie zu Assoziation zwischen Hormonkontrazeption und nachfolgender Semaglutid-Verordnung bei Frauen im reproduktiven Alter.",
+    result:"22.694 Semaglutid-Fälle, 229.640 Kontrollen (Alter 37 Jahre, Median). Alle Hormonkontrazeptions-Muster assoziiert mit Semaglutid-Initiierung vs. Nicht-Nutzer: kombinierte orale Tabletten aHR 1,42 (1,34–1,51); Gestagen-IUPs aHR 1,63 (1,46–1,82); mehrere Typen aHR bis 2,11 (1,97–2,25). BMI-Anpassung attenuierte, eliminierte aber nicht Assoziationen.",
+    transfer:"Dänemark, GKV-ähnliche Finanzierung; zeigt Erstattungs-Realität bei off-label-Adipositas-Mittel: Sorge um Gewicht durch Verhütung treibt Semaglutid-Suche."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1449,7 +1458,7 @@ const RADAR_FRISTEN = [["2026-09-22", "2026-10-20", "2026-10-20", "2026-09-14", 
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "12.09.2026";
+const NEWS_STAND = "13.09.2026";
 const NEWS = [
   {titel:"Orale Adipositastherapie für Selbstzahler: GreenMedical erweitert Angebot", datum:"2026-09-01", url:"https://www.monitor-versorgungsforschung.de/news/orale-adipositastherapie-fuer-selbstzahler-greenmedical-erweitert-angebot/"},
   {titel:"Meilenstein in der Adipositastherapie: Wegovy® Tablette erhält EU-Zulassung", datum:"2026-08-11", url:"https://www.monitor-versorgungsforschung.de/news/meilenstein-in-der-adipositastherapie-wegovy-tablette-erhaelt-eu-zulassung/"},
