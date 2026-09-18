@@ -1491,71 +1491,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "17. Sept. 2026, 06:21 Uhr";
+const SNAP_DATE = "18. Sept. 2026, 06:21 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Eur J Pediatr", year:"2026", pmid:"42747589",
-    author:"Mahmood L et al.", pubdate:"16.09.2026",
-    added:"16.09.2026",
-    title:"Sozioökonomische Verletzlichkeit treibt Adipositas bei Kindern über Ernährung",
-    sum:"Längsschnittstudie an 1796 Kindern aus 6 europäischen Ländern zum zeitlichen Zusammenhang zwischen sozioökonomischer Verletzlichkeit, Ernährungsqualität und BMI-Veränderung über 2 Jahre.",
-    result:"Höhere sozioökonomische Verletzlichkeit sagte schlechtere Ernährungsmuster voraus (weniger Fleisch β=–0,100, weniger Obst/Gemüse β=–0,119, mehr salzige Snacks β=0,129, p&lt;0,001). Diese Ernährungsunterschiede trugen zu Übergewichtsrisiko bei. Fleischkonsum moderierte die Vulnerabilität-BMI-Assoziation (p&lt;0,05).",
-    transfer:"Europäische Studie, 6 Länder, dokumentiert Ungleichheitsmechanismus."
+    journal:"BMJ Open", year:"2026", pmid:"42754274",
+    author:"Giraldi LV et al.", pubdate:"17.09.2026",
+    added:"17.09.2026",
+    title:"Semaglutid bei antipsychotika-assoziierter Adipositas in Jugendlichen: Machbarkeitsstudie",
+    sum:"Open-label Machbarkeitsstudie an 34 Jugendlichen (12–18 Jahre) mit antipsychotika-bedingter Adipositas in Kopenhagen (36 Wochen Semaglutid bis 2,4 mg/Woche plus Standardversorgung).",
+    result:"Primäre Zielgröße: Komplettierungsrate der Studie. Sekundär: BMI-SD-Score, Körperzusammensetzung, metabolische und psychiatrische Parameter. Ergebnisse nicht im Abstract genannt, da Machbarkeitsstudie mit anschließender Observationsphase (18 Monate).",
+    transfer:"Dänemark, vergleichbare Sozialversicherung; GLP-1RA als Adipositas-Arzneimittel unter §34 SGB V nicht erstattet"
   },
   {
-    journal:"BMC Pediatr", year:"2026", pmid:"42736550",
-    author:"Lindberg L et al.", pubdate:"10.09.2026",
+    journal:"PLoS Med", year:"2026", pmid:"42752402",
+    author:"Nicholson BD et al.", pubdate:"17.09.2026",
+    added:"17.09.2026",
+    title:"Bluttesttrends besser als Einzelwert zur Krebserkennung bei unerwartetem Gewichtsverlust",
+    sum:"Retrospektive Kohortenstudie an 275.205 Patienten mit unerwartetem Gewichtsverlust in englischer Primärversorgung (2000–2018) zum Vergleich des Diskriminationsvermögens von Bluttesttrends vs. Einzelwert-Abnormitäten für Krebsdiagnose.",
+    result:"Unter 13.798 Krebsfällen (5,0 %): Bluttesttrends nach Alters- und Geschlechtsanpassung stärker diskriminativ als Einzelwerte (höchste AUC 0,82 [0,81–0,83]). 26 Trends für Gesamtkrebs, mittleres Zellvolumen für Darm/Lymphom, WBC/Neutrophile für Lungenkrebs, multiple Parameter für Prostatakarzinom bessere Vorhersage.",
+    transfer:"Englische Primärversorgung, Clinical Practice Research Datalink; System vergleichbar mit deutschen Hausarztdaten"
+  },
+  {
+    journal:"Korean J Intern Med", year:"2026", pmid:"42754525",
+    author:"Lee KJ et al.", pubdate:"01.09.2026",
+    added:"17.09.2026",
+    title:"Obesitäts-Hypoventilationssyndrom auf Intensivstation: 3 % der adipösen Patienten nicht erkannt",
+    sum:"Retrospektive Kohortenstudie bei 3.660 MICU-Patienten (531 adipös, BMI≥27) in Seoul (2016–2023) zum Anteil und Erkennungsrate des wahrscheinlichen Obesitäts-Hypoventilationssyndroms.",
+    result:"Wahrscheinliches OHS in 0,4 % aller MICU-Patienten (3,0 % adipös, 6,5 % bei BMI≥30). Längere Krankenhausverweildauer trotz niedrigerer Aufnahmeschwere. Mortalität nach IPTW-Anpassung nicht signifikant unterschiedlich. Unterdiagnose zeigt Erkennungslücke.",
+    transfer:"Südkorea, Universitätsklinikum; kritische Pflege, vergleichbare diagnostische Standards"
+  },
+  {
+    journal:"Front Endocrinol (Lausanne)", year:"2026", pmid:"42741141",
+    author:"Almohammed OA et al.", pubdate:"31.08.2026",
     added:"15.09.2026",
-    title:"Digitales Adipositasprogramm funktioniert über kulturelle Grenzen: Abu Dhabi und Stockholm",
-    sum:"Nicht-Inferioritätsstudie mit externem historischem Vergleich: 60 Kinder (6–15,9 Jahre) mit Adipositas in Abu Dhabi erhielten Evira (Digi-Physical-Tool); Vergleich mit 107 Stockholmer Kindern aus Vorläuferstudie, primäres Outcome BMI-z-Score-Veränderung bei 26 Wochen.",
-    result:"Abu Dhabi: –0,20 z-Score (95% KI –0,28 bis –0,12); Stockholm: –0,20 z-Score (–0,26 bis –0,14); p=0,88. Nicht-Inferioritätsmargin 0,10 nicht überschritten. 45,7% Abu Dhabi vs. 36,4% Stockholm erreichten klinisch signifikante Reduktion (≥0,20 Einheiten). Abbruchquoten 41,7% vs. 28,0% (p=0,07).",
-    transfer:"Skandinavien-Anwendungsstudie, zeigt Übertragbarkeit strukturierter Versorgung."
+    title:"SGLT2-Inhibitoren und GLP-1-Agonisten: Gewichtsverlust stärker bei Adipösen, Glykämieverbesserung gleich",
+    sum:"Multicenter-Beobachtungsstudie an 1.016 Patienten mit Typ-2-Diabetes in Saudi-Arabien zum Vergleich der Gewichts- und Glykämieveränderungen zwischen adipösen (BMI≥30) und nicht-adipösen Personen unter SGLT2i oder GLP-1RA.",
+    result:"Nach 12 Monaten erreichten adipöse Patienten größere absolute Gewichtsverluste und BMI-Reduktionen (p&lt;0,05). Responderrate ≥5 % Gewichtsverlust bei Adipösen: 27,2 % vs. 15,5 % bei Nicht-Adipösen in Monat 6. HbA1c-Verbesserungen waren zwischen Gruppen vergleichbar.",
+    transfer:"Saudi-Arabien, Einzelzentren-Daten; Arzneimittel-Kostenerstattung in Deutschland nicht vergleichbar (§34 SGB V)"
   },
   {
-    journal:"Nutrients", year:"2026", pmid:"42739108",
-    author:"Chen Z et al.", pubdate:"07.09.2026",
+    journal:"Endocrinol Diabetes Nutr (Engl Ed)", year:"2026", pmid:"42744528",
+    author:"Montero Muñoz N et al.", pubdate:"Aug. 2026",
     added:"15.09.2026",
-    title:"Probiotika mit Omega-3 senken Inflammationsmarker bei Adipositas am stärksten",
-    sum:"Systematische Übersicht und Netzwerk-Metaanalyse von 60 RCTs zu 14 Supplementierungsstrategien und Effekten auf Inflammationsmarker bei Übergewicht/Adipositas.",
-    result:"Grüntee-Extrakt senkte IL-6 (MD=–2,57, 95% KI [–3,99, –1,15]). Synbiotika reduzierten TNF-α stärksten (MD=–12,25, [–16,7, –7,8]). Probiotika+Omega-3, Synbiotika, Zink und Curcumin senkten alle CRP. Synbiotika erhöhten Adiponektin (MD=15,37, [12,13, 18,61]). Kein Supplement senkte Leptin signifikant. Effekte hingen von Alter, Trainings-Co-Intervention und Geschlechtsverteilung ab.",
-    transfer:"Globale Evidenz, zeigt mögliche unterstützende Maßnahmen, aber begrenzte individuelle Supplement-Wirkung."
+    title:"Vascular Alter als Prädiktor für metabolisches Syndrom bei spanischen Berufstätigen",
+    sum:"Querschnittsstudie an 336.450 erwerbstätigen Spaniern (2018–2022) zur Vorhersagekraft des geschätzten vaskulären Alters nach dem Framingham-Modell für die Früherkennung metabolischer Störungen.",
+    result:"Metabolisches Syndrom stieg progressiv mit höherem vaskulären Alter; Fläche unter der Kurve &gt;0,80 (Frauen bis 0,86). Vaskuläres Alter ist ein starker unabhängiger Prädiktor für metabolische Risiken und praktisch in Arbeitsschutzprogrammen einsetzbar.",
+    transfer:"Spanischer Arbeitsmedizin-Kontext, vergleichbares Sozialversicherungssystem wie Deutschland"
   },
   {
-    journal:"Nutrients", year:"2026", pmid:"42739020",
-    author:"Lee Y et al.", pubdate:"31.08.2026",
+    journal:"Surg Obes Relat Dis", year:"2026", pmid:"42742506",
+    author:"Mottalib A et al.", pubdate:"14.03.2026",
     added:"15.09.2026",
-    title:"Südkoreas Adipositasgesetze: Mangelnde Finanzinstrumente bei regulatorischem Fokus",
-    sum:"Retrospektive Politikanalyse von 53 adipositasbezogenen Gesetzesentwürfen in Südkorea 2006–2024; Analyse von legislativen Trends und Einflussfaktoren.",
-    result:"16 Gesetzesentwürfe (30,2%) wurden verabschiedet oder in Alternativen integriert. Regulatorische Instrumente dominierten, gefolgt von Bildungs- und institutionellen Mitteln; fiskalische Maßnahmen waren selten. Legislative Aktivität clusterte 2013 und 2017–2019. Kindfokus und institutionelle Machbarkeit waren Erfolgsfaktoren, fiskalische und Strukturvorschläge scheiterten häufiger.",
-    transfer:"Südkorea, zeigt Lücken in Prävention durch Steuer und Strukturreformen auf."
-  },
-  {
-    journal:"Nutrients", year:"2026", pmid:"42738981",
-    author:"Berg A et al.", pubdate:"27.08.2026",
-    added:"15.09.2026",
-    title:"Proteinreiches Sojagetränk: Langfristiger Nutzen für Körperzusammensetzung bei Frauen",
-    sum:"Sekundäranalyse der multizentrischen ACOORH-RCT: 64 Frauen mit Übergewicht erhielten 26 Wochen lang entweder Lebensstiländerung allein oder kombiniert mit proteinreichem Soja-Joghurt-Honig-Mahlzeitenersatz; Nachverfolgung über 52 Wochen.",
-    result:"Beide Gruppen reduzierten Energieaufnahme in Woche 12. Interventionsgruppe erhöhte gewichtsadjustierte Proteinaufnahme (+0,22±0,29 g/kg/d; p=0,004) und behielt diese über 52 Wochen (p&lt;0,001). ANCOVA: signifikant bessere Verbesserung BMI (p=0,04) und Fettmasse (p=0,03). Woche 52: höhere Proteinaufnahme assoziiert mit niedrigerem BMI (r=–0,253, p=0,04) und Fettmasse (r=–0,321, p=0,01), höherer Muskelkraft (r=0,292, p=0,02).",
-    transfer:"Deutschland, multizentrisch, zeigt anhaltende Verhaltensänderung nach Intervention."
-  },
-  {
-    journal:"Acta Obstet Gynecol Scand", year:"2026", pmid:"42583737",
-    author:"Bonnichsen ML et al.", pubdate:"12.08.2026",
-    added:"12.08.2026",
-    title:"Gestationsgewicht und Stoffwechsel beeinflussen Geburtsgewicht bei maternaler Adipositas",
-    sum:"Prospektive Kohortenstudie von 163 schwangeren Frauen mit Prägestations-BMI≥35 zur Assoziation von Gestationsgewichtszunahme und HbA1c mit fötalem Wachstum und Geburtsgewicht.",
-    result:"Durchschnittliches Geburtsgewicht normal (z-Score 0,117), aber 18,4% LGA und 12,9% SGA. In multivariater Analyse: wöchentliche Gewichtszunahme ab Woche 36 positiv assoziiert mit Geburtsgewicht (z-Score), HbA1c positiv assoziiert. Ein Drittel bekam GDM, ein Drittel davon brauchte medikamentöse Therapie.",
-    transfer:"Norwegische Klinikdaten, vergleichbares Gesundheitssystem, zeigt Bedeutung der Gewichtsmonitoring in der Schwangerschaft."
-  },
-  {
-    journal:"Environ Health Prev Med", year:"2026", pmid:"42749615",
-    author:"Yoshida H et al.", pubdate:"2026",
-    added:"16.09.2026",
-    title:"Wiederholte Lebensstilintervention: Marginal bessere Gewichtsabnahme in Kontemplationsphase",
-    sum:"Längsbeobachtungsstudie mit modifizierter Poisson-Regression an 2325 japanischen Männern (40–65 Jahre) aus Gesundheits-Screening-System 2018–2020: Vergleich wiederholter vs. einmaliger Spezifischer Gesundheitsberatung (SHG) auf Gewichtsabnahme ≥3%.",
-    result:"Wiederholte Gruppe (n=952) vs. Einzelintervention (n=1373): 16,0% vs. 13,5% erreichten ≥3% Gewichtsverlust (RR=1,18, 95% KI 0,97–1,44, nicht signifikant). Subgruppenanalyse Kontemplationsphase: 19,7% vs. 13,7% (RR=1,47, 95% KI 1,04–2,08), signifikant. Keine signifikante Gesamtassoziation.",
-    transfer:"Japan, nationales Screening-System, zeigt Grenzen wiederholter Routine-Interventionen."
+    title:"Adipositaschirurgie bei Typ-1-Diabetes: Gewichtsverlust erreicht, Glykämie unverändert",
+    sum:"Retrospektive matched-cohort-Studie an 20 Patienten mit Typ-1-Diabetes und Adipositas nach bariatrischer Operation vs. 20 Kontrollpersonen in Standardversorgung über 3 Jahre.",
+    result:"Chirurgie-Gruppe: Gewichtsverlust 33,5±2,6 kg (28,1 %), Kontrollgruppe Gewichtszunahme 2,6±2,8 kg (p&lt;0,0001). HbA1c unverändert in beiden Gruppen. Chirurgie-Gruppe zeigte Reduktion Insulindosis (-), Triglyceride (-), systolischer Blutdruck (-), HDL-Cholesterin (+).",
+    transfer:"USA-Klinikdaten, begrenzte Fallzahl (n=20); Adipositaschirurgie-Genehmigung in Deutschland Einzelfallprüfung"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1571,7 +1562,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-09-22"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "17.09.2026";
+const NEWS_STAND = "18.09.2026";
 const NEWS = [
   {titel:"Orale Adipositastherapie für Selbstzahler: GreenMedical erweitert Angebot", datum:"2026-09-01", url:"https://www.monitor-versorgungsforschung.de/news/orale-adipositastherapie-fuer-selbstzahler-greenmedical-erweitert-angebot/"},
   {titel:"Meilenstein in der Adipositastherapie: Wegovy® Tablette erhält EU-Zulassung", datum:"2026-08-11", url:"https://www.monitor-versorgungsforschung.de/news/meilenstein-in-der-adipositastherapie-wegovy-tablette-erhaelt-eu-zulassung/"},
