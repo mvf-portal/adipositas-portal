@@ -1491,62 +1491,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "20. Sept. 2026, 06:21 Uhr";
+const SNAP_DATE = "21. Sept. 2026, 06:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"BMC Public Health", year:"2026", pmid:"42760546",
-    author:"Bygdell M et al.", pubdate:"18.09.2026",
+    journal:"BMC Endocr Disord", year:"2026", pmid:"42750018",
+    author:"Hegaz MG et al.", pubdate:"15.09.2026",
+    added:"16.09.2026",
+    title:"Orforglipron 36 mg zeigte größere Gewichtsverluste als 12 mg bei vergleichbarem Sicherheitsprofil",
+    sum:"Systematische Übersichtsarbeit und Meta-Analyse von 6 RCTs mit 3459 Patienten, die Orforglipron 12 mg versus 36 mg in Adipositas ± Diabetes verglichen.",
+    result:"36 mg versus 12 mg: Gewichtsverlust −2,2 % (p&lt;0,00001); HbA1c-Reduktion unterschiedlich je Diabetes-Status; Waistumfang-Reduktion signifikant; unerwünschte Ereignisse vergleichbar; kleine ALT/AST-Erhöhungen bei 36 mg.",
+    transfer:"Generische Frage zu GLP-1, in Deutschland nicht kostenerstattet"
+  },
+  {
+    journal:"Front Endocrinol (Lausanne)", year:"2026", pmid:"42760998",
+    author:"Qiu J et al.", pubdate:"04.09.2026",
+    added:"19.09.2026",
+    title:"Ernährungs-Verhaltens-Risiko-Index zeigte Dosis-Wirkung mit metabolischem Syndrom in Südchina",
+    sum:"Querschnittsstudie an 14.269 ländlichen Einwohnern in Nordwestchina; Konstruktion eines Ernährungs-Verhaltens-Risiko-Index (DBRI) mittels Alkire-Foster-Methode und Assoziationen mit metabolischem Syndrom.",
+    result:"DBRI quartil 4 versus 1: OR 2,61 (95%-KI: 2,29–2,98); dose-response-beziehung signifikant (p&lt;0,001); nichtlineare beziehung mit schwellenwerteffekt nahe DBRI ≈ 0,5; Lifestyle- und Ernährungsqualitäts-Score korreliert mit MetS-Prävalenz.",
+    transfer:"China – unterschiedliche Population, vergleichbare Erhebungsmethoden"
+  },
+  {
+    journal:"Front Immunol", year:"2026", pmid:"42756162",
+    author:"Onoiu AI et al.", pubdate:"03.09.2026",
     added:"18.09.2026",
-    title:"Einkommenslücke überlagert Adipositastrends bei schwedischen Kindern 2008-2017",
-    sum:"Longitudinale Analyse von 210.927 Kindern seit 1952 dokumentiert erstmals eine Umkehrung von BMI-Trends – während wohlhabende Familien stabilisierten, stieg Übergewicht bei Kindern aus armen und Migrantenfamilien weiter an.",
-    result:"Nach anfänglichem Anstieg 1974–2001 und kurzem Rückgang 2002–2006 zeigten sich ab 2008 divergente Trends: Kinder mit hochgebildeten, einheimischen Eltern mit hohem Einkommen stabilisierten sich; Kinder mit niedriger Elternausbildung verschlechterten sich unabhängig vom Einkommen und Herkunftsland. Niedriges Elterneinkommen war der dominanteste Risikofaktor.",
-    transfer:"Schweden, longitudinales Bevölkerungskohorten-Design mit Sozialstatusangaben"
+    title:"Adipositaschirurgie verminderte Leberfibrose, hinterließ aber persistierende Immunaktivierung nach 6 Jahren",
+    sum:"Immunhistochemische Analyse von Leberbiopsien aus 3 Gruppen: Adipositas mit Leberschaden vor und nach Adipositaschirurgie, und Adipositas ohne signifikante Leberschädigung; Charakterisierung des hepatischen Immunmikromilieus.",
+    result:"Nach Chirurgie: BMI-Reduktion, Verbesserung der Leberhistologie, aber persistierende lobuläre Entzündung (Median 6 Jahre FU); erhöhte CD15+-, CD56+-, CD68+-, CD163+- und CD4+-Zellen; adaptive Immunabwehr verstärkt; \"nicht-normalisiertes\" Immunmprofil post-OP.",
+    transfer:"Spanien/Katalonien – vergleichbare Adipositaschirurgie-Infrastruktur"
   },
   {
-    journal:"Rev Esp Salud Publica", year:"2026", pmid:"42752590",
-    author:"Asso Ministral L et al.", pubdate:"11.09.2026",
-    added:"17.09.2026",
-    title:"Gewichtszentrisch vs. nicht-gewichtszentrisch: Adipositasbehandlung in Kindermedizin darf nicht stigmatisierend wirken",
-    sum:"Katalanische Public-Health-Stellungnahme, dass systematische Gewichtsmessung bei Kindern Selbstwertgefühl schadet und soziale Determinanten ignoriert – Aufruf zu nicht-stigmatisierendem Ansatz, der Wohlbefinden, Bewegung und Lebensbedingungen statt BMI-Reduktion in Mittelpunkt stellt.",
-    result:"Evidenzbasierte Kritik am Gewichtszentrismen: Diese Herangehensweise ignoriert genetische und soziale Determinanten, schafft Scham und Vermeidungsverhalten bei Kindern, verschlechtert emotionales Wohlbefinden. Empfehlung: Gewichtsmessungen nur begründet, mit Einwilligung, ohne Kommentare zur Entwicklung; Fokus statt auf Lebensbedingungen (Lebensmittelumgebung, Aktivitätszugang, Mittagsverpflegung, finanzielle Barrieren).",
-    transfer:"Spanien/Katalonien, europäisches Gesundheitssystem mit vergleichbaren pädiatrischen Strukturen"
+    journal:"Endocrinol Diabetes Metab", year:"2026", pmid:"42762462",
+    author:"Tu ST et al.", pubdate:"Sept. 2026",
+    added:"19.09.2026",
+    title:"Liraglutide halbierte Rate unerwünschter Wirkungen, Gewichtsverlust 8,5 kg über 26 Wochen in Taiwan",
+    sum:"Prospektive Post-Marketing-Überwachung von Liraglutid (GLP-1-Rezeptoragonist) bei 259 Erwachsenen mit Adipositas in Taiwan über 26 Wochen mit Erfassung von Sicherheit und Gewichtsveränderung.",
+    result:"Unerwünschte Ereignisse in 11,2 % (90,9 % mild); Gewichtsverlust Woche 13: −5,7 ± 3,5 kg, Woche 26: −8,5 ± 5,7 kg; ≥5 % Gewichtsabnahme bei 76,7 % in Woche 26; Blutdrucksenkung 10,4 ± 18,9 mmHg. Hauptbarriere: Medikamentenkosten (49,0 % Dosiseskalation nicht durchgeführt).",
+    transfer:"Taiwan – asymmetrische Kostenübernahme, in Deutschland ausgeschlossen"
   },
   {
-    journal:"Front Public Health", year:"2026", pmid:"42756165",
-    author:"Wang H et al.", pubdate:"03.09.2026",
-    added:"18.09.2026",
-    title:"Ständige Erreichbarkeit in der Arbeit erhöht Übergewichtsrisiko bei chinesischen Arbeitnehmern um 1,9 %",
-    sum:"Analyse von 16.969 Beobachtungen aus China Family Panel Studies zur Assoziation zwischen Anforderung ständiger beruflicher Verfügbarkeit (WREA) und Übergewicht/Adipositas mit Subgruppenanalysen.",
-    result:"WREA war mit erhöhter Prävalenz von Übergewicht (durchschnittlicher marginaler Effekt 0,019, 95%-KI 0,011–0,028) und Adipositas (AME 0,012, 95%-KI 0,007–0,019) assoziiert. Effekte stärker bei Männern, mittlerer Bildung und Alter 30–50 Jahre. Effekte variierten nach WREA-Typ (vertragsbasiert, digital aktiviert). Längsanalyse lieferte keine Evidenz für prospektive Assoziation. 53,29 % Arbeiter exponiert.",
-    transfer:"China, aber Arbeitsstress-Adipositas-Assoziation generisch, Modell replizierbar"
+    journal:"Medicina (Kaunas)", year:"2026", pmid:"42654346",
+    author:"Zhumabekova B et al.", pubdate:"26.07.2026",
+    added:"27.08.2026",
+    title:"ZTV rs10968110 und FTO rs1558902 assoziiert mit Adipositas in klinischer Psoriasis-Kohorte",
+    sum:"Querschnittsstudie mit 150 kasachischen Patienten mit Psoriasis (75 Übergewicht/Adipositas, 75 Kontrollen); genetische und metabolische Korrelationen mit Adipositas untersucht.",
+    result:"Im multivariaten Modell: Triglyceride OR 4,73 (95%-KI 1,36–18,57), HbA1c OR 1,71 (95%-KI 1,09–2,91), HDL-C OR 0,36 (95%-KI 0,18–0,66); ZTV rs10968110 signifikant in multiplen genetischen Modellen; FTO rs1558902 auch signifikant; CALCRL rs696574 nicht signifikant; MDR-Analyse: ZTV als stabilstes Single-Locus-Modell.",
+    transfer:"Kasachstan – Genotyp-Befunde explorativ, Populationsübertragung begrenzt"
   },
   {
-    journal:"Cancer Res Commun", year:"2026", pmid:"42490138",
-    author:"Wang GQ et al.", pubdate:"01.08.2026",
-    added:"23.07.2026",
-    title:"Metabolisches Syndrom erhöht Magenkrebsrisiko progressiv – Bauchumfang ist stärkster Komponenten-Marker",
-    sum:"Prospektive Kohortenanalyse von 471.540 UK-Biobank-Teilnehmern zum Zusammenhang zwischen MetS und inzidentem Magenkrebs über 6,5 Jahre mit Subgruppenanalysen nach Sublokalisation.",
-    result:"Metabolisches Syndrom war mit erhöhtem Magenkrebsrisiko assoziiert (HR 1,36, 95%-KI 1,08–1,71). Risiko stieg mit Anzahl der MetS-Komponenten (p für Trend = 0,033). Für kardiales Magenkarzinom stärker (HR 1,48, 95%-KI 1,03–2,11) als für nicht-kardiales (HR 1,28, 95%-KI 0,95–1,73, Heterogenität p = 0,547). Bauchumfang zeigte konsistentest Komponenten-Signal. 332 Fälle über 6,5 Jahre in großer prospektiver Kohorte.",
-    transfer:"UK Biobank, aber Befund zur metabolischen Dysfunktion unabhängig von System übertragbar"
-  },
-  {
-    journal:"Kidney Int", year:"2026", pmid:"42498061",
-    author:"Xu Y et al.", pubdate:"24.07.2026",
+    journal:"J Med Case Rep", year:"2026", pmid:"42498956",
+    author:"Fueth M et al.", pubdate:"24.07.2026",
     added:"24.07.2026",
-    title:"GLP-1-Rezeptoragonisten senken Nierencompliance-Risiko unterschiedlich nach Prognose",
-    sum:"Heterogenitätsanalyse an 28.747 Diabetespatienten in Stockholm zur Frage, welche Patienten von GLP-1-Agonisten bei der Nierenprotektion profitieren – im Unterschied zu durchschnittlichen Zulassungsstudien.",
-    result:"GLP-1RA senkte Fünf-Jahres-Nierenenergierisiko durchschnittlich um 0,72 % absolut (HR 0,84, 95%-KI 0,72–0,97); Effekt war aber hochgradig heterogen: Patienten in höchstem Quartil des KFRE-Risikos erlebten 2,76 % absoluten Risikoreduktion (HR 0,70), während die niedrigsten Risikogruppen keinen Nutzen zeigten. Prädiktoren für Vorteil: niedriges eGFR, schneller vorheriger eGFR-Abfall, Albuminurie, höheres HbA1c.",
-    transfer:"Schweden, vergleichbares Versicherungssystem, aber Kostenübernahme GLP-1 dort anderes als Deutschland"
+    title:"Extreme Adipositas (BMI 106,7) führte zu Ausschluss von Staging und Standard-Therapie bei Krebs",
+    sum:"Fallbericht einer 54-jährigen Frau mit BMI 106,7 kg/m² und kutanem Angiosarkom; Dokumentation der Infrastruktur-Barrieren bei Bildgebung, Staging und Operabilität.",
+    result:"CT, MRT, PET wegen Gantry/Tisch-Limit unmöglich in allen regionalen Zentren; Patientin erhielt nur Bettseitexzision und Amputation, entwickelte Multiorganversagen, starb Tag 24; keine kurative Therapie ermöglicht.",
+    transfer:"Deutschland – zeigt systemische Unterversorgung bei extremer Adipositas"
   },
   {
-    journal:"Mo Med", year:"2026", pmid:"42757297",
-    author:"Lindquist M et al.", pubdate:"Juli 2026",
-    added:"18.09.2026",
-    title:"Strukturelles Screening auf Metabolische Krankheit bei Kindern unter 12 Jahren verbessert langfristige Kardiometabolik",
-    sum:"Narrative Übersichtsarbeit, die zeigt, dass Wartebeobachtung ('watchful waiting') bei adipösen Kindern unter 12 Jahren fehlschlägt – bereits massiv Insulinresistenz, Fettstoffwechselstörung und Fettleber vorhanden sind, Pubertät das nicht rückgängig macht.",
-    result:"Evidenzübersicht zeigt: Adipöse Kinder unter 12 Jahren haben bereits klinisch relevante Insulinresistenz (HOMA-IR erhöht), Dyslipidämie, Dysglykämie und metabolische Dysfunktion-assoziierte Steatose-Hepatitis (MASLD) – oft asymptomatisch. Pubertät verschärft durch physiologische Insulinresistenz den Verlauf statt ihn zu verbessern. Metabolische Memoria führt zu potenziell irreversibler Schädigung in kritischer Entwicklungsphase.",
-    transfer:"USA-Übersicht, aber Biologie des metabolischen Gedächtnisses unabhängig von System"
+    journal:"Front Endocrinol (Lausanne)", year:"2026", pmid:"42483668",
+    author:"Ding J et al.", pubdate:"07.07.2026",
+    added:"22.07.2026",
+    title:"TyG-WHtR zeigte stärkste Vorhersagekraft für Aortenstenose im Metabolischen Syndrom-Spektrum",
+    sum:"Prospektive Kohortenstudie mit 363.907 Teilnehmern der UK Biobank in CKM-Stadien 0–3; Assoziationen von Triglycerid-Glucose-Indizes mit inzidentem Aortenstenose-Risiko über 15,25 Jahre Nachbeobachtung.",
+    result:"3.326 Aortenstenose-Fälle; jede 1-SD-Erhöhung TyG-Index = 8–24 % erhöhtes AS-Risiko; TyG-WHtR zeigte größte Vorhersageverbesserung (C-Index 0,806); SBP mediierte 12,1–18,1 % der Assoziation.",
+    transfer:"UK Biobank – vergleichbares System, aber Population und Risikoprofile unterscheiden sich"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1562,7 +1571,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-09-22"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "20.09.2026";
+const NEWS_STAND = "21.09.2026";
 const NEWS = [
   {titel:"Orale Adipositastherapie für Selbstzahler: GreenMedical erweitert Angebot", datum:"2026-09-01", url:"https://www.monitor-versorgungsforschung.de/news/orale-adipositastherapie-fuer-selbstzahler-greenmedical-erweitert-angebot/"},
   {titel:"Meilenstein in der Adipositastherapie: Wegovy® Tablette erhält EU-Zulassung", datum:"2026-08-11", url:"https://www.monitor-versorgungsforschung.de/news/meilenstein-in-der-adipositastherapie-wegovy-tablette-erhaelt-eu-zulassung/"},
