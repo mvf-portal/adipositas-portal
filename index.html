@@ -1491,71 +1491,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "22. Sept. 2026, 06:21 Uhr";
+const SNAP_DATE = "23. Sept. 2026, 07:30 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Clin Obes", year:"2026", pmid:"42767624",
-    author:"Varghese RT et al.", pubdate:"Okt. 2026",
-    added:"21.09.2026",
-    title:"Lipoödem wird häufig als Adipositas fehlklassifiziert – phänotypbasierte Versorgung nötig",
-    sum:"Narrative Übersichtsarbeit zur Abgrenzung von Lipoödem (schmerzhafte, disproportionale Extremitätenfettverteilung) von generalisierter Adipositas und deren unterschiedlichen metabolischen Profilen.",
-    result:"Einige Studien berichten weniger metabolische Abnormitäten bei Lipoödem als bei BMI-gematchter Adipositas, doch fehlende Standardisierung und Referralverzerrung erschweren sichere Schlüsse. Kardiovaskuläre Risiken sollten phänotypbasiert bewertet werden – nicht allein durch BMI, sondern mit Waist-to-Height-Ratio, Körperzusammensetzung und zentralem Fett. GLP-1-RA bleiben bei etablierten Indikationen angezeigt.",
-    transfer:"Deutschsprachige Literatur integriert, klinisch relevant für Versorgungsgerechtigkeit."
+    journal:"BMJ Open", year:"2026", pmid:"42772870",
+    author:"Gao Y et al.", pubdate:"22.09.2026",
+    added:"22.09.2026",
+    title:"Bariatrische Chirurgie kosteneffektiver als GLP-1-Rezeptoragonisten bei Kniearthrose mit Adipositas",
+    sum:"Systematische Übersicht (n=8 Studien) zur Kosteneffektivität von Gewichtsverlustinterventionen bei Kniearthrose und Adipositas; Vergleich von Kombinationsprogrammen (Diät+Bewegung), Chirurgie und Pharmakotherapie mittels QALY und ICER.",
+    result:"Kombinierte Diät-/Bewegungsprogramme: ICER £16.915–£31.305/QALY mit QALY-Gewinn 0,05–0,16; bariatrische Chirurgie: ICER £4.361–£19.303/QALY, QALY 0,81–1,7; GLP-1-Rezeptoragonisten: ICER £32.265–£35.832/QALY. Nach UK-Schwellen (£25.000–£35.000/QALY) ist Chirurgie kosteneffektiv; Pharmakotherapie an Grenze.",
+    transfer:"UK-Schwellenwerte; Übertragbarkeit auf Deutschland eingeschränkt (GLP-1 dort nicht erstattet, Erstattungswege für Chirurgie unterschiedlich)"
   },
   {
-    journal:"Orv Hetil", year:"2026", pmid:"42763880",
-    author:"Fraenkel E et al.", pubdate:"20.09.2026",
-    added:"20.09.2026",
-    title:"Beta-Hydroxy-Beta-Methylbutyrat-Supplement erhöhte Muskelmasse nicht signifikant bei sarkopenischer Adipositas",
-    sum:"Querschnittstudie (n=48, 55–84 Jahre) mit 6-Monats-Follow-up zu HMB-haltigem Diabetes-spezifischem Nahrungsergänzungsmittel bei Patienten mit Typ-2-Diabetes, sarkopenischer Adipositas und MASLD.",
-    result:"28 von 48 Patienten zeigten Muskelmasse-Zunahme; 16 davon ≤5%, 8 &gt;5%, 4 &gt;10% des Ausgangswerts. 20 Patienten hatten Abnahmen ≤5%. Muskelmaßveränderungen erreichten keine statistische Signifikanz. Höheres Alter (OR 0,87, p=0,04) und höhere Triglyzeride (OR 0,21, p=0,05) waren negative Prädiktoren. Kleine Fallzahl, fehlende Signifikanz trotz Trend.",
-    transfer:"Ungarn/Slowakei, kleine Kohorte; begrenzte Übertragbarkeit auf deutsche Routineversorgung."
+    journal:"BMC Public Health", year:"2026", pmid:"42768347",
+    author:"Berdman I et al.", pubdate:"21.09.2026",
+    added:"22.09.2026",
+    title:"Strukturierte Familienunterstützung (Co-Fam) bei Adipositas von Kindern: Versorgungsmodell mit Implementationsprüfung",
+    sum:"Randomisierte Hybrid-Studie in Schweden zum Vergleich eines strukturierten 12-Monate-Programms (More and Less) mit Standardversorgung bei adipösen Kindern (6–12 Jahre); Primäre Ergebnis: BMI z-Score und Übergewichts-/Adipositasprävalenz nach 3 und 12 Monaten; sekundär: elterliche Fütterungspraktiken, körperliche Aktivität und Implementierungstreue.",
+    result:"Studienprotokoll; Ergebnisse noch ausstehend. Erwartung: Effektivitäts- und Implementierungsdaten werden die Skalierbarkeit des integrierten Modells (Schulprogramm + Primärversorgung) informieren.",
+    transfer:"Schweden, vergleichbar strukturiertes Gesundheitssystem mit schulischer Gesundheitsüberwachung"
   },
   {
-    journal:"Zhonghua Liu Xing Bing Xue Za Zhi", year:"2026", pmid:"42763190",
-    author:"Gu SJ et al.", pubdate:"10.09.2026",
+    journal:"BMC Public Health", year:"2026", pmid:"42768347",
+    author:"Berdman I et al.", pubdate:"21.09.2026",
+    added:"22.09.2026",
+    title:"Antipsychotika bei Kindern: Metabolische Nebenwirkungen besonders bei Mädchen – schwedische Registeranalyse",
+    sum:"Register-Kohortenstudie (N=5.441 Kinder, 5–17 Jahre) zu metabolischen Nebenwirkungen (Adipositas, Glukosestoffwechselstörungen) unter neuem Antipsychotika-Einsatz 2014–2021; Cox-Modelle für Hazard Ratios nach Geschlecht und Substanz.",
+    result:"7,3% (399/5.441) entwickelten metabolische Nebenwirkungen, 69% davon Adipositas. Bei Mädchen erhöhte Risiken für Aripiprazol (HR 3,52; 95%-KI 1,58–7,80), Olanzapin (6,99; 2,34–20,93) und Quetiapin (4,87; 1,97–12,04) vs. Risperidon. Bei Jungen erhöhtes Risiko nur für Aripiprazol (HR 2,21; 1,37–3,56). Jüngere Mädchen besonders betroffen.",
+    transfer:"Schweden; übertragbar auf deutsches Versorgungssystem für Versorgungsrisiken psychopharmakologischer Therapie bei Kindern"
+  },
+  {
+    journal:"Pediatr Obes", year:"2026", pmid:"42770536",
+    author:"Saelens BE et al.", pubdate:"Sept. 2026",
+    added:"22.09.2026",
+    title:"Konsistente moderate Gewichtsabnahme bei Kindern prognostiziert langfristige Therapieerfolge besser als rapide Abnahme",
+    sum:"Latenklassen-Analyse (N=294 Kinder, 7–11 Jahre) mit BMI-Verlauf während und nach Adipositasbehandlung (Verhaltensintervention); Identifikation von drei Gewichtsverlauf-Mustern und deren Vorhersage für BMI z-Score nach 1-Jahres-Nachverfolgung.",
+    result:"Drei Klassen: schnelle Abnahme dann stabil (6%), konsistent moderate Abnahme (43%), moderate abnehmend (51%). Konsistent moderate Gewichtsabnahme zeigte stabilste Ergebnisse im Follow-up (BMI z-Score-Anstieg minimal vs. Anstieg in anderen Gruppen, p=0,017). Rapide initial Gewichtsabnahme nicht mit besseren Langzeitergebnissen assoziiert.",
+    transfer:"USA, generalisierbar für verhaltensbasierte Interventionen in Kinder-Adipositasprogrammen"
+  },
+  {
+    journal:"Cancer Med", year:"2026", pmid:"42760794",
+    author:"Otto SD et al.", pubdate:"Sept. 2026",
     added:"19.09.2026",
-    title:"Metabolisches Syndrom-Inzidenz in Südxinjiang: 32,06 pro 1000 Personenjahre, höher bei Männern",
-    sum:"Prospektive ländliche Kohortenstudie (n=12.813, 2016–2024) in Südxinjiang mit Latenter-Klassen-Analyse und Cox-Regressionen zu Metabolischem Syndrom (MS).",
-    result:"MS-Inzidenz 32,06/1000 Personenjahre; Männer 37,25, Frauen 27,89/1000 PJ. Unabhängige Risikofaktoren: Alter &gt;30 Jahre, Übergewicht/Adipositas, abnormales LDL-C, abnormale Gamma-Glutamyl-Transferase, high-TG–high-waist-circumference-Phänotyp, hypertension–high-waist-circumference-Phänotyp (alle HR&gt;1,00, p&lt;0,05). 31–60 Jahre: höchste Risikokonzentration. Sekundarschulbildung senkte Risiko. Geschlechts- und Altersspezifische Unterschiede in Risikofaktoren.",
-    transfer:"China, aber Präventions- und Screening-Framework auf Hochrisiko-Populationen in Deutschland übertragbar."
+    title:"Höherer BMI mit besserer Tumorregression bei Ösophaguskarzinom – Paradox aus deutschem Registeranalyse",
+    sum:"Prospektive Registeranalyse (DGAV, N=647 Patienten mit Ösophaguskarzinom) zur Assoziation zwischen BMI und histopathologischem Tumorreggressionsgrad nach neoadjuvanter Therapie; Hazard Ratios adjustiert für klinische und Tumorcharakteristika.",
+    result:"Unerwartet: höherer BMI mit vermindertem Risiko für höhere Becker-Grade (≥2: OR 0,97 per BMI-Einheit, p=0,04; ≥3: OR 0,93, p&lt;0,001). Keine Assoziation für Übergang zu Grad ≥1b. Autoren deuten auf unterschiedliche Tumorkobiologie hin, warnen aber vor Kausalitätsinterpretation.",
+    transfer:"Deutsche Klinikdaten (DGAV-Register); hohe Übertragbarkeit auf deutsches Gesundheitssystem"
   },
   {
-    journal:"Age Ageing", year:"2026", pmid:"42765724",
-    author:"Koutouratsas T et al.", pubdate:"04.09.2026",
+    journal:"J Health Care Poor Underserved", year:"2026", pmid:"42766517",
+    author:"Deas C et al.", pubdate:"2026",
     added:"21.09.2026",
-    title:"GLP-1-Rezeptoragonisten senken Dekompensation und Mortalität bei älteren Patienten mit MASLD",
-    sum:"Retrospektive Kohortenstudie mit 43.930 Patienten ≥65 Jahren mit metabolisch-assoziierter Fettlebererkrankung (MASLD), die GLP-1-Rezeptoragonisten initiierten vs. unbehandelt; Follow-up bis 10 Jahre.",
-    result:"GLP-1-RA-Nutzer zeigten niedrigere Hazard Ratios für hepatische Dekompensation (HR 0,72, 95%-KI 0,66–0,79), Mortalität (HR 0,55, 0,52–0,58) und Krankenhausaufenthalte (HR 0,95, 0,93–0,97). MACE zeigte keine Reduktion (HR 0,98, 0,92–1,04). Häufigere gastrointestinale Ereignisse und Retinopathie wurden beobachtet.",
-    transfer:"USA-Daten, andere Kostenübernahmeregelungen als Deutschland; Sicherheitssignale aber übertragbar."
-  },
-  {
-    journal:"Am J Hum Biol", year:"2026", pmid:"42764604",
-    author:"Lourenço AC et al.", pubdate:"Sept. 2026",
-    added:"21.09.2026",
-    title:"Soziale Fragmentierung im Wohngebiet assoziiert mit Übergewicht bei Mädchen – Querschnitt Porto",
-    sum:"Querschnittstudie bei 832 Kindern (3–10 Jahre) in Porto zu Nachbarschafts-Sozialer-Fragmentierung (aus 2021-Zensus) und exzessivem Körpergewicht.",
-    result:"Keine Assoziation bei Jungen. Bei Mädchen: Die am wenigsten fragmentierten Nachbarschaften zeigten niedrigere Odds für Übergewicht vs. am meisten fragmentierte (OR 0,55, 95%-KI 0,32–0,94, p=0,030). Geschlechtsspezifische Unterschiede deuten auf unterschiedliche soziale und/oder Umgebungsmechanismen hin.",
-    transfer:"Portugal, Zensusdaten vergleichbar mit deutschem Statistiksystem; relevant für Neighbourhood-Health-Forschung in DACH."
-  },
-  {
-    journal:"BMC Cancer", year:"2026", pmid:"42754861",
-    author:"Liu B et al.", pubdate:"20.08.2026",
-    added:"18.09.2026",
-    title:"Polygene Risikoscores und Adipositas erhöhen Progression von Typ-2-Diabetes zu Darmkrebs-Komorbiditäten",
-    sum:"Chinesische Populationsstudie (n=805, vier Gruppen) mit genetischen Daten zu T2D-Darmkrebs-Komorbiditäten, Polygene Risikoscores (PRS) und BMI-Wechselwirkungen.",
-    result:"T2D-CRC-Komorbiditäts-Gruppe hatte höhere PRS für beide Erkrankungen als Kontrollen. T2D-PRS: Borderline-Assoziation mit isoliertem Darmkrebs-Risiko (OR 1,24, p=0,046). BMI modifizierte die Assoziation zwischen CRC-genetischer Last und Risiko signifikant (OR 1,75, 95%-KI 1,27–2,34; p=0,033), stärker in Übergewichtigen. Transitionsrisiko von T2D zu Komorbiditäten mit erhöhter CRC-genetischer Last (HR 1,21, p=0,037).",
-    transfer:"China, aber genetisch vergleichbare Populationen; epidemiologisches Konzept auf DACH übertragbar."
-  },
-  {
-    journal:"Schizophr Res", year:"2026", pmid:"42480244",
-    author:"Kronenbuerger M et al.", pubdate:"21.07.2026",
-    added:"21.07.2026",
-    title:"Genetische Varianten für Antipsychotika-induzierte Gewichtszunahme: Systematische Übersicht von 53 Studien",
-    sum:"Systematische Übersicht (PRISMA) von 2018–2026 zu Polymorphismen und epigenetischen Markern, die mit Antipsychotika-induzierter Gewichtszunahme (AIWG) assoziiert sind.",
-    result:"DRD2, HTR2C, MC4R wurden in Kandidaten-Gen-Studien am konsistentesten repliziert. Genome-wide association studies identifizierten novel associations (MAP2K1, ZDBF2, PEPD). Kein einzelner genetischer Marker ist klinisch anwendungsreif; Multi-Omics und Mehrahnenstudien sind notwendig. 53 eingeschlossene Studien, begrenzte Replikation und methodische Heterogenität.",
-    transfer:"Psychiatrische Versorgung in Deutschland betroffen; keine direkten Handlungsempfehlungen für Praxis, aber relevant für Risikoprävention."
+    title:"GLP-1-Rezeptoragonisten (Dulaglutid, Semaglutid) senken HbA1c und Gewicht in afroamerikanischer Bevölkerung",
+    sum:"Retrospektive Kohortenstudie (N=91 Patienten, 85,7% afroamerikanisch) zu realen Effekten von Dulaglutid und Semaglutid auf HbA1c und Gewicht über durchschnittlich 14,9 Monate; Vergleich von Dosisgruppen.",
+    result:"HbA1c-Reduktion um 2,39% (p&lt;0,001); Gewichtsabnahme 4,76 kg (p&lt;0,001). Hochdosis-Dulaglutid signifikant stärkere HbA1c-Senkung als Niedrigdosis (p=0,023). Ergebnis dokumentiert Wirksamkeit in unterrepräsentierter Population, aber ohne Vergleichsgruppe und ohne Daten zu Folgeerkrankungen.",
+    transfer:"USA; Übertragbarkeit zu Wirksamkeit begrenzt – in Deutschland Paragraf 34 SGB V schließt GLP-1 von Kostenübernahme aus"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1571,7 +1562,7 @@ const RADAR_FRISTEN = [[], [], ["2026-10-06", "2026-09-23", "2026-10-28", "2026-
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "22.09.2026";
+const NEWS_STAND = "23.09.2026";
 const NEWS = [
   {titel:"Orale Adipositastherapie für Selbstzahler: GreenMedical erweitert Angebot", datum:"2026-09-01", url:"https://www.monitor-versorgungsforschung.de/news/orale-adipositastherapie-fuer-selbstzahler-greenmedical-erweitert-angebot/"},
   {titel:"Meilenstein in der Adipositastherapie: Wegovy® Tablette erhält EU-Zulassung", datum:"2026-08-11", url:"https://www.monitor-versorgungsforschung.de/news/meilenstein-in-der-adipositastherapie-wegovy-tablette-erhaelt-eu-zulassung/"},
