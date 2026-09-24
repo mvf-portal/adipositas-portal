@@ -1491,62 +1491,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "23. Sept. 2026, 07:30 Uhr";
+const SNAP_DATE = "24. Sept. 2026, 06:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"BMJ Open", year:"2026", pmid:"42772870",
-    author:"Gao Y et al.", pubdate:"22.09.2026",
-    added:"22.09.2026",
-    title:"Bariatrische Chirurgie kosteneffektiver als GLP-1-Rezeptoragonisten bei Kniearthrose mit Adipositas",
-    sum:"Systematische Übersicht (n=8 Studien) zur Kosteneffektivität von Gewichtsverlustinterventionen bei Kniearthrose und Adipositas; Vergleich von Kombinationsprogrammen (Diät+Bewegung), Chirurgie und Pharmakotherapie mittels QALY und ICER.",
-    result:"Kombinierte Diät-/Bewegungsprogramme: ICER £16.915–£31.305/QALY mit QALY-Gewinn 0,05–0,16; bariatrische Chirurgie: ICER £4.361–£19.303/QALY, QALY 0,81–1,7; GLP-1-Rezeptoragonisten: ICER £32.265–£35.832/QALY. Nach UK-Schwellen (£25.000–£35.000/QALY) ist Chirurgie kosteneffektiv; Pharmakotherapie an Grenze.",
-    transfer:"UK-Schwellenwerte; Übertragbarkeit auf Deutschland eingeschränkt (GLP-1 dort nicht erstattet, Erstattungswege für Chirurgie unterschiedlich)"
+    journal:"BMJ Open", year:"2026", pmid:"42778259",
+    author:"Kurt O et al.", pubdate:"23.09.2026",
+    added:"23.09.2026",
+    title:"Adipositas nach Erdbeben: Frauenanteil 35,5%, Prävention in Containersiedlungen möglich",
+    sum:"Querschnittstudie in Containersiedelungen nach dem Erdbeben 2023 in der Türkei (Juni–Oktober 2025, 24–32 Monate später) mit 563 Erwachsenen zur Erfassung unabhängiger Adipositas-Einflussfaktoren.",
+    result:"Adipositasprävalenz 28,8% (Standardisierung auf gleiche Geschlechtsverteilung: 24,4%), deutlich höher bei Frauen als Männern (35,5% vs. 13,5%). Unabhängig assoziiert: weibliches Geschlecht (AOR 3,46), Alter ≥55 Jahre (AOR 2,44), schnelles Essen (AOR 2,28), Übergewicht in der Kindheit (AOR 1,93), chronische Erkrankung (AOR 1,85), niedriges Haushaltseinkommen (AOR 1,73). Unterschiede zwischen Siedlungen (18,8–66,7%, p&lt;0,001) zeigen relevante Umgebungseffekte.",
+    transfer:"Türkei, vergleichbare ressourcenbegrenzte Gesundheitssysteme, Vulnerable Populationen"
   },
   {
-    journal:"BMC Public Health", year:"2026", pmid:"42768347",
-    author:"Berdman I et al.", pubdate:"21.09.2026",
-    added:"22.09.2026",
-    title:"Strukturierte Familienunterstützung (Co-Fam) bei Adipositas von Kindern: Versorgungsmodell mit Implementationsprüfung",
-    sum:"Randomisierte Hybrid-Studie in Schweden zum Vergleich eines strukturierten 12-Monate-Programms (More and Less) mit Standardversorgung bei adipösen Kindern (6–12 Jahre); Primäre Ergebnis: BMI z-Score und Übergewichts-/Adipositasprävalenz nach 3 und 12 Monaten; sekundär: elterliche Fütterungspraktiken, körperliche Aktivität und Implementierungstreue.",
-    result:"Studienprotokoll; Ergebnisse noch ausstehend. Erwartung: Effektivitäts- und Implementierungsdaten werden die Skalierbarkeit des integrierten Modells (Schulprogramm + Primärversorgung) informieren.",
-    transfer:"Schweden, vergleichbar strukturiertes Gesundheitssystem mit schulischer Gesundheitsüberwachung"
+    journal:"PLoS Med", year:"2026", pmid:"42776991",
+    author:"Olalere O et al.", pubdate:"23.09.2026",
+    added:"23.09.2026",
+    title:"Lebensstiländerungen erhöhen regelmäßige Menstruation bei PCOS um 303%, senken Glucose und Insulin",
+    sum:"Systematische Übersicht und Metaanalyse von 34 RCTs mit 1.871 Frauen zum Vergleich von Lebensstiländerungen versus minimale oder keine Behandlung bei Polyendokrinem Metabolischem Ovarialsyndrom (PMOS).",
+    result:"Frauen mit Lebensstiländerungen zeigten höhere Chancen für regelmäßige Menstruationszyklen (OR 4,03, 95% CI 1,16–14,05). Reduktion der Taillenumfang (MD −2,38 cm, 95% CI −4,68 bis −0,08), Nüchternglukose (MD −0,13 mmol/L, 95% CI −0,25 bis −0,02) und Nüchterninsulin (MD −6,08 mU/L, 95% CI −9,86 bis −2,30) gegenüber Kontrollgruppe. Diät wirkte am stärksten auf Glukose, Bewegung auf Taillenumfang und Nüchterninsulin. Effekte größer bei Übergewicht/Adipositas.",
+    transfer:"Internationale, gut übertragbar auf deutsches Gesundheitssystem"
   },
   {
-    journal:"BMC Public Health", year:"2026", pmid:"42768347",
-    author:"Berdman I et al.", pubdate:"21.09.2026",
-    added:"22.09.2026",
-    title:"Antipsychotika bei Kindern: Metabolische Nebenwirkungen besonders bei Mädchen – schwedische Registeranalyse",
-    sum:"Register-Kohortenstudie (N=5.441 Kinder, 5–17 Jahre) zu metabolischen Nebenwirkungen (Adipositas, Glukosestoffwechselstörungen) unter neuem Antipsychotika-Einsatz 2014–2021; Cox-Modelle für Hazard Ratios nach Geschlecht und Substanz.",
-    result:"7,3% (399/5.441) entwickelten metabolische Nebenwirkungen, 69% davon Adipositas. Bei Mädchen erhöhte Risiken für Aripiprazol (HR 3,52; 95%-KI 1,58–7,80), Olanzapin (6,99; 2,34–20,93) und Quetiapin (4,87; 1,97–12,04) vs. Risperidon. Bei Jungen erhöhtes Risiko nur für Aripiprazol (HR 2,21; 1,37–3,56). Jüngere Mädchen besonders betroffen.",
-    transfer:"Schweden; übertragbar auf deutsches Versorgungssystem für Versorgungsrisiken psychopharmakologischer Therapie bei Kindern"
+    journal:"Z Gastroenterol", year:"2026", pmid:"42777698",
+    author:"Tuffs C et al.", pubdate:"23.09.2026",
+    added:"23.09.2026",
+    title:"Adipositaschirurgie bei MASLD: Fibroseregression und Reduktion von HCC-Inzidenz belegt",
+    sum:"Narrative Übersichtsarbeit zur metabolischen und bariatrischen Chirurgie (MBS) bei metabolischer Dysfunktion-assoziierter steatotischer Lebererkrankung (MASLD): Synthese von Evidenz zu klinischen Outcomes, Wirksamkeit und Mechanismen mit Fokus auf Folgeerkrankungen.",
+    result:"Histologie-basierte Studien zeigen MASLD-Remission und relevante Fibroseregression nach MBS mit anhaltenden Effekten. Vergleichende Studien belegen Überlegenheit gegenüber Lebensstilintervention und konservativer Therapie; direkte Vergleiche mit modernen Medikamenten (z. B. GLP-1-Agonisten) sind begrenzt. Neue Erkenntnisse deuten auf weniger Leberkomplikationen und niedrigere HCC-Inzidenz nach MBS hin. MBS wirkt nicht nur durch Gewichtsverlust, sondern durch multiple metabolische Effekte (Hepatische Lipidmetabolismus, Mitochondrienfunktion, Glukosemetabolismus, Inkretin- und Gallensäure-Signaling, Adipokinobiologie, Gut-Leber-Achse).",
+    transfer:"Deutschland, Universitätsklinik Gießen, Adipositaschirurgie Regelversorgung, Kostenübernahme durch Einzelfallprüfung"
   },
   {
-    journal:"Pediatr Obes", year:"2026", pmid:"42770536",
-    author:"Saelens BE et al.", pubdate:"Sept. 2026",
-    added:"22.09.2026",
-    title:"Konsistente moderate Gewichtsabnahme bei Kindern prognostiziert langfristige Therapieerfolge besser als rapide Abnahme",
-    sum:"Latenklassen-Analyse (N=294 Kinder, 7–11 Jahre) mit BMI-Verlauf während und nach Adipositasbehandlung (Verhaltensintervention); Identifikation von drei Gewichtsverlauf-Mustern und deren Vorhersage für BMI z-Score nach 1-Jahres-Nachverfolgung.",
-    result:"Drei Klassen: schnelle Abnahme dann stabil (6%), konsistent moderate Abnahme (43%), moderate abnehmend (51%). Konsistent moderate Gewichtsabnahme zeigte stabilste Ergebnisse im Follow-up (BMI z-Score-Anstieg minimal vs. Anstieg in anderen Gruppen, p=0,017). Rapide initial Gewichtsabnahme nicht mit besseren Langzeitergebnissen assoziiert.",
-    transfer:"USA, generalisierbar für verhaltensbasierte Interventionen in Kinder-Adipositasprogrammen"
+    journal:"Front Public Health", year:"2026", pmid:"42774859",
+    author:"Chandiok K et al.", pubdate:"08.09.2026",
+    added:"23.09.2026",
+    title:"Multikomponentige Interventionen senken Übergewicht bei Kindern wirksamer als Einzelmaßnahmen",
+    sum:"Rapid Review von 77 systematischen Übersichten zu Präventions- und Managementinterventionen bei Übergewicht und Adipositas im Kindes- und Jugendalter.",
+    result:"Multikomponentige Interventionen, die Ernährung, Bewegung und Verhaltensstrategien kombinieren, zeigten die konsistenteste Wirksamkeit bei Verbesserung anthropometrischer Outcomes. Familieneinbeziehung, schulische Durchführung und frühzeitige Intervention in der Kindheit erhöhten die Effektivität. Einzelkomponentige Interventionen zeigten begrenzte oder gemischte Effekte. Die meisten eingeschlossenen Reviews hatten niedriger bis kritisch niedriger methodischer Qualität.",
+    transfer:"Internationale Evidenz; Implementierbarkeit in deutschen Schulen und Kitas unklar"
   },
   {
-    journal:"Cancer Med", year:"2026", pmid:"42760794",
-    author:"Otto SD et al.", pubdate:"Sept. 2026",
-    added:"19.09.2026",
-    title:"Höherer BMI mit besserer Tumorregression bei Ösophaguskarzinom – Paradox aus deutschem Registeranalyse",
-    sum:"Prospektive Registeranalyse (DGAV, N=647 Patienten mit Ösophaguskarzinom) zur Assoziation zwischen BMI und histopathologischem Tumorreggressionsgrad nach neoadjuvanter Therapie; Hazard Ratios adjustiert für klinische und Tumorcharakteristika.",
-    result:"Unerwartet: höherer BMI mit vermindertem Risiko für höhere Becker-Grade (≥2: OR 0,97 per BMI-Einheit, p=0,04; ≥3: OR 0,93, p&lt;0,001). Keine Assoziation für Übergang zu Grad ≥1b. Autoren deuten auf unterschiedliche Tumorkobiologie hin, warnen aber vor Kausalitätsinterpretation.",
-    transfer:"Deutsche Klinikdaten (DGAV-Register); hohe Übertragbarkeit auf deutsches Gesundheitssystem"
+    journal:"BMC Psychol", year:"2026", pmid:"42773484",
+    author:"Kurt AK et al.", pubdate:"26.08.2026",
+    added:"23.09.2026",
+    title:"Adipositas als verkörperter und sozialer Burden: Qualitative Analyse von 23 Patienten mit realistischer Körperwahrnehmung",
+    sum:"Qualitative interpretivist Studie mit 23 Erwachsenen einer Adipositasambulanz (Mai–August 2025) mit realistischer Körperwahrnehmung (Konkordanz zwischen gemessenem BMI und ausgewählter Silhouette), mittels 20–30 min Interviews und Thematischer Analyse nach Braun &amp; Clarke.",
+    result:"Vier übergeordnete Themen: (1) Gesundheit, Funktionsfähigkeit und tägliches Leben (Adipositas als durchdringende Belastung, die alltägliche Aktivitäten einschränkt); (2) Körperbild und emotionale Erfahrung (emotional belastend durch negative Körperwahrnehmung und soziale Stigmatisierung); (3) Erklärungsmodelle und wahrgenommene Ursachen (multifaktoriale Narrative: Lebensstil, Stress, Biologie/Medikation, Haushaltsroutinen, Food Environment); (4) Kampf um Veränderung und Lösungssuche (wiederholte Zyklen von Versuchen, Plateaus und Wiederzunahme, starker Wunsch nach professioneller Unterstützung).",
+    transfer:"Türkei, urbaner klinischer Kontext, grundlegende Mechanismen der Versorgung"
   },
   {
-    journal:"J Health Care Poor Underserved", year:"2026", pmid:"42766517",
-    author:"Deas C et al.", pubdate:"2026",
-    added:"21.09.2026",
-    title:"GLP-1-Rezeptoragonisten (Dulaglutid, Semaglutid) senken HbA1c und Gewicht in afroamerikanischer Bevölkerung",
-    sum:"Retrospektive Kohortenstudie (N=91 Patienten, 85,7% afroamerikanisch) zu realen Effekten von Dulaglutid und Semaglutid auf HbA1c und Gewicht über durchschnittlich 14,9 Monate; Vergleich von Dosisgruppen.",
-    result:"HbA1c-Reduktion um 2,39% (p&lt;0,001); Gewichtsabnahme 4,76 kg (p&lt;0,001). Hochdosis-Dulaglutid signifikant stärkere HbA1c-Senkung als Niedrigdosis (p=0,023). Ergebnis dokumentiert Wirksamkeit in unterrepräsentierter Population, aber ohne Vergleichsgruppe und ohne Daten zu Folgeerkrankungen.",
-    transfer:"USA; Übertragbarkeit zu Wirksamkeit begrenzt – in Deutschland Paragraf 34 SGB V schließt GLP-1 von Kostenübernahme aus"
+    journal:"Clin Nutr ESPEN", year:"2026", pmid:"42586481",
+    author:"Alwali A et al.", pubdate:"12.08.2026",
+    added:"12.08.2026",
+    title:"Orale und Darm-Mikrobiota vor Adipositaschirurgie vorhersagen Gewichtsverlust nach Operation",
+    sum:"Pilotstudie mit 33 Patienten unter bariatrischer Chirurgie: Erfassung von Stuhlfauna, oralem Mikrobiom, Serum und Fettgewebe präoperativ und 6 Monate postoperativ mit 16S-rRNA-Sequenzierung zur Vorhersage des Überschussgewichtsverlusts (EWL).",
+    result:"Höhere Diversität der oralen Mikrobiota präoperativ war mit stärkerem postoperativem EWL assoziiert. Stuhlfauna-Diversität stieg nach OP und korrelierte mit EWL. Erhöhte postoperative Häufigkeit von Alistipes bei besten EWL-Ergebnissen. Veillonella im Mund präoperativ positiv mit Response assoziiert. Bakterielle Profile in subkutanem Fett (nicht viszeral, nicht Serum) zeigten Assoziation mit EWL (R²=0,097, p=0,006) und BMI (R²=0,055, p=0,017).",
+    transfer:"Deutschland, schleswig-holsteinische Universitätskliniken, vergleichbare Versorgungsstrukturen"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1562,10 +1562,10 @@ const RADAR_FRISTEN = [[], [], ["2026-10-06", "2026-09-23", "2026-10-28", "2026-
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "23.09.2026";
+const NEWS_STAND = "24.09.2026";
 const NEWS = [
+  {titel:"Adipositas-Kongress 2026 in Potsdam eröffnet: DAG fordert Versorgungspfade", datum:"2026-09-23", url:"https://www.monitor-versorgungsforschung.de/news/adipositas-kongress-2026-in-potsdam-eroeffnet-dag-fordert-versorgungspfade/"},
   {titel:"Orale Adipositastherapie für Selbstzahler: GreenMedical erweitert Angebot", datum:"2026-09-01", url:"https://www.monitor-versorgungsforschung.de/news/orale-adipositastherapie-fuer-selbstzahler-greenmedical-erweitert-angebot/"},
-  {titel:"Meilenstein in der Adipositastherapie: Wegovy® Tablette erhält EU-Zulassung", datum:"2026-08-11", url:"https://www.monitor-versorgungsforschung.de/news/meilenstein-in-der-adipositastherapie-wegovy-tablette-erhaelt-eu-zulassung/"},
 ];
 // === NEWS-BLOCK-ENDE ===
 

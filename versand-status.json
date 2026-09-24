@@ -1,33 +1,34 @@
 {
  "hub": "Knowledge-Hub Adipositas",
  "domain": "adipositas.m-vf.de",
- "datum": "2026-09-23",
+ "datum": "2026-09-24",
  "stand": "terminiert",
- "titel": "MVF Adipositas-Newsletter 23.09.2026",
- "betreff": "Neueste Studien - Adipositas – 23. September 2026",
- "anzahl": 5,
+ "titel": "MVF Adipositas-Newsletter 24.09.2026",
+ "betreff": "Neueste Studien - Adipositas – 24. September 2026",
+ "anzahl": 6,
  "pmids": [
-  "42772870",
-  "42770536",
-  "42768347",
-  "42766517",
-  "42760794"
+  "42778259",
+  "42777698",
+  "42776991",
+  "42774859",
+  "42773484",
+  "42586481"
  ],
- "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9099046",
- "termin_utc": "2026-09-23T08:00:00+00:00",
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9099059",
+ "termin_utc": "2026-09-24T08:00:00+00:00",
  "empfaenger": 7,
- "listengroesse": 5896,
+ "listengroesse": 5898,
  "beanstandungen": [],
  "aussortiert": [],
  "pool": {
   "geholt": 220,
-  "bekannt": 141,
-  "pool": 35,
+  "bekannt": 146,
+  "pool": 36,
   "gewaehlt": 6,
-  "neu": 5
+  "neu": 6
  },
  "rubriken": {
   "radar": "223d2a2771e23a26",
-  "news": "8869428c282bea3b"
+  "news": "aabef96e9dda4aa8"
  }
 }
