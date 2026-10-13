@@ -1882,17 +1882,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "12. Okt. 2026, 06:02 Uhr";
+const SNAP_DATE = "13. Okt. 2026, 06:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Psychiatr Pol", year:"2026", pmid:"42857933",
+    journal:"Ann Surg", year:"2026", pmid:"42832388",
+    author:"Robin F et al.", pubdate:"01.11.2026",
+    added:"05.10.2026",
+    title:"Magenverweilstörung nach Pankreatoduodenektomie: Zwei Anastomose-Techniken zeigen keinen Unterschied",
+    sum:"Randomisierte kontrolierte Studie an 2 französischen Hochvolumen-Zentren mit 158 Patienten (79 pro Gruppe), die zwei Techniken der Magenverweilstörung nach Pankreatoduodenektomie verglichen.",
+    result:"Magenverweilstörung (DGE) trat bei 38,0% nach side-to-side und 30,4% nach end-to-side Technik auf (RR 1,25; 95%-KI 0,81–1,94; p=0,314). Sekundäre Endpunkte (Fistelrate, Reinvasionen, Mortalität, Lebensqualität nach GIQLI) unterschieden sich nicht signifikant zwischen Gruppen. Ernährungsparameter und Lebensqualität waren vergleichbar.",
+    transfer:"Frankreich, vergleichbares Gesundheitssystem, hochspezialisierte chirurgische Versorgung"
+  },
+  {
+    journal:"Front Public Health", year:"2026", pmid:"42856522",
+    author:"Morsy B et al.", pubdate:"25.09.2026",
+    added:"10.10.2026",
+    title:"Gewichtsmanagement in der Schwangerschaft: Minderheitenangehörige Frauen in UK erhalten keine kulturgerechte Unterstützung",
+    sum:"Scoping Review zur Gewichtskontrolle in der Schwangerschaft bei ethnischen Minderheiten im UK: Nur 3 Studien mit 1.741 Teilnehmerinnen gefunden, alle ohne kulturelle Anpassung und mit unzureichenden ethnischen Untergruppen-Analysen.",
+    result:"Von 3 eingeschlossenen Studien (2016–2025) zeigten alle unzureichende kulturelle Anpassung und fragmentierte ethnisch stratifizierte Datenberichte. Minderheitenangehörige Frauen zeigten niedrigere Beteiligung; keine Studie konnte nachweisen, ob Interventionen ethnische Unterschiede in Gestationsdiabetes-Ergebnissen reduzierten. Die Evidenzlücke zu kulturgerechten Programmen ist erheblich.",
+    transfer:"Vereinigtes Königreich, vergleichbares Sozialversicherungssystem, relevante Equity-Fragestellung"
+  },
+  {
+    journal:"J Am Heart Assoc", year:"2026", pmid:"42786622",
+    author:"Borrowman JD et al.", pubdate:"06.10.2026",
+    added:"25.09.2026",
+    title:"Frühe Menarche und Menopause: Taillenumfang mediiert kardiovaskuläres Risiko bei postmenopausalen Frauen",
+    sum:"Prospektive Kohortenstudie mit 119.182 postmenopausalen Frauen aus WHI (Oktober 1993–Januar 2025 Follow-up); Untersuchung von Reproduktionsmerkmalen und abdominaler Adipositas als Mediatoren des CVD-Risikos.",
+    result:"Über Median 12,8 Jahre traten 12.731 kardiovaskuläre Ereignisse auf (Rate 10,4/1.000 Personenjahre). Frühe Menarche (HR 1,07; 95%-KI 1,01–1,15), frühe Menopause (HR 1,22; 95%-KI 1,11–1,35) und kurze Reproduktionslifespan (HR 1,21; 95%-KI 1,13–1,29) waren mit CVD assoziiert. Taillenumfang war signifikanter Mediator aller drei Assoziationen. Diese Befunde zeigen, dass abdominale Adipositas einen wesentlichen Pfad zwischen Reproduktionsfaktoren und kardiovaskulärem Risiko darstellt.",
+    transfer:"USA, aber Fragestellung und Medations-Befunde sind universell übertragbar"
+  },
+  {
+    journal:"Psychiatr Pol", year:"2026", pmid:"42857934",
     author:"Wichniak A et al.", pubdate:"30.08.2026",
     added:"10.10.2026",
-    title:"Antipsychotika: Strukturierte Prävention metabolischer Störungen senkt Adipositas-Risiko",
-    sum:"Polnische Leitlinien für die Prävention von Adipositas und metabolischen Störungen bei Patienten unter Antipsychotika, basierend auf Expertise und Literatur.",
-    result:"Sieben empfohlene Präventionsmaßnahmen: Ernährungsberatung, regelmäßige Bewegung, Mahlzeitenplanung, Achtsamkeit, Selbsthilfgruppen und Fortschrittsmonitoring. Bei hohem Risiko werden pharmakologische Interventionen (Teil 2) empfohlen. Psychiater sollten aktiv zur Prävention beitragen.",
-    transfer:"Polen, strukturiertes Präventionssystem, übertragbar auf deutschsprachige Länder mit ähnlichem Versorgungsauftrag"
+    title:"Antipsychotika und Adipositas: Strukturierte Diagnostik und Metformin in der psychiatrischen Praxis",
+    sum:"Klinische Handlungsempfehlungen der Polnischen Psychiatrischen Gesellschaft zu Prävention metabolischer Störungen bei Patienten unter Antipsychotika mit konkretisierten Überwachungsintervallen und Therapieempfehlungen.",
+    result:"Cardiometabolische Risikoerfassung (Gewicht, Taillenumfang, Blutdruck, Blutzucker, HbA1c, Lipidprofil) vor Therapiestart, dann in Woche 6, 12 und dann jährlich empfohlen. Bei Gewichtszunahme und Risikofaktoren: Metformin 1.000–2.000 mg/Tag als beste dokumentierte, sichere und kostengünstige Präventionsmethode; Adipöse Patienten sollten eine wirksame Pharmakotherapie nach aktuellen Leitlinien erhalten.",
+    transfer:"Polen, europäisches Versicherungssystem, psychiatrische Standardversorgung"
+  },
+  {
+    journal:"Nutrients", year:"2026", pmid:"42738972",
+    author:"Xenos K et al.", pubdate:"27.08.2026",
+    added:"15.09.2026",
+    title:"Berberin-Kombipräparat: Geringe Verbesserung von Insulinsensitivität und Körperfettmasse über 12 Wochen",
+    sum:"Randomisierte kontrollierte 12-Wochen-Studie mit 93 griechischen Erwachsenen mit Adipositas; Kombination von Berberin (1.000 mg), Maulbeerbaum-Extrakt (400 mg) und Chrom-Pikotinat (0,644 mg) versus Placebo.",
+    result:"Aktive Gruppe vs. Placebo zeigte signifikante Reduktion: BMI −1,24 kg/m² (95%-KI −2,15 bis −0,33), Gesamtkörperfett −2,35 kg (95%-KI −4,12 bis −0,58), viszerales Fett −0,92 Einheiten (95%-KI −1,74 bis −0,10). Insulinsensitivität verbesserte sich um 28% stärker in der aktiven Gruppe (geometrisches Mittel-Ratio 1,28; 95%-KI 1,14–1,44). Einzelkomponenten-Beiträge ungeklärt.",
+    transfer:"Griechenland, europäisches System, aber geringe Effektstärke und kurze Dauer"
+  },
+  {
+    journal:"Can Respir J", year:"2026", pmid:"42861515",
+    author:"Li J et al.", pubdate:"2026",
+    added:"12.10.2026",
+    title:"CPAP bei Schlafapnoe und Adipositas: Pulmonalarteriendruck sinkt, aber Herzstruktur bleibt unverändert",
+    sum:"Systematischer Review und Metaanalyse von 8 Studien (2 RCTs, 6 Kohorten, 574 Patienten) zur Wirkung von CPAP auf pulmonale Hämodynamik und linksventrikuläre Funktion bei OSA/OHS.",
+    result:"CPAP reduzierte signifikant den Pulmonalarteriendruck (MD −2,32 mmHg; 95%-KI −3,88 bis −0,76; p=0,004) und verbesserte die diastolische Funktion (E/A-Ratio MD +0,29; 95%-KI +0,09 bis +0,48; p=0,004). Keine signifikanten Effekte auf linksventrikuläre Masse (p=0,27) oder Ejektionsfraktion (p=0,61). Befunde waren robust in Sensitivitätsanalysen.",
+    transfer:"China, aber Systematik und Endergebnisse sind behandlungsunabhängig übertragbar"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1908,7 +1953,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-12-31"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "12.10.2026";
+const NEWS_STAND = "13.10.2026";
 const NEWS = [
   {titel:"Zugang zu Diabetes- und Adipositasmedikamenten weltweit: Lilly-Zusage bis 2040", datum:"2026-10-05", url:"https://www.monitor-versorgungsforschung.de/news/zugang-zu-diabetes-und-adipositasmedikamenten-weltweit-lilly-zusage-bis-2040/"},
   {titel:"Orale Adipositastherapie für Selbstzahler: GreenMedical erweitert Angebot", datum:"2026-09-01", url:"https://www.monitor-versorgungsforschung.de/news/orale-adipositastherapie-fuer-selbstzahler-greenmedical-erweitert-angebot/"},
