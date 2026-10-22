@@ -1882,62 +1882,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "21. Okt. 2026, 06:24 Uhr";
+const SNAP_DATE = "22. Okt. 2026, 06:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Endocrine", year:"2026", pmid:"42891873",
-    author:"Mohebi A et al.", pubdate:"17.10.2026",
+    journal:"Front Endocrinol (Lausanne)", year:"2026", pmid:"42898660",
+    author:"Chaturvedi R et al.", pubdate:"05.10.2026",
+    added:"20.10.2026",
+    title:"GLP-1 und plastische Chirurgie: Perioperatives Timing und Muskelverlust erfordern multidisziplinäres Protokoll",
+    sum:"Narrative Übersicht über GLP-1-Rezeptoragonisten und Dualagonisten im Kontext ästhetisch-plastischer Eingriffe; Fokus auf perioperative Sicherheit, Körperzusammensetzung, Magerkörpermasse-Verlust und Wiederzunahme nach Absetzen.",
+    result:"GLP-1 RAs führen zu zweistelligen prozentualen Gewichtsverlusten, erweitern chirurgische Operabilität, erzeugen aber neue Hauterschlaffung und Volumenverlust; verzögerte Magenmotorik mit Aspirationsrisiko, Magen-Darm-Nebenwirkungen bei Dosiseskalation, Magerkörpermasse-Verlust und Malnutrition bei supprimiertem Appetit, häufige Wiederzunahme nach Absetzen gefährden chirurgische Haltbarkeit. Empfehlung: multidisziplinärer Algorithmus (Endokrinologe–Chirurg–Anästhesist) zur risikogesteuerten Operationstiming und Ernährungsoptimierung.",
+    transfer:"Indien, aber GLP-1-Versorgung in Deutschland nach §34 SGB V ausgeschlossen; Protokoll nur bei privat bezahlten Patienten relevant."
+  },
+  {
+    journal:"Front Endocrinol (Lausanne)", year:"2026", pmid:"42890523",
+    author:"Rasool ZK et al.", pubdate:"02.10.2026",
+    added:"17.10.2026",
+    title:"CagriSema gegen Semaglutid: 6,9 % zusätzlicher Gewichtsverlust, höhere Injektionsreaktionen",
+    sum:"Systematische Übersicht und Metaanalyse von 5 RCTs (n=4.746) zur Doppelwirkstoff-Fixkombination CagriSema (Cagrilintid+Semaglutid) versus Semaglutid 2,4 mg Monotherapie bei Übergewicht/Adipositas mit und ohne Typ-2-Diabetes.",
+    result:"CagriSema versus Semaglutid 2,4 mg: mittlere Differenz Gewichtsverlust -6,89 Prozentpunkte (95%-KI -8,70 bis -5,06), absolute Reduktion -7,16 kg (95%-KI -9,15 bis -5,17), BMI-Reduktion -2,41 kg/m² (95%-KI -2,83 bis -1,99). Verdoppelte Wahrscheinlichkeit 20%-Gewichtsverlust (RR 2,10). Injektionsreaktionen 3,14× häufiger (95%-KI 1,42–6,96). Gastrointestinale Nebenwirkungen nicht signifikant erhöht. Kein zusätzlicher glykämischer Nutzen.",
+    transfer:"USA und Internationales; Erstattung in Deutschland für GLP-1 RA ausgeschlossen nach §34 SGB V, Kombinationspräparate ebenfalls nicht erstattet."
+  },
+  {
+    journal:"Soc Sci Med", year:"2026", pmid:"42828830",
+    author:"Katz A", pubdate:"04.09.2026",
+    added:"03.10.2026",
+    title:"Adipositas senkt Beschäftigungsquote: Mendelsche Randomisierung zeigt kausalen Effekt",
+    sum:"Mendelsche Randomisierung mit genetischem Risikoscore für BMI in UK-Biobank-Daten zur Analyse des kausalen Effekts von Adipositas auf Beschäftigungschancen, differenziert nach Geschlecht und sozioökonomischen Faktoren.",
+    result:"Adipositas hatte einen signifikant negativen kausalen Effekt auf Beschäftigung über alle Analysemethoden hinweg. Frauen zeigten in linearen Modellen stärkere Beschäftigungseinbußen, während Person-Centered-Treatment-Effects-Analysen ein gegensätzliches Muster offenbarten. Die Befunde unterstreichen die wirtschaftliche Krankheitslast von Adipositas jenseits der medizinischen Dimension.",
+    transfer:"UK Biobank mit genetischen und Erwerbsdaten; Übertragbarkeit auf DACH-Länder hoch bei vergleichbarer Arbeitsmärkte."
+  },
+  {
+    journal:"Panminerva Med", year:"2026", pmid:"42895045",
+    author:"Belcaro G et al.", pubdate:"Sept. 2026",
+    added:"19.10.2026",
+    title:"Phytodiab bei Typ-2-Diabetes und Metabolischem Syndrom: Gewicht und HbA1c sanken über 12 Wochen",
+    sum:"12-Wochen-Beobachtungsregistry bei 60 Erwachsenen mit leicht-mäßigem Typ-2-Diabetes, Übergewicht, ohne Komplikationen und ohne Pharmakotherapie; Vergleich Phytodiab-Extrakt (n=30) plus Lebensstilmaßnahmen versus Lebensstilmaßnahmen allein (n=30).",
+    result:"Phytodiab plus Lebensstilmaßnahmen gegenüber alleinigen Maßnahmen (p&lt;0,05): Gewichtsreduktion, Fettmassereduktion, Nüchternglukose, HbA1c und oxidativer Stress alle signifikant reduziert. Hohe Compliance (96%), keine Toleranzprobleme, Routinelaborparameter normal. Vorläufige Befunde für weitere kontrollierte Studien in größeren Populationen.",
+    transfer:"Italien, offenes Design; Phytopharmaka-Effekte regional variabel; Übertragbarkeit begrenzt auf deutschsprachige Naturprodukt-regulierung."
+  },
+  {
+    journal:"BMC Womens Health", year:"2026", pmid:"42902247",
+    author:"Baidya S et al.", pubdate:"25.07.2026",
+    added:"21.10.2026",
+    title:"PCOS und Metabolisches Syndrom: Prävalenz 81,4% statt 30% bei Kontrollen, LAP-Score sensitivste Marke",
+    sum:"Querschnittstudie 70 PCOS- und 60 Kontrollpatientinnen zur Bestimmung atherogenisierender Lipidindizes und Metabolisches-Syndrom-Prävalenz mittels Labor- und anthropometrischen Messungen.",
+    result:"PCOS-Gruppe versus Kontrollen: höhere atherogenisierende Lipidindizes (CRI-I, CRI-II, AIP, AC, LCI, LAP). Metabolisches-Syndrom-Prävalenz PCOS 81,4% (n=57) versus Kontrollen 30% (n=18). LAP-Score effizientester Indikator für Metabolisches Syndrom bei PCOS mit AUC 0,829 (p&lt;0,001), Sensitivität 80%, Spezifität 94,5%.",
+    transfer:"Nepal, aber PCOS-Adipositas-Metabolismus weltweit vergleichbar; LAP-Score als Screening-Tool auf DACH-Ebene prüfenswert."
+  },
+  {
+    journal:"BMC Cardiovasc Disord", year:"2026", pmid:"42902148",
+    author:"Cheng Y et al.", pubdate:"24.07.2026",
+    added:"21.10.2026",
+    title:"Viszerale Adipositas erhöht Kardiometabolisches Risiko auch bei Normalgewicht",
+    sum:"Longitudinale Kohortenstudie mit 5.606 Erwachsenen (Normalgewicht, BMI 18–24) aus Gesundheitschecks in China; Follow-up 1,98 Jahre auf Kardiometabolische Ereignisse stratifiziert nach viszeraler Fettverteilung.",
+    result:"Normalgewicht mit zentraler Adipositas (viszerale Fettansammlung) zeigte erhöhtes Risiko für kardiometabolische Störungen: Hazard Ratio 1,39 (95%-KI 1,13–1,71) gegenüber Normalgewicht ohne zentrale Adipositas. Ähnliche Risikoerhöhungen für Hypertonie, Diabetes und Hyperlipidämie. Abdominalfettverteilung ist auch bei normaler BMI ein Risikofaktor.",
+    transfer:"China, ambulante Routineuntersuchungen; gilt für Gesundheitssysteme mit Prävention durch Leistungserbringer wie Deutschland."
+  },
+  {
+    journal:"Transl Psychiatry", year:"2026", pmid:"42893989",
+    author:"Huang C et al.", pubdate:"23.07.2026",
     added:"18.10.2026",
-    title:"Metabolisches Syndrom in der Frühschwangerschaft verschärft Blutdruckveränderungen",
-    sum:"Australische Studie an 264 Schwangeren vor 16 Wochen zur Prävalenz von metabolischem Syndrom (MetS) und dessen hämodynamischen Auswirkungen in sozioökonomisch belasteten Populationen.",
-    result:"MetS-Prävalenz: 15,1 %. Frauen mit MetS hatten signifikant höheren zentralen systolischen Blutdruck (cSBP), zentrale mittlere arterielle Drücke (cMAP) und Pulsrate. Nach Adjustierung für BMI und Mehrfachtestung blieben cSBP, cMAP und Pulsrate unabhängig mit MetS assoziiert (alle p &lt; 0,05). Adipositas trug zu diesen Veränderungen bei.",
-    transfer:"Australien, aber internationale Geburtskohorte, systemische Evidenz für frühe Erkennung kardiometabolischer Risiken"
-  },
-  {
-    journal:"Int J Popul Data Sci", year:"2026", pmid:"42899118",
-    author:"Issayeva Z et al.", pubdate:"29.09.2026",
-    added:"20.10.2026",
-    title:"Bildung, nicht Einkommen, ist stärkster Adipositas-Prädiktor im Lebensverlauf",
-    sum:"Südkoreanische Querschnittstudie an 12.075 Erwachsenen (KNHANES 2022–2024) zur Assoziation von Sozioökonomischem Status (Bildung, Einkommen, Erwerbsstatus) mit Adipositas (BMI ≥ 25 kg/m²) mittels Lebenszyklusrahmen.",
-    result:"Niedrigere Schulbildung war der konsistenteste Prädiktor für Adipositas; Einkommen und Erwerbsstatus zeigten nach Adjustierung heterogenere Assoziationen. Die Befunde stützen die Lebensverlauf-Perspektive, wonach kumulative sozioökonomische Bedingungen und strukturelle Zwänge das Adipositas-Risiko prägen.",
-    transfer:"Asienische Vergleichspopulation, aber robuste Methodik mit nationalen Populationsdaten, Erkenntnisse zu Ungleichheit übertragbar"
-  },
-  {
-    journal:"Rev Med Chil", year:"2026", pmid:"42899606",
-    author:"Estica M et al.", pubdate:"Aug. 2026",
-    added:"20.10.2026",
-    title:"Semaglutide in chilenischem Gesundheitssystem: HbA1c von 8,6 auf 7 %, 31 % sparten Insulindosen",
-    sum:"Chilenische Phase-IV-Multicenterstudie an 104 Patienten mit Typ-2-Diabetes (79,8 % Frauen, 44,2 % über 60 Jahre) zur Wirksamkeit und Sicherheit von wöchentlichem Semaglutid 0,5 oder 1 mg über 24 Wochen in der öffentlichen Gesundheitsversorgung.",
-    result:"HbA1c sank von 8,6 ± 0,7 % auf 7,0 ± 1,0 % (Differenz -1,6 %), Nüchternglukose von 160,3 ± 49,3 auf 133,7 ± 54,8 mg/dL (Differenz -26,2 mg/dL), Körpergewicht von 89,3 ± 20,2 auf 85,3 ± 20,4 kg (Differenz -4 kg). 56,4 % erreichten HbA1c &lt; 7 % (vs. 0 % zu Studienbeginn). 31 % der mit Basalinsulin behandelten Patienten reduzieren Insulindosen (Median -6 IE). Gastrointestinale Nebenwirkungen entsprechend bekanntem Sicherheitsprofil.",
-    transfer:"Lateinamerika, aber öffentliches Versicherungssystem, erste Realdaten aus Nicht-USA-Gesundheitssystem"
-  },
-  {
-    journal:"BMC Public Health", year:"2026", pmid:"42897504",
-    author:"Bay JL et al.", pubdate:"24.07.2026",
-    added:"20.10.2026",
-    title:"Adipositas bei Inselteenagern 2023: 37,6 % übergewichtig oder adipös – und wenig Vorsorge",
-    sum:"Mehrjährige Querschnittstudie der Cook Islands an Schülern der 9. Klasse (2016–2019, 2022–2023; n = 783) zur Prävalenz von Stoffwechsel-Risikofaktoren und metabolischem Syndrom bei Jugendlichen (Medianalter 13,8 Jahre).",
-    result:"Prävalenzen: 22,1 % Übergewicht, 37,6 % Adipositas, 39,1 % erhöhtes Waist-to-Height-Ratio (&gt;0,5), 9,4 % hoher Blutdruck, 8,1 % erhöhtes Gesamtcholesterin, 37,1 % erhöhte Nüchternglukose. Bei verfügbaren Vollmessungen (n = 261) hatten 27,6 % der adipösen Kinder ≥2 Risikofaktoren. Starke Korrelationen zwischen BMI-for-Age und Waist-to-Height-Ratio (χ² p &lt; 0,001).",
-    transfer:"Pazifisches Inselland, kleine Population, aber epidemiologisch extrem relevant für frühe Prävention"
-  },
-  {
-    journal:"Cardiovasc Diabetol", year:"2026", pmid:"42897624",
-    author:"Jensen MS et al.", pubdate:"23.07.2026",
-    added:"20.10.2026",
-    title:"Herzfettkörper und Entzündungsmarker bei Typ-2-Diabetes: Woran Komplikationen hängen",
-    sum:"Dänische Querschnittstudie an 887 Personen mit Typ-2-Diabetes ohne klinische Herzkrankheit zur Assoziation von perikardialem Fettvolumen mit koronarer Verkalkung, myokardialer Mikrozirkulation und systemischer Entzündung (hsCRP).",
-    result:"Perikardiales Fettvolumen war nach Adjustierung für kardiovaskuläre Risikofaktoren nicht unabhängig mit koronarer Verkalkung oder Mikrozirkulationsstörung assoziiert, aber mit 14 % höherem hsCRP pro 100 mL Mehrvolumen (95 % CI 4–25 %; p = 0,005). Damit zeigt sich eine Assoziation mit systemischer Entzündung, nicht aber mit strukturellen Koronarveränderungen.",
-    transfer:"Dänische Klinikkohorte, europäisches Versicherungssystem, vergleichbare Diabetes-Versorgung"
-  },
-  {
-    journal:"J Obes", year:"2026", pmid:"42891917",
-    author:"Anunciação TAD et al.", pubdate:"2026",
-    added:"18.10.2026",
-    title:"Muskelschwäche plus Bauchfett senkt Lebensqualität bei Brustkrebs um messbare Grade",
-    sum:"Brasilianische Querschnittsstudie an 97 übergewichtigen oder adipösen Frauen vor elektiver Brust-Operation zur Assoziation von dynapenier Bauchfettsucht (BMI ≥ 30, Taillenumfang ≥ 88 cm, Handgriffstärke vermindert) mit Lebensqualität gemessen per FACT-B- und TOI-Skalen.",
-    result:"Dyanpäne Bauchfettsucht war unabhängig mit signifikant niedrigeren Lebensqualitäts-Scores assoziiert, auch nach Adjustierung für Alter, Einkommen, Bildung und körperliche Aktivität. Frauen mit niedriger Bildung, unregelmäßiger Aktivität, niedrigerem Einkommen und schwerer Adipositas zeigten verschlechterte FACT-B-, FACT-G- und Trial-Outcome-Index-Scores (alle p &lt; 0,05).",
-    transfer:"Brasilien, aber Symptom-Messung per validiertem internationalen Instrument, Evidenz für Patientenprioritäten"
+    title:"Esketamin-Anästhesie bei Adipositaschirurgie: weniger Schmerz, bessere Psyche",
+    sum:"Randomisierte Doppelblind-Studie (n=84, 88,1% Follow-up nach 3 Monaten) zur Esketamin-basierten opioidfreien Anästhesie versus Remifentanil bei laparoskopischer Sleeve-Gastrektomie, primäre Endpunkte postoperativer Schmerz (24 h) und psychische Gesundheit (3 Monate).",
+    result:"Esketamin-Gruppe: signifikant niedrigere postoperative Schmerzintensität (p&lt;0,01), reduzierte moderate-schwere Schmerzfälle (p&lt;0,05) in den ersten 24 h. Nach 3 Monaten bessere psychische Gesundheitsergebnisse; Nebenwirkungsrate nicht erhöht. Metaboliten zeigten therapeutische Kinetik. Esketamin verbesserte parallel physische und psychische Erholung nach Adipositaschirurgie.",
+    transfer:"China, aber opioidfreie Strategien sind Versorgungsstandard in Europa; Psyche-Outcome-Fokus auf DACH-Ebene relevant."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1953,7 +1962,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-12-31", "2027-01-07"],
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "21.10.2026";
+const NEWS_STAND = "22.10.2026";
 const NEWS = [
   {titel:"Zugang zu Diabetes- und Adipositasmedikamenten weltweit: Lilly-Zusage bis 2040", datum:"2026-10-05", url:"https://www.monitor-versorgungsforschung.de/news/zugang-zu-diabetes-und-adipositasmedikamenten-weltweit-lilly-zusage-bis-2040/"},
   {titel:"Orale Adipositastherapie für Selbstzahler: GreenMedical erweitert Angebot", datum:"2026-09-01", url:"https://www.monitor-versorgungsforschung.de/news/orale-adipositastherapie-fuer-selbstzahler-greenmedical-erweitert-angebot/"},
