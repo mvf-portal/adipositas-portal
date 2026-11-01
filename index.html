@@ -2177,62 +2177,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "31. Okt. 2026, 05:01 Uhr";
+const SNAP_DATE = "1. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"J Med Internet Res", year:"2026", pmid:"42962207",
-    author:"Zheng Y et al.", pubdate:"30.10.2026",
+    journal:"BMC Public Health", year:"2026", pmid:"42963567",
+    author:"Bittmann F", pubdate:"31.10.2026",
+    added:"31.10.2026",
+    title:"Faktoren für Gewichtszunahme: 12-Jahres-Kohortenstudie mit deutschen Daten",
+    sum:"Analyse von 8.209 Erwachsenen aus der National Educational Panel Study über 12 Jahre mit Fokus auf sozioökonomische, verhaltensbedingte und psychologische Faktoren für BMI und Gewichtsverlauf.",
+    result:"Höheres Einkommen (−0,16), Hochschulabschluss (−0,41), höhere Gewissenhaftigkeit (−0,64) und regelmäßige Sportausübung (−0,38) waren mit niedrigerem BMI assoziiert. BMI stieg im Durchschnitt um 0,08 Punkte pro Jahr, mit steilster Zunahme in den ersten drei Jahren. Frauen mit Hochschulabschluss zeigten langfristig günstigere Gewichtsverlauf. Rauchen war mit niedrigerem BMI assoziiert, wahrscheinlich teilweise durch Gewichtszunahme nach Rauchstopp bedingt.",
+    transfer:"Deutsche Klinikdaten aus etablierter Kohorte, direkte Übertragbarkeit auf deutsches System"
+  },
+  {
+    journal:"BMC Health Serv Res", year:"2026", pmid:"42963759",
+    author:"Fagerström M et al.", pubdate:"29.10.2026",
+    added:"31.10.2026",
+    title:"Digitale Adipositasprävention im Kindesalter: Organisationsbereitschaft bestimmt nicht Umsetzung",
+    sum:"Untersuchung, ob die Organisationsbereitschaft in 48 schwedischen Kinderklinikzentren die Adoption des digitalen Adipositas-Präventionsprogramms MINISTOP bei 83 Fachkräften nach 19 Wochen vorhersagt.",
+    result:"Keine statistisch signifikanten Assoziationen zwischen Organisationsbereitschafts-Dimensionen und tatsächlicher Adoption gefunden. Positive Schätzungen für Kollegenbereitschaft (IRR = 1,1, p = 0,05) und Arbeitsplatzveränderungen (IRR = 1,1, p = 0,08), aber nicht signifikant. Organisationsbereitschaft erwies sich als komplexes Konstrukt; die Komplexität der Implementierung überschreitet einfache Readiness-Messungen.",
+    transfer:"Schweden, ähnliches öffentliches Gesundheitssystem, Frage der Implementierungspraxis übertragbar"
+  },
+  {
+    journal:"Int J Chron Obstruct Pulmon Dis", year:"2026", pmid:"42959496",
+    author:"Qin M et al.", pubdate:"24.10.2026",
     added:"30.10.2026",
-    title:"Eltern-gestützte digitale Interventionen: kleine BMI-Reduktion, fragliche Verhaltenseffekte",
-    sum:"Systematischer Review und Meta-Analyse von 29 RCTs (4.156 Teilnehmer, davon 22 in Meta-Analyse) zu elterngestützten digitalen Programmen für Kinder/Jugendliche mit Übergewicht/Adipositas.",
-    result:"Kleine, aber signifikante BMI-Reduktion gegenüber Kontrollen (SMD=−0,11, 95% KI −0,19 bis −0,04; p=0,004; I²=0%). Bei inaktiven Kontrollen signifikant (SMD=−0,15), bei aktiven Kontrollen nicht (SMD=−0,07). Von 16 Studien: 5 zeigten Verbesserungen der Essensgewohnheiten, 2 von 17 der körperlichen Aktivität, 2 von 12 des Sitzverhaltens. Moderate Evidenzsicherheit für BMI, schwach für Verhalten. Optimale digitale Modalität nicht identifiziert.",
-    transfer:"Internationale Studien, aber Versorgungsfrage zu Erreichbarkeit und Engagement"
+    title:"Adipositas-Indizes und COPD-Exazerbation: Geschlechtsspezifische Unterschiede",
+    sum:"Retrospektive Querschnittstudie von 968 COPD-Patienten (529 männlich, 439 weiblich) in China zu acht Adipositas-Indizes (BMI, WHR, BRI, CI, BAI, AVI, LAP, VAI) und Assoziation mit stationärer COPD-Exazerbation.",
+    result:"27,3 % AECOPD-Prävalenz ohne Geschlechtsdifferenz (p = 0,74). Alle acht Indizes positiv assoziiert (alle p &lt; 0,01). Bei Frauen: AVI höchste AUC (0,764), gefolgt von CI (0,747) und BRI (0,730), alle signifikant höher als BMI nach Holm-Korrektur. Bei Männern: VAI numerisch höchste AUC (0,705), nur BRI signifikant höher als BMI (p = 0,022). Nur Sex-by-AVI-Interaktion signifikant nach Korrektur (p = 0,011).",
+    transfer:"China, Frage der klinischen Adipositas-Phänotypisierung, Geschlechtsdimorphismus relevant"
   },
   {
-    journal:"Eur J Pediatr", year:"2026", pmid:"42957840",
-    author:"von der Born J et al.", pubdate:"29.10.2026",
-    added:"30.10.2026",
-    title:"Blutdruckanstieg schon bei normalem BMI: Screening ab Grundschulalter sinnvoll",
-    sum:"Querschnittstudie an 1.183 Grundschülern (Mittelwert 7,9 Jahre) in Deutschland zur Frage, ab welchem BMI-Perzentil der Blutdruck ansteigt.",
-    result:"Systolischer Blutdruck stieg kontinuierlich mit steigendem BMI-Perzentil an. Signifikante Erhöhungen zeigten sich bereits unterhalb der WHO-Übergewichtsschwelle (50. Perzentil). Zentrale systolische Blutdruckveränderungen traten früher auf als periphere. Zentrale diastolische Blutdruckwerte stiegen über höhere BMI-Bereiche signifikant an, während periphere diastolische Werte nicht assoziiert waren. Das Ergebnis zeigt ein kontinuierliches, nicht-lineares Risiko.",
-    transfer:"Deutsche Klinikdaten, Messstandards vergleichbar, frühe Prävention in Schulen relevant"
+    journal:"Front Public Health", year:"2026", pmid:"42964214",
+    author:"Zhang X et al.", pubdate:"16.10.2026",
+    added:"31.10.2026",
+    title:"Zentrale Adipositas bei Normalgewicht: Blutdruck-Belastung bei Kindern",
+    sum:"Wiederholte Querschnittsanalyse von 4.841 chinesischen Kindern und Jugendlichen (7.192 Beobachtungen) mit Normalgewicht (BMI) über Waist-to-Height-Ratio (WHtR ≥ 0,50) zur Assoziation mit erhöhtem Blutdruck.",
+    result:"Zentrale Adipositas lag bei 4,3 % der Normalgewicht-Messungen vor. Sie war assoziiert mit erhöhtem Blutdruck (OR 1,43, 95%-KI 1,07–1,90, p = 0,016) und hohem Blutdruck (OR 1,54, 95%-KI 1,07–2,21, p = 0,022). Standardisierte absolute Risikodifferenzen betrugen 5,1 und 3,5 Prozentpunkte. Befunde waren über Geschlecht, Urbanisierungsgrad und Zeitraum konsistent.",
+    transfer:"China, ähnliche Bevölkerungsstruktur, zentrale Adipositas als Screening-Ergänzung zu BMI"
   },
   {
-    journal:"Europace", year:"2026", pmid:"42954927",
-    author:"Massoullié G et al.", pubdate:"01.10.2026",
-    added:"29.10.2026",
-    title:"Adipositas bei Vorhofflimmer-Ablation: gleiche Komplikationsrate, vergleichbare Ergebnisse",
-    sum:"Französische Multizenterstudie an 4.573 Patienten (BMI verfügbar) zur Frage, ob Adipositas bei pulsed-field-Ablation (PFA) für Vorhofflimmern Sicherheit und 1-Jahres-Rezidivrate beeinflusst.",
-    result:"Höherer BMI war mit fortgeschrittenerer AF und ausgedehnteren Ablationsstrategien verbunden (p&lt;0,001). Periprozessuale Komplikationen blieben selten (1,0%) und unterschieden sich nicht zwischen BMI-Gruppen. 1-Jahres-Rezidivrate war ähnlich zwischen BMI&lt;35 und ≥35 kg/m²: paroxysmal AF 13,8% vs. 9,1% (p=0,925), persistierend 22,9% vs. 23,3%. Schwere Adipositas war nach multivariater Anpassung nicht mit Rezidiv assoziiert (HR 0,86, 95% KI 0,65-1,14).",
-    transfer:"Frankreich, vergleichbares Gesundheitssystem, nationale Ablationsregister"
+    journal:"Clin Rheumatol", year:"2026", pmid:"42801417",
+    author:"Gong C et al.", pubdate:"27.09.2026",
+    added:"27.09.2026",
+    title:"Muskelaufbau schützt vor Sjögren: Adiposität erhöht Erkrankungsrisiko",
+    sum:"Prospektive Kohorte von 326.200 UK-Biobank-Teilnehmern über 15,7 Jahre Median zu Assoziationen von Lebensweg-Adipositas-Indikatoren (BMI, Körperzusammensetzung, Fettverteilung) mit inzidenter Sjögren-Erkrankung.",
+    result:"607 Sjögren-Fälle beobachtet. Muskelindizes invers assoziiert: Arm-Fettfreimasse-Index HR = 0,54 (95%-KI 0,41–0,72), ganze Körper Fettfreimasse HR = 0,79 (95%-KI 0,64–0,97). Adiposität positiv: ganze Körper Fettmasse-Index HR = 1,62 (95%-KI 1,17–2,24), Bein-Fettmasse-Index HR = 1,59 (95%-KI 1,11–2,29). BMI U-förmig (Wendepunkt 28,73 kg/m²). Interleukin-6, CRP, Lymphozyten und SHBG vermittelten teilweise.",
+    transfer:"UK Biobank, europäisches System, Muskel-Immuninflammations-Achse relevant"
   },
   {
-    journal:"Brain Res", year:"2026", pmid:"42753886",
-    author:"Hahn U et al.", pubdate:"01.12.2026",
-    added:"17.09.2026",
-    title:"EEG-Neurofeedback bei Kindern mit Adipositas: kleine Effekte auf Überessen und BMI",
-    sum:"Proof-of-Concept-Studie an 20 Kindern (8–14 Jahre) mit Übergewicht/Adipositas an der Universität Leipzig zur Frage, ob EEG-Neurofeedback zur Reduktion von Beta-Band-Aktivität auf Esstörungen, Essverhalten und BMI wirkt.",
-    result:"EEG-Neurofeedback bewirkte kleine Reduktion der lebensmittelspezifischen High-Beta-Aktivität. Kleine Effekte bei Reduktion des standardisierten BMI, externalen Essverhalten. Mittlere bis große Effekte auf Überessen-Verhalten dokumentiert. Machbarkeit und Akzeptanz nachgewiesen. Autoren betonen: größere randomisierte Studien mit Kontrollgruppe notwendig.",
-    transfer:"Deutsche Universitätsklinik Leipzig, spezialisiertes Adipositas-Zentrum, aber noch Proof-of-Concept"
-  },
-  {
-    journal:"BMC Nephrol", year:"2026", pmid:"42958473",
-    author:"Tai B et al.", pubdate:"31.07.2026",
-    added:"30.10.2026",
-    title:"Adipositaschirurgie senkt Spätstadium-CKD-Risiko, nicht Frühstadium",
-    sum:"Querschnittanalyse von 6,6 Mio. Krankenhausaufenthalte aus dem US-Nationwide Inpatient Sample 2022 zur Frage, ob Adipositaschirurgie (1,0% mit Vorgeschichte) die CKD-Stadien unterschiedlich beeinflusst.",
-    result:"Nach Adjustment: Adipositaschirurgie assoziiert mit niedrigerem Risiko für jede CKD (aOR 0,92, 95% KI 0,87–0,98) und CKD-Stadien 4–5 (aOR 0,74, 95% KI 0,63–0,86), aber nicht Stadium 3 (aOR 1,02, 95% KI 0,95–1,10) oder ESRD (aOR 0,92, 95% KI 0,81–1,04). Assoziation mit fortgeschrittener CKD stärker bei Adipositas (aOR 0,70) und Diabetes (aOR 0,69); frauen mehr profitierend als Männer.",
-    transfer:"USA-Daten, aber Staging-spezifische Aussage versorgungsrelevant, CKD-Prävention zentral"
-  },
-  {
-    journal:"BMC Gastroenterol", year:"2026", pmid:"42958058",
-    author:"Lukolic I et al.", pubdate:"31.07.2026",
-    added:"30.10.2026",
-    title:"Adipositaschirurgie verbessert Leberfibrosezeichen bei MASLD-Hochrisiko",
-    sum:"Retrospektive Studie an 181 Adipositaschirurgie-Patienten (Sleeve n=54, RYGB n=127) in den USA mit Messung von Fibrosemarkem (FIB-4, MFS, BARD) vor und 12–18 Monate nach Operation.",
-    result:"Mittlerer BMI sank von 46,2 auf 37,8 (p&lt;0,001). MASLD Fibrosis Score (MFS) sank signifikant von 0,205 auf −0,373 (p=0,0001, 95% KI 0,28–0,87), verschiebung von indeterminiert zu niedrig-Risiko. Bei Hochrisiko-Subgruppe (n=25, FIB-4&gt;1,4): MFS-Reduktion von 1,63 auf 0,84 (p=0,001). BARD-Score sank von 3,48 auf 3,28 (p=0,05). FIB-4 unerwartet moderat gestiegen (0,95 auf 1,02, p=0,004).",
-    transfer:"USA, aber Fibrosemarkering versorgungsrelevant für Nachsorge nach Chirurgie"
+    journal:"BMC Cardiovasc Disord", year:"2026", pmid:"42963780",
+    author:"Guo Z et al.", pubdate:"01.09.2026",
+    added:"31.10.2026",
+    title:"Neue Adipositas-Indizes bei Multimorbidität: CTI und LAP beste Diskriminatoren",
+    sum:"Querschnittsanalyse von 10.383 chinesischen Erwachsenen zur Assoziation von sieben Adipositas-Indizes (LAP, VAI, BRI, AIP, CTI, CI, RC) mit kardiometabolischer Multimorbidität (≥2 von Hypertonie, Diabetes, Koronarie, Schlaganfall).",
+    result:"Nach Standardisierung pro 1-SD-Anstieg zeigte CTI stärkste Assoziation (OR = 1,57, 95%-KI 1,49–1,65), gefolgt von LAP (OR = 1,49) und AIP (OR = 1,44). Nichtlineare Beziehungen mit Wendepunkten für LAP, VAI, BRI, AIP, RC, CI; CTI linear. CTI und LAP zeigten höchste Diskriminationsfähigkeit (AUC = 0,669 und 0,668), alle AUCs unter 0,70. Reine Assoziationen, keine Kausalitätsaussagen.",
+    transfer:"China, Bevölkerungsperspektive, neue Indizes für klinische Forschung noch nicht für Routinescreening geeignet"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2257,7 +2257,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "31.10.2026";
+const NEWS_STAND = "01.11.2026";
 const NEWS = [
   {titel:"App-Programme bei Adipositas: Meta-Analyse zeigt 2,6 kg Unterschied", datum:"2026-10-27", url:"https://www.monitor-versorgungsforschung.de/news/app-programme-bei-adipositas-meta-analyse-zeigt-26-kg-unterschied/"},
   {titel:"Orale Adipositastherapie für Selbstzahler: GreenMedical erweitert Angebot", datum:"2026-09-01", url:"https://www.monitor-versorgungsforschung.de/news/orale-adipositastherapie-fuer-selbstzahler-greenmedical-erweitert-angebot/"},
