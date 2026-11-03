@@ -2177,62 +2177,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "2. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "3. Nov. 2026, 05:24 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Eur J Pediatr", year:"2026", pmid:"42961532",
-    author:"Doğan N et al.", pubdate:"30.10.2026",
+    journal:"Endocrine", year:"2026", pmid:"42965609",
+    author:"Kamrul-Hasan ABM et al.", pubdate:"31.10.2026",
+    added:"31.10.2026",
+    title:"Basal-Insulin-GLP-1-Kombos senken HbA1c um 0,53–0,72 Prozent und Gewicht um 1,65–3,16 kg",
+    sum:"Netzwerk-Metaanalyse von 30 RCTs (17.862 Teilnehmer) zum Vergleich von Kombinationen aus Basalinsulin und GLP-1-Rezeptoragonisten gegenüber Insulin allein bei Typ-2-Diabetes.",
+    result:"Alle Kombinationen reduzierten HbA1c und Gewicht mehr als Insulin allein; HR17031 stärkste HbA1c-Reduktion (MD −0,72 %), IcoSema stärkste Gewichtsreduktion (−3,16 kg); HbA1c &lt;7 % erreicht ohne klinisch relevante Hypoglykämien.",
+    transfer:"Globale Evidenz, aber: In Deutschland durch § 34 SGB V nicht bei Adipositas erstattbar."
+  },
+  {
+    journal:"Psychol Med", year:"2026", pmid:"42922266",
+    author:"Dietze LMF et al.", pubdate:"23.10.2026",
+    added:"24.10.2026",
+    title:"Höheres BMI assozziiert mit reduzierter Weißstoff-Anisotropie unabhängig von Bipolarer Störung",
+    sum:"Mega-Analyse von DTI-Daten aus 910 Personen mit bipolarer Störung und 1.256 gesunden Kontrollen über 16 Standorte zur Assoziation von BMI und anderen klinischen Variablen mit weißstoff-Diffusivität.",
+    result:"Höheres BMI unabhängig assoziiert mit niedrigerer FA und höherer RD (radiale Diffusivität); bipolarer Status mit höherem MD; Antiepileprika mit niedrigerer FA und höherem MD und RD assoziiert.",
+    transfer:"Internationale multizentrische Studie, Europa dominant (Deutschland, Skandinavien, Großbritannien), zeigt metabolische Hirnveränderungen."
+  },
+  {
+    journal:"Front Endocrinol (Lausanne)", year:"2026", pmid:"42959239",
+    author:"Huang L et al.", pubdate:"15.10.2026",
     added:"30.10.2026",
-    title:"Halsumfang-Referenzwerte zur Adipositas-Früherkennung bei Kindern ab 6 Jahren",
-    sum:"Querschnittsstudie an 4.557 türkischen Kindern und Jugendlichen (6–18 Jahre), davon 2.130 Jungen und 2.427 Mädchen, zur Etablierung alters- und geschlechtsspezifischer Halsumfang-Perzentile mittels LMS-Methode und optimaler Cut-off-Werte für Adipositasscreening.",
-    result:"Starke positive Korrelation Halsumfang–BMI bei Jungen (r 0,69, 95%-KI 0,66–0,72) und Mädchen (r 0,64, 95%-KI 0,61–0,67). Halsumfang steigt mit Alter und zeigt sexuelle Dimorphie. AUC 0,78–0,93 für altersgestaffelte Cut-off-Werte (IOTF-Adipositas und -Übergewicht/Adipositas) über drei Altersgruppen. Halsumfang praktisches, nichtinvasives Screening-Instrument mit guter diskriminatorischer Fähigkeit.",
-    transfer:"Türkische Schulstichprobe, aber Methode und Schwellwerte für europäische Prävention adaptierbar"
+    title:"Erhöhtes Plasmavolumen vorhersagt Progression der kardio-renalen-metabolischen Erkrankung",
+    sum:"Kohortenstudie von 36.505 CKM-Stadium-2-Patienten über 10 Jahre in Tianjin, China, zur Assoziation von geschätztem Plasmavolumenstatus (ePVS) mit Progression zu CKM-Stadium 4.",
+    result:"15.495 CKM4-Ereignisse; höhere admission ePVS (Q3/Q4) unabhängig assoziiert mit 43 % höherem CKM4-Risiko (Q1 vs Q4); spoon-shaped Dosis-Wirkungs-Beziehung mit Wendepunkt bei ePVS 5,14; Assoziation stärker ab Alter &gt;60.",
+    transfer:"China, Tianjin-Region, zeigt nicht-invasiven kardio-metabolischen Risikobiomarker."
   },
   {
-    journal:"Rev Assoc Med Bras (1992)", year:"2026", pmid:"42961219",
-    author:"Alcantara DN et al.", pubdate:"23.10.2026",
+    journal:"BMC Public Health", year:"2026", pmid:"42958179",
+    author:"Alisi M", pubdate:"04.08.2026",
     added:"30.10.2026",
-    title:"Übergewichtige Kinder verlieren in der Klinik 25% länger und progressiv an Gewicht",
-    sum:"Prospektive Studie an 125 hospitalisierten Kindern (2–14 Jahre), davon 29,6% mit Übergewicht, untersucht Krankenhausverweildauer und Gewichtsverlauf nach Aufnahmeernährungsstatus.",
-    result:"Übergewichtige Kinder hatten 25% längere Krankenhausaufenthalte (Poisson-Regression). Für jeden zusätzlichen Hospitalisierungstag bei Übergewichtigen: Gewichtsverlust 0,20 kg (95%-KI 0,14–0,26) und BMI-für-Alter-z-Score-Abnahme 0,04 (95%-KI 0,01–0,06). Metabolische Verschlechterung während der Hospitalisierung.",
-    transfer:"Südamerikanische Klinikdaten, aber Fragestellung versorgungsrelevant für alle Systeme"
+    title:"Qatars Adipositas-Politik teilweise mit WHO-Standards aligned; Lücken bei Werbung und Schulen",
+    sum:"Normative Benchmarking-Analyse von 15 qatarischen Rechts- und Strategiedokumenten gegen UN-Kinderrechtskonvention und WHO-Empfehlungen zur Adipositasprävention bei Kindern.",
+    result:"34 von 180 Kodierungen zeigten Alignment (5 vollständig, 29 teilweise); 146 nicht aligned; Stärken: Multisektoral-Governance, Surveillance, klinische Leitlinien; Lücken: Kinder-gerechte Werberestriktionen, schulische Maßnahmen ohne zeitliche Bindung.",
+    transfer:"Qatar, zeigt Governance-Versorgungsmängel; methodisch auf andere Länder übertragbar."
   },
   {
-    journal:"Front Endocrinol (Lausanne)", year:"2026", pmid:"42909319",
-    author:"Zhao Z et al.", pubdate:"07.10.2026",
-    added:"23.10.2026",
-    title:"Klonale Hämatopoiese erhöht kardiovaskuläre Sterblichkeit bei CKM-Syndrom um 24%",
-    sum:"Prospektive Kohortenstudie mit 288.384 UK-Biobank-Teilnehmern über CKM-Syndrom-Stadien hinweg (Median-Follow-up 16,5 Jahre, 6.515 kardiovaskuläre Todesfälle), untersucht CHIP-Assoziationen mit kardiovaskulärer Mortalität und Proteomic-Mechanismen.",
-    result:"Großes CHIP unabhängig mit kardiovaskulärer Sterblichkeit assoziiert (HR 1,24, 95%-KI 1,09–1,40) über alle CKM-Stadien. Proteomic-Analyse: Immuninflammation und Geweberemodelling als zentrale Mediatoren (DSC2 33,4%, VSIG4 33,1%, CD300C 29,2% der Risikoübertragung). Konsistente Effekte unabhängig von etablierter Komorbidität.",
-    transfer:"UK-Biobank, große europäische Kohorte, vergleichbare Versorgungssysteme"
+    journal:"BMC Pediatr", year:"2026", pmid:"42968082",
+    author:"Wu W et al.", pubdate:"03.08.2026",
+    added:"01.11.2026",
+    title:"Snack-basierte Ernährung erhöht Übergewicht bei Schulkindern um 22 Prozent",
+    sum:"Querschnittstudie an 13.312 Schulkindern (6–12 Jahre) in Hainan, China, zur Assoziation empirisch abgeleiteter Ernährungsmuster mit Adipositas, gemessen nach WHO-Kriterien.",
+    result:"Snack-basiertes Muster (zuckerhaltige Getränke, Knabberzeug, Frittiertes) war mit Übergewicht/Adipositas assoziiert (OR 1,22, 95 % KI 1,04–1,43); traditionelles und trockenobst-dominiertes Muster zeigten keine signifikante Assoziation nach Adjustierung.",
+    transfer:"China, großes Schulkollektiv, aber begrenzte Übertragbarkeit ohne Kontext strukturierter Prävention."
   },
   {
-    journal:"Europace", year:"2026", pmid:"42954928",
-    author:"Erzeel J et al.", pubdate:"01.10.2026",
-    added:"29.10.2026",
-    title:"Adipositas verschlechtert AF-Outcomes, mindert aber nicht Ablations-Nutzen",
-    sum:"Post-hoc-Analyse des CABANA-Trials mit 2.170 Patienten mit Vorhofflimmern und verfügbarem BMI über durchschnittlich 4 Jahre, vergleicht Katheterablation versus Antiarrhythmika und testet Adipositas als Effekt-Modifikator.",
-    result:"Adipöse Patienten (BMI ≥30) zeigten höhere Komorbidität, schlechtere Baseline-Funktion, persistenteres AF. Höherer BMI mit erhöhter kardiovaskulärer Hospitalisierung und NYHA-Klasse assoziiert. Katheterablation reduzierte AF-Rezidiv unabhängig von Adipositas-Status signifikant (keine signifikante Interaktion mit Primär-Endpunkt). Klasse-II-Adipositas (BMI ≥35) hatte schlechtere absolute Outcomes trotz ähnlicher relativer Ablations-Effekte.",
-    transfer:"CABANA-Kohorte, belgisch-amerikanische Zentren, vergleichbar mit europäischen Ablationsprogrammen"
-  },
-  {
-    journal:"Appetite", year:"2027", pmid:"42778068",
-    author:"Nurkkala M et al.", pubdate:"01.01.2027",
-    added:"23.09.2026",
-    title:"Geschlechts- und gewichtsspezifische Essverhaltens-Normen: Größte finnische Bevölkerungsstudie",
-    sum:"Normwerte-Studie mit 8.959 Teilnehmern (58% weiblich) aus drei finnischen Kohorten (Alter 33–35, 45–46, 68–70 Jahre) zur Etablierung geschlechts-, alters- und BMI-spezifischer TFEQ-R18-Perzentile für Screenings.",
-    result:"Kognitive Restriktion und emotionales Essen höher bei Frauen als Männern über alle Altersgruppen. Unkontrolliertes und emotionales Essen höchst in frühem Erwachsenenalter, niedrigst im höheren Alter; Restriktion umgekehrt. TFEQ-Werte unterschieden sich zwischen BMI-Klassen mit positiven/leicht kurvilinearen Trends. Universelle Cut-off-Werte nicht definierbar; Interpretation nach Geschlecht, Alter und Gewichtsstatus erforderlich.",
-    transfer:"Finnische Populationsdaten, Nordeuropa vergleichbarer Struktur mit Deutschland"
-  },
-  {
-    journal:"BMC Cardiovasc Disord", year:"2026", pmid:"42958482",
-    author:"Tan Z et al.", pubdate:"01.08.2026",
+    journal:"J Health Popul Nutr", year:"2026", pmid:"42958361",
+    author:"Zhang W et al.", pubdate:"27.07.2026",
     added:"30.10.2026",
-    title:"Viszerales Fett-Score sagt kardiovaskuläre Ereignisse bei metabolischem Syndrom voraus",
-    sum:"Prospektive Kohortenstudie mit 101.292 UK-Biobank- und 1.680 CHARLS-Teilnehmern (Median-Follow-up 14,6 bzw. 5,0 Jahre) zur Vorhersagekraft des METS-VF-Index für neu auftretende kardiovaskuläre Erkrankungen.",
-    result:"Hohes METS-VF assoziiert mit erhöhtem CVD-Risiko (UK: HR 1,63, 95%-KI 1,56–1,71; CHARLS: HR 2,11, 95%-KI 1,52–2,94). Höchstes METS-VF plus hohes genetisches Risiko: HR 2,36 (95%-KI 2,14–2,61). METS-VF als praktischer Indikator für Risikostratifizierung bei MetS.",
-    transfer:"UK und China, aber metabolische Phänotypisierung versorgungsrelevant"
+    title:"Hochölsäure-Diäten ändern Gewicht, Entzündung oder Blutdruck nicht",
+    sum:"Systematische Übersicht von 20 RCTs mit 1.009 Teilnehmern (1991–2023) zur Wirkung hochölsäurereicher Diäten gegenüber niedrigölsäurereichen auf Adipositas- und Entzündungsmarker.",
+    result:"Kein signifikanter Unterschied bei Körpergewicht (WMD −0,11 kg), BMI (−0,27 kg/m²), Körperfettanteil, Leptin oder Entzündungsmarkern (CRP, IL-6, TNF-α); kleine statistisch signifikante Zunahme Taillenumfang (+0,63 cm) ohne klinische Bedeutung.",
+    transfer:"Globale Evidenzbasis, Ernährungsinterventionen bei Adipositas, geringe klinische Relevanz."
+  },
+  {
+    journal:"J Health Care Poor Underserved", year:"2026", pmid:"42969138",
+    author:"Tovar YE et al.", pubdate:"2026",
+    added:"02.11.2026",
+    title:"Medicaid-Leistungsausschlüsse verzögern Adipositas-Therapie um sechs Monate",
+    sum:"Fallbeschreibung einer Patientin mit Adipositas, Diabetes Typ 2 und Schlafapnoe, der Tirzepatide unter Ohio Medicaid trotz FDA-Zulassung für alle drei Indikationen wiederholt verweigert wurde.",
+    result:"Sechs Monate Verzögerung bis zur Genehmigung nach mehrfachen Anträgen und Widerspruchsverfahren; diagnostische Silos und widersprechende Ausschlussregeln verzögerten die evidenzbasierte Behandlung erheblich.",
+    transfer:"USA, Medicaid - zeigt Versorgungszugang-Probleme; in Deutschland durch § 34 SGB V noch restriktiver."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2247,7 +2256,7 @@ const RADAR_FRISTEN = [["2026-12-31", "2027-01-07", "2027-01-07", "2027-01-07"],
 // === RADAR-BLOCK-ENDE ===
 
 // === ZULASSUNG-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const ZUL_STAND = "02.11.2026";
+const ZUL_STAND = "03.11.2026";
 const ZUL_EIGENE = 3;
 const ZUL_GUTACHTEN = 1;
 const ZUL_ZULASSUNG = 1;
@@ -2257,10 +2266,10 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "02.11.2026";
+const NEWS_STAND = "03.11.2026";
 const NEWS = [
-  {titel:"App-Programme bei Adipositas: Meta-Analyse zeigt 2,6 kg Unterschied", datum:"2026-10-27", url:"https://www.monitor-versorgungsforschung.de/news/app-programme-bei-adipositas-meta-analyse-zeigt-26-kg-unterschied/"},
   {titel:"Orale Adipositastherapie für Selbstzahler: GreenMedical erweitert Angebot", datum:"2026-09-01", url:"https://www.monitor-versorgungsforschung.de/news/orale-adipositastherapie-fuer-selbstzahler-greenmedical-erweitert-angebot/"},
+  {titel:"„Abnehmspritzen“: Warum auch Herzpatienten profitieren", datum:"2026-05-27", url:"https://www.monitor-versorgungsforschung.de/news/abnehmspritzen-warum-auch-herzpatienten-profitieren/"},
 ];
 // === NEWS-BLOCK-ENDE ===
 
