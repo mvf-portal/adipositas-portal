@@ -2177,71 +2177,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "8. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "9. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Clin Obes", year:"2026", pmid:"42995006",
-    author:"Sun Y et al.", pubdate:"Dez. 2026",
+    journal:"Endocrinol Diabetes Metab", year:"2026", pmid:"42995395",
+    author:"Wang Q et al.", pubdate:"Nov. 2026",
     added:"06.11.2026",
-    title:"Sleeve mit Bypass-Komponente erreichte 30% Gewichtsverlust vs. 27% bei Standard-Sleeve",
-    sum:"Retrospektive Kohortenstudie verglich 12-Monats-Ergebnisse von 65 Patienten mit Sleeve-Gastrektomie plus Jejunojejunal-Bypass (SG-JJB) gegen 126 Standard-Sleeve-Patienten (SG) nach Propensity-Score-Matching.",
-    result:"Gewichtsverlust (matching-weighted %TWL): SG-JJB 30,16% vs. SG 26,59%, adjustierte Differenz 3,55 Prozentpunkte (95%-KI: 0,36–6,74; p=0,030). Nach Multiplizitätskorrektur keine signifikanten Unterschiede in Glykämie, Lipiden, Leber- oder Ernährungsparametern. Komplikationen selten, Vergleiche nicht aussagekräftig. Nicht-lineare Analyse der Bypass-Proportion deutete auf optimales Peak bei 35,9% Bypass mit vorhergesagtem %TWL von 35,62% (95%-KI: 32,86–38,39%), aber mit Unsicherheit in der Lokalisation.",
-    transfer:"China, aber adipositaschirurgische Verfahren international standardisiert; Erstattung der Bypass-Variante in Deutschland ungeklärt"
+    title:"Harnsäure-Quotienten identifizieren Metabolisches Syndrom früh",
+    sum:"Chinesische Querschnittsstudie an 10 217 Erwachsenen zur Bewertung von Harnsäure und Harnsäure-zu-Kreatinin-Verhältnis als Indikatoren für Metabolisches Syndrom mittels logistischer Regression und Dosis-Wirkungs-Analyse.",
+    result:"Metabolisches Syndrom bei 29,4 % der gewichteten Stichprobe. Beide Marker zeigten dosisabhängig erhöhte Odds über Quartile; AUC des Harnsäure-Kreatinin-Verhältnisses übertraf Harnsäure allein (0,61 vs. 0,59, p&lt;0,001). Keine relevanten Unterschiede nach Geschlecht bei stratifizierten Analysen.",
+    transfer:"China, vergleichbare Laborstandards, Übertragung auf deutsche Routinediagnostik möglich"
   },
   {
-    journal:"Medicine (Baltimore)", year:"2026", pmid:"42994906",
-    author:"Yan H et al.", pubdate:"06.11.2026",
+    journal:"Eur J Public Health", year:"2026", pmid:"42999967",
+    author:"Kodagoda H et al.", pubdate:"09.10.2026",
+    added:"08.11.2026",
+    title:"Elterngewicht verdreifacht Adipositasrisiko bei Kleinkindern",
+    sum:"Bevölkerungsgestützte Querschnittsstudie an 5937 schwedischen Dreijährigen und ihren Eltern zur Assoziation elterlicher Gewichtskategorien mit Übergewicht und Adipositas bei Kindern.",
+    result:"Übergewicht oder Adipositas bei 15,3 % der Kinder (2,4 % Adipositas). Kinder mit zwei Eltern mit Adipositas zeigten mehr als dreifach erhöhte Odds für Adipositas im Vergleich zu Kindern ohne betroffene Eltern (adjustierte Analyse). Keine klaren Assoziationen mit sozioökonomischen oder Lebensstilfaktoren beobachtet.",
+    transfer:"Schweden, bevölkerungsgestützte Register, vergleichbare Früherkennung und Prävention wie in Nordeuropa"
+  },
+  {
+    journal:"Soc Sci Med", year:"2026", pmid:"42887375",
+    author:"Head C et al.", pubdate:"30.09.2026",
+    added:"16.10.2026",
+    title:"Räumliche Hotspots mehrfacher Risikofaktoren in England identifiziert",
+    sum:"Räumliche Mikrosimulation zur Schätzung ko-auftretender Risikofaktoren (Rauchen, Alkohol, Adipositas) in englischen Kommunalbezirken unter Verwendung von Health Survey England Individualdaten mit kleinräumigen Zensusvariablen.",
+    result:"Beide Syntheseverfahren zeigten regionale Muster; Rauchen und Adipositas teilten ähnliche räumliche Verteilungen, Alkoholkonsum ein anderes Profil. Feinkörnige Analyse ermöglichte Identifikation von Hochrisikobereichen für ko-auftretende Faktoren nach Soziodemografie.",
+    transfer:"England, lokale Planungsdaten und Zensusbasis, direkt auf deutsche Kommunen übertragbar"
+  },
+  {
+    journal:"Diabetes Obes Metab", year:"2026", pmid:"42816446",
+    author:"Li X et al.", pubdate:"30.09.2026",
+    added:"30.09.2026",
+    title:"Plasmaproteine stratifizieren CKM-Risiko vor manifesten Erkrankungen",
+    sum:"UK-Biobank-Analyse an 43 709 Personen mit CKM-Stadien 0-2 zur Vorhersage von kardiovaskulären, renalen und Mortalitätsereignissen mittels plasmaproteomischer Signaturen.",
+    result:"157 Proteine zeigten konsistente Assoziationen über alle 11 Outcomes. Outcome-spezifische Proteinpanels verbesserten die Diskriminierung um ΔC-Index 0,024–0,070 über klinische Modelle. Ein exploratives 12-Protein-Panel behielt inkrementelle Validität (ΔC-Index 0,018–0,052).",
+    transfer:"UK Biobank, vergleichbare Gesundheitssystemziele, prospektive Evaluation nötig"
+  },
+  {
+    journal:"Am J Clin Nutr", year:"2026", pmid:"42754169",
+    author:"Domínguez-López I et al.", pubdate:"17.09.2026",
+    added:"17.09.2026",
+    title:"Erdnusskonsum senkt Diabetesrisiko über Gewichtsabnahme",
+    sum:"Kombinierte Intervention (ARISTOTLE, n=63) und prospektive Kohorte (EPIC-Potsdam, n=774 T2D-Fälle) zur Assoziation einer erdnussgestützten Lipidomsignatur mit T2D- und kardiovaskulärem Risiko mit BMI-Mediation.",
+    result:"Erdnusskonsum modifizierte 51 Lipidkomponenten, überwiegend sehr-lange-Ketten-gesättigte Fettsäuren. Erdnusslipidomsignatur assoziiert mit reduziertem T2D-Risiko (HR 0,89 pro SD; 95%-KI 0,80–0,99), nicht mit CVD-Risiko. BMI erklärte 89 % der Assoziation (95%-KI 57–100 %).",
+    transfer:"Deutschland und europäische Länder, EPIC-Potsdam mit deutschen Teilnehmern"
+  },
+  {
+    journal:"Indian J Public Health", year:"2026", pmid:"42993593",
+    author:"Kaur N et al.", pubdate:"01.07.2026",
     added:"06.11.2026",
-    title:"Triglyzerid-Glukose-BMI vorhersagt Arthritisrisiko über CKM-Spektrum hinweg",
-    sum:"US-amerikanische Längsschnittstudie an 5.018 CHARLS-Teilnehmern ≥45 Jahren untersuchte, ob der TyG-BMI (Marker der Insulinresistenz) das Risiko für Arthritis über Cardiovascular-Kidney-Metabolic-Stadien 0–3 hinweg voraussagt.",
-    result:"Bei 45,97% entwickelte sich über den Nachbeobachtungszeitraum Arthritis. Jede Standardabweichung Anstieg im TyG-BMI war mit 11% erhöhtem Arthritisrisiko assoziiert (OR=1,11, 95%-KI: 1,04–1,19). Die Assoziation war stärker bei Schlafmangel (&lt;7 h: OR=1,19, 95%-KI: 1,08–1,31) und CKM-Stadium 1 (OR=1,57, 95%-KI: 1,20–2,05). TyG-BMI könnte zur frühen Risikostratifizierung bei metabolischen Störungen herangezogen werden.",
-    transfer:"China-Basisdaten, aber CKM-Konzept international übertragbar; Arthritis-Daten selbstberichtet"
-  },
-  {
-    journal:"Eur Heart J Cardiovasc Pharmacother", year:"2026", pmid:"42709513",
-    author:"Al-Ansary L et al.", pubdate:"04.11.2026",
-    added:"08.09.2026",
-    title:"GLP-1-Rezeptoragonisten erhöhen Synkopenrisiko nicht – Dänische Kohortenstudie",
-    sum:"Dänische Registeranalyse untersuchte, ob GLP-1-Rezeptoragonisten bei Patienten mit Typ-2-Diabetes oder Adipositas das Risiko für vagal getriggerte Ereignisse (Synkope, Frakturen, Bradyarrhythmien, Device-Implantation) erhöhen.",
-    result:"Bei 50.076 GLP-1-RA-Patienten betrug die 1-Jahres-Synkopen-Inzidenz 0,58% (95%-KI: 0,51–0,66%), vergleichbar mit 73.138 SGLT-2i-Patienten (0,56%, 95%-KI: 0,50–0,62%). Frakturen, Bradyarrhythmien und Device-Implantationen zeigten standardisierte Risikoverhältnisse von 0,90, 0,97 bzw. 0,86 (alle p&gt;0,05). Auch in der Adipositas-Subgruppe keine Unterschiede. GLP-1-RA-Therapie war damit nicht mit erhöhtem Vagal-Event-Risiko assoziiert.",
-    transfer:"Dänemark, vergleichbares Krankenversicherungssystem wie Deutschland; Sicherheitsbefund nicht abhängig von Erstattungspolitik"
-  },
-  {
-    journal:"Front Public Health", year:"2026", pmid:"42992279",
-    author:"Mohammed MOM", pubdate:"22.10.2026",
-    added:"06.11.2026",
-    title:"Adipositas-Prävalenz 28,9% in saudi-arabischer Stadt; Risikofaktoren identifiziert",
-    sum:"Querschnittstudie an 384 Erwachsenen in Hawtat Bani Tamim (Saudi-Arabien) zur Adipositas-Prävalenz und unabhängigen Risikofaktoren.",
-    result:"Adipositas-Prävalenz betrug 28,9%. Erhöhte Chancen für Adipositas fanden sich bei Altersgruppen 41–50 Jahre (OR=1,45, p=0,001) und 51–60 Jahre (OR=2,40, p&lt;0,001), Männer (OR=1,20, p=0,007), niedrigerer Schulbildung (OR=4,18, p=0,008), kurzer Schlafdauer (OR=1,25, p=0,021), Rauchen (OR=1,30, p=0,008) und körperlicher Inaktivität (OR=1,60, p=0,005). Moderate Aktivität war protektiv (OR=0,75, p=0,028). Keine signifikanten Assoziationen mit Wohnort, Familienstand oder Ernährung.",
-    transfer:"Saudi-Arabien, begrenzte Übertragbarkeit auf deutsches Gesundheitssystem; lokale Querschnittsdaten"
-  },
-  {
-    journal:"BMC Public Health", year:"2026", pmid:"42989171",
-    author:"Zhang Y et al.", pubdate:"12.08.2026",
-    added:"05.11.2026",
-    title:"Validiertes Instrument zur Messung von Gewichtsmanagement-Strategien bei übergewichtigen Studierenden",
-    sum:"Psychometrische Validierungsstudie der chinesischen Fassung des SWM-Fragebogens (Strategien zur Gewichtsregulation) an 945 übergewichtigen/adipösen Studierenden der Medizinuniversität Jinzhou.",
-    result:"Nach Entfernung eines Items enthielt die 19-Item-Skala vier Faktoren. Inhaltsvaliditätsindizes waren hoch (I-CVI: 0,8–1,0; S-CVI/Ave: 0,968). Die Modellgüte der konfirmatorischen Faktorenanalyse war akzeptabel (χ²/df=3,329, CFI=0,920, RMSEA=0,068). Interne Konsistenz (McDonald's ω=0,873) und Test-Retest-Reliabilität (r=0,826) bestätigten Validität. Der Fragebogen eignet sich zur Erfassung von Verhaltensweisen zum Gewichtsmanagement, erfordert aber weitere Validierung an heterogeneren Stichproben.",
-    transfer:"China, begrenzte Übertragbarkeit; Instrument-Entwicklung erfordert kulturelle Anpassung"
-  },
-  {
-    journal:"Cardiovasc Diabetol", year:"2026", pmid:"42989274",
-    author:"Chen Q et al.", pubdate:"11.08.2026",
-    added:"05.11.2026",
-    title:"Ceramide-Signalwege als Angriffspunkte bei Cardiovascular-Kidney-Metabolic-Syndrom – Übersicht",
-    sum:"Narrative Übersichtsarbeit zur Pathophysiologie des CKM-Syndroms aus Perspektive der Sphingolipid-Metaboliten (Ceramide) als inter-organale Signalmoleküle und ihre Rolle in Lipotoxizität, Insulinresistenz und Organ-Dysfunktion.",
-    result:"Ceramide sind Zwischenprodukte des Sphingolipid-Metabolismus, die als zirkulierende Signalmoleküle an der Inter-Organ-Kommunikation beteiligt sind. Sie tragen zu Lipotoxischer Schädigung in Herz, Niere und Leber bei. Ceramid-basierte Risikomarker (z. B. CERT1-Score) könnten zur Risikostratifizierung herangezogen werden. Neue therapeutische Strategien zur Ceramid-Modulation sind in Entwicklung, aber Chancen und Herausforderungen ihrer klinischen Implementierung bleiben offen.",
-    transfer:"Internationale Literaturübersicht, mechanistische Grundlagen; keine primären klinischen Ergebnisse berichtet"
-  },
-  {
-    journal:"J Obes", year:"2026", pmid:"42992592",
-    author:"Domosławska-Żylińska K et al.", pubdate:"2026",
-    added:"06.11.2026",
-    title:"Integrativer Rahmen: Shared Decision-Making, Motivational Interviewing und Health Coaching strukturieren Adipositasversorgung",
-    sum:"Narrative Übersichtsarbeit systematisierte konzeptionelle und mechanistische Befunde zu Shared Decision-Making (SDM), Motivational Interviewing (MI) und Health Coaching (HC) als patientenzentrierte Ansätze bei Adipositasbehandlung und schlug einen phasenspezifischen integrativen Rahmen vor.",
-    result:"SDM unterstützt primär informierte Behandlungsentscheidungen, MI erleichtert Übergang von Ambivalenz zu Handlung durch Stärkung autonomer Motivation, HC fokussiert auf Implementierung und Langzeiterhalt durch Zielsetzen, Selbstmonitoring und Selbstregulation. Die Autoren schlugen vor, diese drei Ansätze als komplementär (nicht konkurrierend) auf verschiedenen Phasen des Verhaltensänderungsprozesses zu sehen. Ob ihre Integration Therapietreue und Langzeitgewichtserhalt verbessert, bleibt empirisch ungeklärt.",
-    transfer:"Internationale Evidenzsynthese, konzeptioneller Rahmen auf deutsches Setting übertragbar; keine Ergebnisse zur tatsächlichen Wirksamkeit"
+    title:"Metabolisches Syndrom in Indien: 4,5–76 % Prävalenz je nach Region",
+    sum:"Narrative Übersichtsarbeit von 67 Studien zur Prävalenz des Metabolischen Syndroms (MetS) in Indien nach Geschlecht, Siedlungstyp, Alter und Region zwischen 2013 und Januar 2024.",
+    result:"MetS-Prävalenz 4,5–76 % bei Erwachsenen, 1,6–3,8 % bei Jugendlichen. Urban 17,3–75,36 %, ländlich 9,2–63,3 %, Slums 41,5 %. Frauen häufiger betroffen (10,81–71,8 % vs. Männer 6,4–66,6 %). Häufigste Determinanten: niedriges HDL, Adipositas, Hypertriglyzeridämie. Kerala höchste Rate (76 %).",
+    transfer:"Indien, unterschiedliche Systeme, zeigt Ausmaß in Ländern ohne strukturierte Adipositasversorgung"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2266,7 +2257,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "08.11.2026";
+const NEWS_STAND = "09.11.2026";
 const NEWS = [
   {titel:"App-Programme bei Adipositas: Meta-Analyse zeigt 2,6 kg Unterschied", datum:"2026-10-27", url:"https://www.monitor-versorgungsforschung.de/news/app-programme-bei-adipositas-meta-analyse-zeigt-26-kg-unterschied/"},
   {titel:"Orale Adipositastherapie für Selbstzahler: GreenMedical erweitert Angebot", datum:"2026-09-01", url:"https://www.monitor-versorgungsforschung.de/news/orale-adipositastherapie-fuer-selbstzahler-greenmedical-erweitert-angebot/"},
