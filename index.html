@@ -2177,62 +2177,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "11. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "12. Nov. 2026, 05:24 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Endocrine", year:"2026", pmid:"43007383",
-    author:"Giugliano D et al.", pubdate:"10.11.2026",
+    journal:"Zhonghua Yi Xue Za Zhi", year:"2026", pmid:"43010750",
+    author:"Yang JH et al.", pubdate:"10.11.2026",
+    added:"11.11.2026",
+    title:"Fünf-Säulen-Programm für Adipositas in China: Struktur, Durchführung und Monitoring",
+    sum:"Chinesisches Adipositasprogramm für Erwachsene integriert Ernährung, Bewegung, Psyche, Rauchentwöhnung und Pharmakotherapie in einen standardisierten Behandlungspfad mit Risk-Stratifizierung, durchgeführt in 7 Stadtbezirken von April 2024 bis Mai 2025.",
+    result:"Das Fünf-Säulen-Modell schafft eine strukturierte, skalierbare und wiederholbare Versorgungsarchitektur für Adipositas, die von der Einzelfallversorgung zu einem reproduzierbaren städtischen Implementierungspfad führt. Evaluiert wurden Prozessqualität und Wirksamkeit vor und nach Intervention.",
+    transfer:"China, Adipositasverwaltung im Kontext öffentlicher Gesundheit, struktur- und prozessorientiert, nicht direkt übertragbar auf deutsche SGB-V-Rahmenbedingungen"
+  },
+  {
+    journal:"Medicine (Baltimore)", year:"2026", pmid:"43012814",
+    author:"Liu X et al.", pubdate:"30.10.2026",
+    added:"11.11.2026",
+    title:"BMI kausal mit Nierenschädigung assoziiert: fünf vermittelnde Biomarker identifiziert",
+    sum:"Mendelsche Randomisierung mit GWAS-Instrumentvariablen untersuchte kausale Effekte von BMI auf 44 Biomarker und Nierenversagen bei über 1.300 Varianten.",
+    result:"BMI war Risikofaktor für Nierenversagen (OR=1,324, p=0,00185). Von 44 Biomarkern zeigten 9 Assoziation mit Nierenversagen; 5 waren Mediatoren: Cystatin C (12,34%), Glucose (7,02%), HbA1c (6,83%), diastolischer Blutdruck (6,37%), systolischer Blutdruck (7,14%). Gewichtsreduktion könnte Nierenfunktion durch Glycämie- und Blutdruckkontrolle verbessern.",
+    transfer:"GWAS-Daten europäischer Herkunft, kausale Richtung etabliert, Screening-Implikation"
+  },
+  {
+    journal:"Medicine (Baltimore)", year:"2026", pmid:"43012804",
+    author:"Aghajanian S et al.", pubdate:"30.10.2026",
+    added:"11.11.2026",
+    title:"PTH und Vitamin D korrelieren mit Adipositas, aber D mediiert nur 7–9% der Assoziation",
+    sum:"Querschnittsanalyse bei 4.822 Adipositaschirurgie-Kandidaten in Teheran untersuchte, ob 25(OH)D die PTH-Adipositas-Assoziation mediiert.",
+    result:"Höheres PTH (&gt;72,8 pg/mL vs. niedrig) assoziiert mit 1,89 kg/m² höherem BMI und 1,67 cm größerem Taillenumfang (p&lt;0,001). Höheres 25(OH)D (&gt;35 ng/mL vs. &lt;12) mit 1,81 kg/m² niedrigerem BMI (p&lt;0,001). Mediationsanalyse: 25(OH)D mediierte nur 7% der BMI-Assoziation und 9% der Taillenumfang-Assoziation. Explorative Ergebnisse ohne Kausalitätsnachweis.",
+    transfer:"Iran, Adipositaschirurgie-Population, Mineralstoffwechsel-Phänotypisierung vor Eingriff sinnvoll"
+  },
+  {
+    journal:"Front Public Health", year:"2026", pmid:"43005067",
+    author:"Xie W et al.", pubdate:"26.10.2026",
     added:"10.11.2026",
-    title:"GLP-1 senkte periphere Arterienerkrankung um 30%, erhöhte Gehstrecke um 25–30 m",
-    sum:"Narrative Review zu GLP-1-Rezeptoragonisten bei Typ-2-Diabetes mit peripherer Arterienerkrankung (PAD), gestützt auf Metaanalysen und Kohortenstudien.",
-    result:"Semaglutide reduzierte PAD-Ereignisse um 30% vs. Placebo (Metaanalysen randomisierter Studien). Liraglutide und Semaglutide erhöhten Gehstrecke um etwa 25–30 m über 6 Monate bei Diabetes mit PAD. Kohortenstudien: GLP-1 RA-Verwendung senkte MALE-Risiko um 28% vs. Nicht-Verwendung, aber retrospektives Design mit Residualconfounding.",
-    transfer:"USA – Studienergebnisse; deutsche Erstattung durch §34 SGB V ausgeschlossen"
+    title:"Weight Bias in der Schwangerschaft führt zu Bewegungsvermeidung und reduziert körperliche Aktivität",
+    sum:"Querschnittsstudie bei 433 schwangeren Frauen zeigte direkte und indirekte (via internalisierter Weight Bias) Assoziationen zwischen negativer Einstellung zum Gewichtszuwachs und Bewegungsvermeidung.",
+    result:"Internalisierte Weight Bias mediierte die Assoziation zwischen kritischer Gewichtszunahme-Einstellung und Bewegungsvermeidung statistisch signifikant. Latente Profilanalyse identifizierte zwei Phänotypen: \"low concern\" und \"high concern\", die sich in internalisierter Bias und Bewegungsvermeidung unterschieden (beide p&lt;0,001).",
+    transfer:"China, Stigma-Mechanismus während Schwangerschaft, Brückenfunktion zwischen Einstellung und Verhalten"
   },
   {
-    journal:"Trials", year:"2026", pmid:"43004451",
-    author:"Fonka CB et al.", pubdate:"15.10.2026",
-    added:"09.11.2026",
-    title:"Südafrika: Kosteneffektivität von BMI-Optimierung bei Adoleszentinnen durch Community Health Worker",
-    sum:"Südafrikanische RCT-Wirtschaftsevaluation (Protokoll) zur Ntshembo-Intervention: Community Healthcare Worker unterstützen 14–19-jährige Mädchen bei BMI-Verbesserung durch Ernährung und Verhaltensänderung plus bedingte Geldtransfer, um transgenerationale metabolische Krankheitsrisiken zu senken.",
-    result:"Geplante Kostenanalyse aus Provider- und Gesellschaftsperspektive, Kosten-Effektivitäts-Analyse mit ICER-Berechnung, Disability-Adjusted-Life-Years (DALYs)-Vermeidung über Markov-Modellierung des Lebensverlaufs. Sensitivitätsanalysen zur Robustheit. Ergebnisse bis Juni 2028 erwartet.",
-    transfer:"Südafrika, Triple-Burden-Setting, ähnliche Sozialversicherungslogik, Skalierungspotenzi al"
-  },
-  {
-    journal:"Am J Manag Care", year:"2026", pmid:"43007291",
-    author:"Vordenberg SE et al.", pubdate:"Okt. 2026",
+    journal:"Front Endocrinol (Lausanne)", year:"2026", pmid:"43005035",
+    author:"Efe Camili F et al.", pubdate:"26.10.2026",
     added:"10.11.2026",
-    title:"Abbau von GLP-1-Rezeptoragonisten in Erhaltungsphase: 83% der Patienten unterstützen Deprescribing",
-    sum:"US-amerikanische Online-Befragung von 704 Erwachsenen mit Adipositas untersuchte die Akzeptanz eines Deprescribing-Programms für GLP-1-Rezeptoragonisten (GLP-1 RAs) zur Kosteneinsparung während der Gewichtsmaintenance-Phase.",
-    result:"82,7% der Respondenten (n = 582) stimmten zu, dass Versicherer GLP-1 RAs während aktiver Gewichtsabnahme bezahlen sollten und günstigere Alternativen in der Maintenance fördern sollten. 89,8% würden Freunde/Familie beim Wechsel zu kostengünstigen Optionen unterstützen. Hauptbedenken: Wiederzunahme (25,2%), Angst vor Gesundheitsverschlechterung (30,2%), Nebenwirkungen (26,9%).",
-    transfer:"USA – Kostennützlichkeit und Erstattung; Deutschland hat andere Regelung (§34 SGB V)"
+    title:"Mütterliche Adipositas verändert fötale Adipokin-Profile und programmiert Stoffwechsel",
+    sum:"Prospektive Kohortenstudie bei 82 Schwangerschaften verglich Nabelschnurblut-Adipokinkonzentrationen zwischen Kindern adipöser (BMI≥30) und nicht-adipöser Mütter.",
+    result:"Cord-Leptin und ISM1 waren erhöht (p&lt;0,05), NRG4 erniedrigt (p&lt;0,05) bei Adipositas. Leptin blieb nach Adjustierung unabhängig mit mütterlicher Adipositas assoziiert (η²=0,28, p&lt;0,001). Frühe neonatale Komplikationen unterschieden sich nicht, aber biochemische Marker deuten auf fötale metabolische Programmierung hin.",
+    transfer:"Türkei, Kohortenstudie mit Biomarkern, Programmierungshypothese bestätigt, aber noch keine Langzeitdaten"
   },
   {
-    journal:"BMC Public Health", year:"2026", pmid:"43004354",
-    author:"Suligowska K et al.", pubdate:"13.08.2026",
-    added:"09.11.2026",
-    title:"Gewichtsstatus und Mobbing bei Kindern: Übergewicht erhöhte Opfererlebnis um 50%",
-    sum:"Polnische Querschnittsstudie an 1.113 Schulkindern untersuchte die Assoziation zwischen Übergewicht/Adipositas und Bullying/Cyberbullying als Opfer, Täter oder beide.",
-    result:"16,2% der Kinder mit Übergewicht oder Adipositas erlebten Peer-Gewalt versus 10,9% bei Normalgewicht (p = 0,028). Keine signifikanten Unterschiede bei Täterschaft oder Cyberbullying. Die Post-Pandemie-Zeit war unabhängig mit höherer Victimisierung assoziiert.",
-    transfer:"Polen, vergleichbares europäisches Schulsystem, Gewicht-Stigma-Prävention relevant"
+    journal:"Diabetes Obes Metab", year:"2026", pmid:"42736017",
+    author:"Su Z et al.", pubdate:"14.09.2026",
+    added:"14.09.2026",
+    title:"Fett-Muskel-Verhältnis und Osteoporose: Regionale Unterschiede bestätigen Limits von BMI",
+    sum:"Kohortenstudie bei 324.631 UK-Biobank-Teilnehmern untersuchte, ob regionales Fett-Muskel-Verhältnis (FMR) die Knochendichte und Osteoporoserisiko besser vorhersagt als BMI.",
+    result:"Bei Männern: höheres Ganzkörper-, Rumpf- und Arm-FMR assoziiert mit erhöhtem Osteoporoserisiko (HR 1,66–2,09 für Q5 vs. Q1), höheres Bein-FMR mit reduziertem Risiko (HR 0,64). Bei Frauen: ähnliche Muster. 9.983 Osteoporosefälle während Nachverfolgung. Regionale Unterschiede bedeuten, dass BMI allein Knochenstoffwechsel nicht erfasst.",
+    transfer:"UK-Daten, vergleichbares Versicherungssystem, Kohortenfolge mit harter Endpunkt"
   },
   {
-    journal:"BMC Cardiovasc Disord", year:"2026", pmid:"43000253",
-    author:"Huang Y et al.", pubdate:"10.08.2026",
-    added:"08.11.2026",
-    title:"Metabolische Vulnerabilität erhöhte Sterblichkeit bei kardiometabolischem Syndrom um 67%",
-    sum:"UK-Biobank-Kohortenstudie an 20.927 Patienten mit Stadium-4-kardiovaskulär-renal-metabolischem Syndrom untersuchte den prognostischen Wert eines neuartigen Metabolic-Vulnerability-Index (MVX) für die Mortalität.",
-    result:"Bei 13,45 Jahren Nachbeobachtung starben 4.613 Personen (22,04%). Höchstes MVX-Quartil zeigte HR = 1,67 (95% KI 1,49–1,87, p &lt; 0,001) für Gesamtmortalität. MVX verbesserte Vorhersagefähigkeit über etablierte Risikofaktoren hinaus (C-Statistik 0,713).",
-    transfer:"UK-Biobank, vergleichbares englisches Versicherungssystem, Stratifizierung kardiometabolischer Risiken"
-  },
-  {
-    journal:"BMC Public Health", year:"2026", pmid:"43004352",
-    author:"Nsabimana P et al.", pubdate:"25.07.2026",
-    added:"09.11.2026",
-    title:"Ruanda: Lebensstil, nicht Ernährungsmuster, prädizierte metabolisches Risiko bei jungen Erwachsenen",
-    sum:"Ruandische Querschnittsstudie an 699 Erwachsenen (18–35 Jahre) untersuchte Assoziationen von Ernährungs- und Lebensstilmustern mit MetS-Komponenten mittels explorativer Faktorenanalyse und latenter Klassenanalyse.",
-    result:"Drei Ernährungsmuster identifiziert (Modern, Low-variety, Traditional), zwei Lebensstilklassen (25,75% niedriges Risiko; 74,25% hohes Risiko mit Rauchen, episodischem Alkoholkonsum, Sedentarität, schlechtem Schlaf). Ernährungsmuster zeigten keine unabhängigen Assoziationen mit MetS-Komponenten. High-Risk-Lebensstil positiv assoziiert mit erhöhter Nüchternglukose (OR = 2,05, 95% KI 1,14–3,70); invers mit abdominaler Adipositas (OR = 0,36).",
-    transfer:"Ruanda/Afrika, einkommensarmes Land mit anderen Ressourcen, aber Policy-Relevanz für Lebensstil-Prävention"
+    journal:"BMC Public Health", year:"2026", pmid:"43009883",
+    author:"Kocamanoglu M et al.", pubdate:"01.08.2026",
+    added:"10.11.2026",
+    title:"Gestationaler und mütterlicher BMI verändern BMI-Verlauf im ersten Lebensjahr",
+    sum:"Retrospektive Kohortenstudie bei 230 Mutter-Kind-Paaren untersuchte, wie gestationaler Gewichtszuwachs und mütterlicher präkonzeptioneller BMI den Gewichtsverlauf der Kinder von 0–24 Monaten beeinflussen.",
+    result:"Gestationaler Gewichtszuwachs korrelierte mit höheren BMI-z-Scores im 12. und 24. Monat (p=0,033 und p=0,047); mütterlicher präkonzeptioneller BMI mit erhöhtem z-Score im 3. Monat (p=0,03). Übermäßige Gewichtszunahme in der Schwangerschaft war mit erhöhter früher Adipositas assoziiert.",
+    transfer:"Türkei, prospektive Verfolgung, präventives Fenster präkonzeptionell und peripartal identifiziert"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2257,7 +2266,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "11.11.2026";
+const NEWS_STAND = "12.11.2026";
 const NEWS = [
   {titel:"App-Programme bei Adipositas: Meta-Analyse zeigt 2,6 kg Unterschied", datum:"2026-10-27", url:"https://www.monitor-versorgungsforschung.de/news/app-programme-bei-adipositas-meta-analyse-zeigt-26-kg-unterschied/"},
   {titel:"Orale Adipositastherapie für Selbstzahler: GreenMedical erweitert Angebot", datum:"2026-09-01", url:"https://www.monitor-versorgungsforschung.de/news/orale-adipositastherapie-fuer-selbstzahler-greenmedical-erweitert-angebot/"},
