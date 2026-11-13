@@ -2244,71 +2244,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "12. Nov. 2026, 05:24 Uhr";
+const SNAP_DATE = "13. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Zhonghua Yi Xue Za Zhi", year:"2026", pmid:"43010750",
-    author:"Yang JH et al.", pubdate:"10.11.2026",
+    journal:"J Am Coll Clin Pharm", year:"2026", pmid:"43014803",
+    author:"Yang A et al.", pubdate:"Dez. 2026",
     added:"11.11.2026",
-    title:"Fünf-Säulen-Programm für Adipositas in China: Struktur, Durchführung und Monitoring",
-    sum:"Chinesisches Adipositasprogramm für Erwachsene integriert Ernährung, Bewegung, Psyche, Rauchentwöhnung und Pharmakotherapie in einen standardisierten Behandlungspfad mit Risk-Stratifizierung, durchgeführt in 7 Stadtbezirken von April 2024 bis Mai 2025.",
-    result:"Das Fünf-Säulen-Modell schafft eine strukturierte, skalierbare und wiederholbare Versorgungsarchitektur für Adipositas, die von der Einzelfallversorgung zu einem reproduzierbaren städtischen Implementierungspfad führt. Evaluiert wurden Prozessqualität und Wirksamkeit vor und nach Intervention.",
-    transfer:"China, Adipositasverwaltung im Kontext öffentlicher Gesundheit, struktur- und prozessorientiert, nicht direkt übertragbar auf deutsche SGB-V-Rahmenbedingungen"
+    title:"Klinische Pharmazeuten erhöhen Transplantberechtigung bei dialysepflichtiger Adipositas",
+    sum:"Vergleich zweier Kohorten mit dialysepflichtiger Niereninsuffizienz und Adipositas, die Inkretinpeptide erhielten – vor und nach Integration eines klinischen Pharmazeuten in die Adipositas-Sprechstunde, gemessen an Gewichtsverlust und aktiver Transplantlistung.",
+    result:"Nach Pharmazeuten-Integration sank der BMI nach 12 Monaten um 8,0 % statt plus 2,8 %, und 45 % der initial nicht transplantberechtigten Patienten wurden transplantberechtigt versus 11,5 % ohne Pharmazeut (p=0,006). Höhere Dosisstärke erreicht (48,2 % vs. 3,6 %), keine vermehrten Nebenwirkungen.",
+    transfer:"Nephrologische Versorgung in USA; Modell auf koordinierte Adipositas-Nachsorge übertragbar"
   },
   {
-    journal:"Medicine (Baltimore)", year:"2026", pmid:"43012814",
-    author:"Liu X et al.", pubdate:"30.10.2026",
+    journal:"Gynecol Endocrinol", year:"2026", pmid:"43018059",
+    author:"Yusuf AA et al.", pubdate:"31.12.2026",
+    added:"12.11.2026",
+    title:"Versorgungslücke nach Fertilitätsbehandlung bei PMOS in Einkommensschwächenländern",
+    sum:"Narrative Übersichtsarbeit zur fehlenden Kontinuität der kardiometabolischen Versorgung für Frauen mit Polyendokrinem Metabolischem Ovarialsyndrom (PMOS) nach Ende der Reproduktionsmedizin in Ländern mit niedrigenem und mittlerem Einkommen.",
+    result:"PMOS ist eine lebenslange multisystemische Erkrankung; kardiometabolische Risiken bleiben nach Fertilitätsbehandlung und Geburt erhalten. Mini-Review schlägt Kontinuitätspfad vor: Identifizieren, Dokumentieren, Übergeben, Reassessieren, Erhalten. Fehlende strukturierte Übergabe führt zu Versorgungslücken und erhöhtem kardiometabolischem Risiko.",
+    transfer:"Systematische Übersicht LMICs; Kontinuitätsproblem in Deutschland ebenfalls relevant"
+  },
+  {
+    journal:"Prim Care", year:"2026", pmid:"43014863",
+    author:"Crespo C et al.", pubdate:"18.09.2026",
     added:"11.11.2026",
-    title:"BMI kausal mit Nierenschädigung assoziiert: fünf vermittelnde Biomarker identifiziert",
-    sum:"Mendelsche Randomisierung mit GWAS-Instrumentvariablen untersuchte kausale Effekte von BMI auf 44 Biomarker und Nierenversagen bei über 1.300 Varianten.",
-    result:"BMI war Risikofaktor für Nierenversagen (OR=1,324, p=0,00185). Von 44 Biomarkern zeigten 9 Assoziation mit Nierenversagen; 5 waren Mediatoren: Cystatin C (12,34%), Glucose (7,02%), HbA1c (6,83%), diastolischer Blutdruck (6,37%), systolischer Blutdruck (7,14%). Gewichtsreduktion könnte Nierenfunktion durch Glycämie- und Blutdruckkontrolle verbessern.",
-    transfer:"GWAS-Daten europäischer Herkunft, kausale Richtung etabliert, Screening-Implikation"
+    title:"Gewichtsinclusive Versorgung als Alternative zu Gewichtsfokussierung",
+    sum:"Konzeptueller Artikel zum Paradigmawechsel von gewichtszentrierter zu gewichtsinclusiver Versorgung in der Primärmedizin, mit Fokus auf Stigma-Reduktion und Verhaltensinterventionen.",
+    result:"Gewichtsinclusive Versorgung reduziert Weight Bias, vermeidet Diskriminierung und Versorgungslücken, verbessert Behandlungsakzeptanz und patientenorientierte Ergebnisse ohne Gewicht als Erfolgsmesser zu fokussieren. Kombination mit integrativer Medizin, sozialen Faktoren und körperbildgestaltenden Elementen möglich.",
+    transfer:"Konzept aus USA; Paradigmawechsel auf deutsches Versorgungssystem anwendbar"
   },
   {
-    journal:"Medicine (Baltimore)", year:"2026", pmid:"43012804",
-    author:"Aghajanian S et al.", pubdate:"30.10.2026",
+    journal:"BMC Pediatr", year:"2026", pmid:"43015709",
+    author:"Khorshidi Y et al.", pubdate:"15.08.2026",
     added:"11.11.2026",
-    title:"PTH und Vitamin D korrelieren mit Adipositas, aber D mediiert nur 7–9% der Assoziation",
-    sum:"Querschnittsanalyse bei 4.822 Adipositaschirurgie-Kandidaten in Teheran untersuchte, ob 25(OH)D die PTH-Adipositas-Assoziation mediiert.",
-    result:"Höheres PTH (&gt;72,8 pg/mL vs. niedrig) assoziiert mit 1,89 kg/m² höherem BMI und 1,67 cm größerem Taillenumfang (p&lt;0,001). Höheres 25(OH)D (&gt;35 ng/mL vs. &lt;12) mit 1,81 kg/m² niedrigerem BMI (p&lt;0,001). Mediationsanalyse: 25(OH)D mediierte nur 7% der BMI-Assoziation und 9% der Taillenumfang-Assoziation. Explorative Ergebnisse ohne Kausalitätsnachweis.",
-    transfer:"Iran, Adipositaschirurgie-Population, Mineralstoffwechsel-Phänotypisierung vor Eingriff sinnvoll"
+    title:"Kohlenhydratreduzierte Diät senkt Triglyzeride bei Kindern und Jugendlichen mit Adipositas",
+    sum:"Randomisierte kontrollierte Studie mit 84 Kindern und Jugendlichen (7–16 Jahre) mit Adipositas, die entweder eine kohlenhydratreduzierte Diät (30–40 % Energie) oder Standard-Diät bei Kaloriendefizit für 12 Wochen erhielten.",
+    result:"Beide Gruppen zeigten signifikante Reduktionen von BMI, BMI-z-Score, Taillenumfang und Körperfett ohne Unterschied zwischen Gruppen (p&gt;0,05). Triglyzeride und TG/HDL-Ratio sanken signifikant unter kohlenhydratreduzierter Diät (Differenz −40,31 mg/dL, 95%-KI −73,79 bis −6,82, p=0,019). Verrucomicrobia-Abundanz stieg unter kohlenhydratreduzierter Diät.",
+    transfer:"Iran; Ernährungsintervention im Kindesalter übertragbar, aber Microbiota-Effekte erfordern weitere Validierung"
   },
   {
-    journal:"Front Public Health", year:"2026", pmid:"43005067",
-    author:"Xie W et al.", pubdate:"26.10.2026",
-    added:"10.11.2026",
-    title:"Weight Bias in der Schwangerschaft führt zu Bewegungsvermeidung und reduziert körperliche Aktivität",
-    sum:"Querschnittsstudie bei 433 schwangeren Frauen zeigte direkte und indirekte (via internalisierter Weight Bias) Assoziationen zwischen negativer Einstellung zum Gewichtszuwachs und Bewegungsvermeidung.",
-    result:"Internalisierte Weight Bias mediierte die Assoziation zwischen kritischer Gewichtszunahme-Einstellung und Bewegungsvermeidung statistisch signifikant. Latente Profilanalyse identifizierte zwei Phänotypen: \"low concern\" und \"high concern\", die sich in internalisierter Bias und Bewegungsvermeidung unterschieden (beide p&lt;0,001).",
-    transfer:"China, Stigma-Mechanismus während Schwangerschaft, Brückenfunktion zwischen Einstellung und Verhalten"
+    journal:"BMC Health Serv Res", year:"2026", pmid:"43015779",
+    author:"Jia R et al.", pubdate:"13.08.2026",
+    added:"11.11.2026",
+    title:"Kostenersparnis durch Adipositasprävention: Fiskale Effekte in China modelliert",
+    sum:"Simulationsmodell der Effekte einer Reduktion der Adipositasprävalenz um 1 Prozentpunkt auf Steuern, Renten und Gesundheitsausgaben aus Regierungsperspektive in China.",
+    result:"Eine Prävalenzreduktion um 1 Prozentpunkt würde die Staatsfinanzen um ¥30,37 Milliarden verbessern: ¥15,99 Mrd. direkte Steuern, ¥3,12 Mrd. indirekte Steuern, ¥5,08 Mrd. Einsparungen bei Erwerbsunfähigkeitsrenten und ¥6,70 Mrd. bei Gesundheitsausgaben. Die Erkenntnisse zeigen, dass Adipositaskontrolle fiskale Effekte über die Gesundheitssysteme hinaus hat.",
+    transfer:"China-Daten, Gesundheitsfinanzen anders strukturiert als DACH-Systeme"
   },
   {
-    journal:"Front Endocrinol (Lausanne)", year:"2026", pmid:"43005035",
-    author:"Efe Camili F et al.", pubdate:"26.10.2026",
-    added:"10.11.2026",
-    title:"Mütterliche Adipositas verändert fötale Adipokin-Profile und programmiert Stoffwechsel",
-    sum:"Prospektive Kohortenstudie bei 82 Schwangerschaften verglich Nabelschnurblut-Adipokinkonzentrationen zwischen Kindern adipöser (BMI≥30) und nicht-adipöser Mütter.",
-    result:"Cord-Leptin und ISM1 waren erhöht (p&lt;0,05), NRG4 erniedrigt (p&lt;0,05) bei Adipositas. Leptin blieb nach Adjustierung unabhängig mit mütterlicher Adipositas assoziiert (η²=0,28, p&lt;0,001). Frühe neonatale Komplikationen unterschieden sich nicht, aber biochemische Marker deuten auf fötale metabolische Programmierung hin.",
-    transfer:"Türkei, Kohortenstudie mit Biomarkern, Programmierungshypothese bestätigt, aber noch keine Langzeitdaten"
-  },
-  {
-    journal:"Diabetes Obes Metab", year:"2026", pmid:"42736017",
-    author:"Su Z et al.", pubdate:"14.09.2026",
-    added:"14.09.2026",
-    title:"Fett-Muskel-Verhältnis und Osteoporose: Regionale Unterschiede bestätigen Limits von BMI",
-    sum:"Kohortenstudie bei 324.631 UK-Biobank-Teilnehmern untersuchte, ob regionales Fett-Muskel-Verhältnis (FMR) die Knochendichte und Osteoporoserisiko besser vorhersagt als BMI.",
-    result:"Bei Männern: höheres Ganzkörper-, Rumpf- und Arm-FMR assoziiert mit erhöhtem Osteoporoserisiko (HR 1,66–2,09 für Q5 vs. Q1), höheres Bein-FMR mit reduziertem Risiko (HR 0,64). Bei Frauen: ähnliche Muster. 9.983 Osteoporosefälle während Nachverfolgung. Regionale Unterschiede bedeuten, dass BMI allein Knochenstoffwechsel nicht erfasst.",
-    transfer:"UK-Daten, vergleichbares Versicherungssystem, Kohortenfolge mit harter Endpunkt"
-  },
-  {
-    journal:"BMC Public Health", year:"2026", pmid:"43009883",
-    author:"Kocamanoglu M et al.", pubdate:"01.08.2026",
-    added:"10.11.2026",
-    title:"Gestationaler und mütterlicher BMI verändern BMI-Verlauf im ersten Lebensjahr",
-    sum:"Retrospektive Kohortenstudie bei 230 Mutter-Kind-Paaren untersuchte, wie gestationaler Gewichtszuwachs und mütterlicher präkonzeptioneller BMI den Gewichtsverlauf der Kinder von 0–24 Monaten beeinflussen.",
-    result:"Gestationaler Gewichtszuwachs korrelierte mit höheren BMI-z-Scores im 12. und 24. Monat (p=0,033 und p=0,047); mütterlicher präkonzeptioneller BMI mit erhöhtem z-Score im 3. Monat (p=0,03). Übermäßige Gewichtszunahme in der Schwangerschaft war mit erhöhter früher Adipositas assoziiert.",
-    transfer:"Türkei, prospektive Verfolgung, präventives Fenster präkonzeptionell und peripartal identifiziert"
+    journal:"BMC Public Health", year:"2026", pmid:"43015687",
+    author:"Moonajilin MS et al.", pubdate:"05.08.2026",
+    added:"11.11.2026",
+    title:"Soziale Netzwerke beeinflussen gewichtsbezogenes Verhalten junger Frauen in Bangladesch",
+    sum:"Querschnittserhebung unter 444 Bangladeschischen Frauen im Alter von 18–25 Jahren zu Assoziationen zwischen sozialen Netzwerkprozessen (soziale Ansteckung, Sozialkapital, Homophilie) und gewichtsbezogenen Verhaltensweisen sowie Gewichtswahrnehmung.",
+    result:"Soziale Netzwerkprozesse erklärten 5,8–14,4 % der Varianz in gewichtsbezogenen Verhaltensweisen. Soziale Normen stärker mit Ernährungsverhalten assoziiert (OR für Gesundes Essen vs. soziale Norm); soziales Clustering und Social-Media-Einfluss stärker mit sitzender Aktivität und Gewichtswahrnehmung assoziiert. Effektgrößen bescheiden, aber in kollektivistischen Kontexten relevant.",
+    transfer:"Bangladesch; kollektivistische Kulturmuster unterscheiden sich von Deutschland"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2333,7 +2324,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "12.11.2026";
+const NEWS_STAND = "13.11.2026";
 const NEWS = [
   {titel:"App-Programme bei Adipositas: Meta-Analyse zeigt 2,6 kg Unterschied", datum:"2026-10-27", url:"https://www.monitor-versorgungsforschung.de/news/app-programme-bei-adipositas-meta-analyse-zeigt-26-kg-unterschied/"},
   {titel:"Orale Adipositastherapie für Selbstzahler: GreenMedical erweitert Angebot", datum:"2026-09-01", url:"https://www.monitor-versorgungsforschung.de/news/orale-adipositastherapie-fuer-selbstzahler-greenmedical-erweitert-angebot/"},
