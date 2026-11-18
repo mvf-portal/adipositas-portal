@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- erzeugt von hub-scripts/studienseiten.py -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://adipositas.m-vf.de/</loc><lastmod>2026-11-17</lastmod></url>
-<url><loc>https://adipositas.m-vf.de/studie/</loc><lastmod>2026-11-17</lastmod></url>
+<url><loc>https://adipositas.m-vf.de/</loc><lastmod>2026-11-18</lastmod></url>
+<url><loc>https://adipositas.m-vf.de/studie/</loc><lastmod>2026-11-18</lastmod></url>
 <url><loc>https://adipositas.m-vf.de/neue-studien.html</loc></url>
 <url><loc>https://adipositas.m-vf.de/newsletter.html</loc></url>
 <url><loc>https://adipositas.m-vf.de/themen-quellen.html</loc></url>
+<url><loc>https://adipositas.m-vf.de/studie/43041631/</loc><lastmod>2026-11-18</lastmod></url>
+<url><loc>https://adipositas.m-vf.de/studie/43041288/</loc><lastmod>2026-11-18</lastmod></url>
+<url><loc>https://adipositas.m-vf.de/studie/43040910/</loc><lastmod>2026-11-18</lastmod></url>
+<url><loc>https://adipositas.m-vf.de/studie/43040479/</loc><lastmod>2026-11-18</lastmod></url>
+<url><loc>https://adipositas.m-vf.de/studie/43040436/</loc><lastmod>2026-11-18</lastmod></url>
+<url><loc>https://adipositas.m-vf.de/studie/43040312/</loc><lastmod>2026-11-18</lastmod></url>
 <url><loc>https://adipositas.m-vf.de/studie/43037651/</loc><lastmod>2026-11-17</lastmod></url>
 <url><loc>https://adipositas.m-vf.de/studie/43036202/</loc><lastmod>2026-11-17</lastmod></url>
 <url><loc>https://adipositas.m-vf.de/studie/43035953/</loc><lastmod>2026-11-17</lastmod></url>
