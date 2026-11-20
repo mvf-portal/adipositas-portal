@@ -2265,62 +2265,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "19. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "20. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Respiration", year:"2026", pmid:"43044043",
-    author:"Saccomanno J et al.", pubdate:"17.11.2026",
-    added:"17.11.2026",
-    title:"Lungenüberblähungsbehandlung wirkt unabhängig vom BMI – deutsche Registerdaten",
-    sum:"Prospektive Kohortenstudie aus 16 deutschen Lungenkliniken (n=549) zur Frage, ob der Behandlungserfolg der endoskopischen Lungenvolumelreduktion mit Ventilen vom Körpergewicht abhängt.",
-    result:"Alle BMI-Gruppen zeigten signifikante Verbesserungen bei Lungenfunktion, Belastbarkeit und Lebensqualität drei Monate nach Eingriff. Dyspnoe-Symptome (CAT-Score) verbesserten sich bei untergewichtigen Patienten sogar stärker (p&lt;0,05 im Vergleich). Komplikationsraten waren niedrig und vergleichbar, obwohl adipöse Patienten häufiger intensivmedizinische Betreuung benötigten. BMI sollte als Ausdruck der Erkrankungsphenotyp verstanden werden, nicht als Prädiktor für Behandlungsanspruch.",
-    transfer:"Deutsche Klinikdaten aus etabliertem Register, direkt anwendbar auf deutsches Versorgungssystem"
-  },
-  {
-    journal:"PLoS One", year:"2026", pmid:"43043938",
-    author:"Gavor-Kwashi CEK et al.", pubdate:"17.11.2026",
-    added:"17.11.2026",
-    title:"Adipositas stärkster Prädiktor für Nierenkrankheit bei Kardiometabolischen Erkrankungen in Ghana – modifizierbare Faktoren dominieren",
-    sum:"Ghanaische Querschnittstudie bei 203 Klinikpatienten zur Bestimmung klinischer, lebensstil- und genetischer Determinanten von Bluthochdruck, Diabetes, Metabolischem Syndrom und chronischer Nierenkrankheit.",
-    result:"Über 80 % der Patienten hatten ≥2 kardiometabolische Erkrankungen; &gt;80 % waren übergewichtig/adipös. Adipositas war stärkster unabhängiger Prädiktor für chronische Nierenkrankheit (aOR 7–8 für Adipositas-Grad I/II). Medikamentöse Glukosekontrolle war mit besserer Blutzuckerkontrolle assoziiert (OR 7,16, 95%-KI 3,31–15,47, p&lt;0,001). Kombinierte klinisch-genetische Modelle zeigten höchste Diskriminierung (AUC 0,83–0,89), genetische Modelle allein waren schwach (AUC 0,63–0,67). Modifizierbare Faktoren, nicht Genetik, dominierten das Risiko.",
-    transfer:"Ghana, aber zeigt Relevanz adipositasassoziierter Nierenkrankheit für SSA und global; Lebensstil-Fokus überall anwendbar"
-  },
-  {
-    journal:"Curr Obes Rep", year:"2026", pmid:"43043580",
-    author:"Zimmerman GA et al.", pubdate:"17.11.2026",
-    added:"17.11.2026",
-    title:"Timing von Licht, Mahlzeiten und Aktivität könnte Adipositas-Risiko mindern, auch ohne Schlafdauer-Erhöhung",
-    sum:"Narratives Review zur Frage, ob Optimierung der zeitlichen Abstimmung alltäglicher Verhaltensweisen (Licht, Essen, Schlaf-Wach-Rhythmus, Aktivität) das Adipositas- und kardiometabolische Risiko bei chronischem Schlafmangel senken kann.",
-    result:"Emerging Evidence zeigt, dass Timing von Lichtexposition, Nahrungsaufnahme, Schlaf-Wach-Regelmäßigkeit und körperlicher Aktivität zirkadiane Physiologie und metabolische Gesundheit beeinflussen können. Plausible Mechanismen: Schlafmangel stört diese zeitlichen Muster und treibt positive Energiebilanz und Gewichtszunahme. Jedoch gibt es wenige vollständig gepowerte RCTs für Timing-basierte Interventionen bei habituell unzureichend schlafenden Erwachsenen. Der Autor sieht zeitliche Optimierung als vielversprechenden komplementären Ansatz, wenn Schlafdauer-Erhöhung nicht durchführbar ist.",
-    transfer:"USA, aber Circadian-Mechanismen sind universell; Versorgungsrelevanz für Deutschland als Prävention"
-  },
-  {
-    journal:"Rev Paul Pediatr", year:"2026", pmid:"43048967",
-    author:"Germano JCV et al.", pubdate:"13.11.2026",
+    journal:"PLoS One", year:"2026", pmid:"43050418",
+    author:"Parajuli R et al.", pubdate:"18.11.2026",
     added:"18.11.2026",
-    title:"Nackenumfang, Taillenumfang und Taille-Größe-Verhältnis identifizierten Übergewicht bei Kleinkindern mit Sensitivität &gt;0,87",
-    sum:"Brasilianische Querschnittstudie bei 663 Kindern (2–5 Jahre) zur Frage, ob einfache Umfangsmessungen Übergewicht besser identifizieren als BMI.",
-    result:"Nackenumfang, Taillenumfang und Taille-Größe-Verhältnis (≥0,50) waren alle signifikant mit Übergewicht assoziiert (p&lt;0,001). ROC-Analysen zeigten gute diskriminative Leistung: Nackenumfang AUC 0,903, Taillenumfang AUC 0,896, Taille-Größe-Verhältnis AUC 0,878. Diese Parameter könnten eine praktische Alternative zu BMI im Screening bilden.",
-    transfer:"Brasilien, aber anthropometrische Messverfahren sind universell; Relevanz für deutsches Kinderscreening gegeben"
+    title:"Asiaten-spezifische BMI-Schwellen zeigen doppeltes Adipositasprävalenz-Anstiegs als Global-Kriterien",
+    sum:"Systematischer Review mit PRISMA-Leitlinien (PubMed, Scopus, Web of Science, DOAJ, Google Scholar, IMSEAR; 2015–2026) zu übergewicht/Adipositasprävalenz in Indien, Bangladesch, Nepal; Vergleich global (≥25 kg/m²) vs. asiatisch-spezifisch (≥23 kg/m²) BMI-Schwellen.",
+    result:"Wechsel auf asiatische Kriterien führte zu substanziellem Prävalenzanstieg: Übergewicht/Adipositas bei Frauen im reproduktiven Alter in Bangladesch verdoppelte sich auf 55,3%. Dominante assoziierte Faktoren: Wohlstandscluster (höheres Haushaltseinkommen, höhere Bildung, Urbanität) und geburtshilfliche Faktoren (Parität, Kaiserschnitt). Direkte Ernährungs- und Aktivitätsmessungen fehlten fast ganz.",
+    transfer:"Indien, Bangladesch, Nepal; global-Schwellen verdecken südasiatische Adipositiskrise, lokale Daten notwendig"
   },
   {
-    journal:"Nutrients", year:"2026", pmid:"43030305",
-    author:"Sarmiento Cruz M et al.", pubdate:"06.11.2026",
-    added:"14.11.2026",
-    title:"Aufschiebeverhalten am stärksten mit Metabolischem Syndrom assoziiert; Bewegung und Mittelmeerdiät mildern es",
-    sum:"Spanische Querschnittstudie bei 92.184 Beschäftigten, ob Prokrastinationsneigung mit Metabolischem Syndrom zusammenhängt und welche Rolle Lebensstilverhalten spielt.",
-    result:"Metabolisches-Syndrom-Häufigkeit stieg steil mit Prokrastination: 0,4 % (sehr niedrig) → 5,2 % (moderat) → 16,7 % (hoch) → 37,3 % (sehr hoch). Nach Anpassung auf körperliche Aktivität und Mittelmeerdiät-Adhärenz reduzierten sich die absoluten Risikodifferenzen erheblich auf 3,76, 10,95 und 22,31 Prozentpunkte. Physische Aktivität und Ernährung zeigten substanzielle statistische Überlappung mit dem Prokrastinations-Effekt; die Assoziation blieb aber auch nach vollständiger Anpassung erhalten.",
-    transfer:"Spanien, großes Beschäftigtensample, aber Versorgungsübertragbarkeit auf Deutschland begrenzt durch System; relevanter für Prävention in Betrieben"
+    journal:"Front Endocrinol (Lausanne)", year:"2026", pmid:"43053981",
+    author:"Wu J et al.", pubdate:"04.11.2026",
+    added:"19.11.2026",
+    title:"Symptomkombinationen (Magen-Darm, Schlaf, Affekt) assoziiert mit Hypertonie und Diabetes",
+    sum:"Querschnittsanalyse von 5.203 Erwachsenen (≥20 Jahre) aus NHANES 2009–2010 zu acht gegenseitig ausschließlichen Symptomkombinationen und vier kardiometabolischen Erkrankungen (Hypertonie, Dyslipidämie, Diabetes, metabolisches Syndrom) mit survey-gewichteter logistischer Regression.",
+    result:"Gegenüber Negativität in allen drei Domänen: Magen-Darm + Schlaf (G+S) höhere Hypertonie-Odds (OR 1,92; 95%-KI 1,27–2,89); alle drei Domänen (G+S+A): OR 2,31 für Hypertonie (1,38–3,86) und OR 1,63 für Diabetes (1,15–2,30). Schlaf + Affekt mit Dyslipidämie assoziiert (OR 1,67; 1,06–2,61). Trend mit Domänenzahl für Hypertonie (p=0,007) und Diabetes (p=0,041), nicht für metabolisches Syndrom.",
+    transfer:"USA (NHANES), Symptomcluster international relevant, Mechanismen unklar"
   },
   {
-    journal:"BMC Geriatr", year:"2026", pmid:"43045967",
-    author:"Araújo MPD et al.", pubdate:"21.08.2026",
-    added:"17.11.2026",
-    title:"BMI-angepasste Sarkopeniewerte identifizierten in Spanien 39 % mehr ältere Menschen mit Risiko",
-    sum:"Vergleich dreier Screeningverfahren für Sarkopenie (Muskelschwund) bei älteren Menschen, wobei die BMI-Anpassung der Wade-Zirkumferenz mehr Personen als risikobehaftet klassifizierte.",
-    result:"Nc die Standard-Zirkumferenzmessung (SARC-CalF) klassifizierten 37,3 % als Sarkopenie-Risiko, stieg dieser Anteil mit BMI-Anpassung auf 61,2 %. Bei spanischen Teilnehmern ≥80 Jahren war die Reklassifizierung am stärksten (39,3 % Verschiebung nach oben, p&lt;0,001). Übergewicht war mit dreifach höherer Wahrscheinlichkeit für Reklassifizierung assoziiert (OR 3,36, 95%-KI 1,68–6,73). Die Screening-Tools sind nicht austauschbar und unterscheiden sich erheblich in ihrer Klassifizierungsleistung.",
-    transfer:"Brasilien und Spanien, aber Problem global: Adipositas maskiert Muskelmangel; Relevanz für Altern in Deutschland"
+    journal:"BMC Cardiovasc Disord", year:"2026", pmid:"43052776",
+    author:"Zhang L et al.", pubdate:"28.10.2026",
+    added:"18.11.2026",
+    title:"Composite-Marker aus Insulinresistenz und Adipositas besser als Einzelindizes zur Risikostratifizierung",
+    sum:"Querschnittsanalyse der CHARLS-Kohorte (China, n=7.646) mit 633 Fällen kardiometabolischer Multimorbidität, 16 metabolische Marker, 5 pathophysiologische Pfade; Cox-Regression, competing-risk-Modelle, ROC/IDI/NRI-Analysen.",
+    result:"CVAI zeigte stärkste Assoziation mit kardiometabolischer Multimorbidität (Q4 vs. Q1 HR 5,15; 95%-KI 3,52–7,54). TyG-WC-Index bot größte inkrementelle Diskriminationsverbesserung (IDI=0,026, NRI=0,255; p&lt;0,001). Composite-Insulinresistenz und atherogenische Lipidindizes erklärten 87,8% des gemeinsamen Risikos. Strukturelle Adipositas ohne metabolische Dysfunktion war in SEM-Analysen nicht unabhängig mit Multimorbidität assoziiert.",
+    transfer:"China (CHARLS), metabolische Muster unterscheiden sich; Übertragung auf deutsches BMI-Verständnis eingeschränkt"
+  },
+  {
+    journal:"BMC Public Health", year:"2026", pmid:"43052921",
+    author:"Na Thalang R et al.", pubdate:"25.08.2026",
+    added:"18.11.2026",
+    title:"Strukturiertes Selbstmanagement verbesserte Präventionsverhalten bei metabolischem Syndrom",
+    sum:"Quasi-experimentelle Studie zu einem 12-Wochen-Selbstmanagementprogramm bei 73 Dorfgesundheitshelfern mit metabolischem Syndrom in Thailand (Interventionsgruppe n=38, Kontrollgruppe n=35).",
+    result:"Interventionsgruppe zeigte nach Baselineadjustierung höhere Selbstmanagement-Scores (Differenz 5,10 Punkte, 95%-KI 0,31–9,90; p=0,037), niedrigeres Körpergewicht (−1,12 kg; p=0,001), niedrigeren BMI (−0,39 kg/m²; p=0,012) und kleineren Taillenumfang (−1,97 cm; p=0,002). Framingham-10-Jahres-Risiko unterschied sich nicht signifikant (p=0,494). Das Programm könnte mit verbessertem Verhalten und kurzfristigen anthropometrischen Ergebnissen assoziiert sein.",
+    transfer:"Thailand, vergleichbare Primärversorgungsstruktur, aber Implementierungsfähigkeit in deutschem Kontext unklar"
+  },
+  {
+    journal:"Cardiovasc Diabetol", year:"2026", pmid:"43053091",
+    author:"Valensi P et al.", pubdate:"25.08.2026",
+    added:"19.11.2026",
+    title:"Gewichtsvariabilität prognostisch relevant in Herzinsuffizienzkohorte mit Diabetes",
+    sum:"Retrospektive Kohortenstudie aus dem französischen Satelia®-Cardio-Telemonitoringprogramm mit 16.556 Herzinsuffizienzpatienten (2018–2024), davon 4.723 (28,5%) mit Diabetes, Median-Nachverfolgung 13 Monate.",
+    result:"2.266 Todesfälle (13,7%). Diabetes-Mortalitätsassoziation schwächte sich nach Adjustierung für NYHA-Klasse ab. Höhere Sterblichkeit assoziiert mit männlichem Geschlecht, Nierenversagen, kombinierter COPD/Schlafapnoe und höherer NYHA-Klasse. Hohe Kurzzeit-Gewichtsvariabilität (mittlere absolute 10-Tages-Gewichtsänderung) unabhängig mit schlechterer Überlebensprognose assoziiert.",
+    transfer:"Frankreich, vergleichbare Sozialversicherung und Telemonitoring-Infrastruktur"
+  },
+  {
+    journal:"BMC Endocr Disord", year:"2026", pmid:"43052972",
+    author:"Guo S et al.", pubdate:"22.08.2026",
+    added:"18.11.2026",
+    title:"Erniedrigte Osteopontin-Spiegel assoziiert mit Hypertonie bei adipösen Kindern",
+    sum:"Querschnittsanalyse mit 106 Kindern (61 mit Adipositas, 45 Kontrollen) zu Osteopontin (OPN), Adiponectin, Endothel-Markern und Blutdruck; Korrelations- und multivariable Regressionsanalysen, ROC-Kurven.",
+    result:"Adipöse Kinder: höhere Triglyceride, Gesamtcholesterin, VCAM-1; niedrigere OPN, Adiponectin, WNT5A, ESM1 (alle p&lt;0,05). OPN invers korreliert mit BMI (r=−0,704; p&lt;0,001), systolischem (r=−0,557) und diastolischem Blutdruck (r=−0,279). Nach Adjustierung für Alter, Geschlecht, Pubertalität: OPN assoziiert mit niedrigerem systolischen Blutdruck (β=−0,452; 95%-KI −4,30 bis −0,74; p=0,007). OPN-Addition zum klinischen Modell erhöhte AUC zur Hypertonie-Identifikation von 0,756 auf 0,806.",
+    transfer:"China (Xi'an, Wuhan), pädiatrische Kardiometabolik, Biomarker-Validierung erforderlich"
+  },
+  {
+    journal:"BMC Infect Dis", year:"2026", pmid:"43052794",
+    author:"Wu JY et al.", pubdate:"19.08.2026",
+    added:"18.11.2026",
+    title:"Tirzepatide reduzierte Infektionsrisiko gegenüber GLP-1-Rezeptoragonisten",
+    sum:"Retrospektive Kohortenstudie aus TriNetX mit 143.288 Patienten pro Gruppe (Tirzepatid vs. GLP-1-RA-Nenanwender) von Januar 2022 bis November 2025, propensity-score-gematchet.",
+    result:"Tirzepatid assoziiert mit moderat niedrigerem Composite-Infektionsrisiko (HR 0,97; 95%-KI 0,95–0,99), niedrigerem Pneumonierisiko (HR 0,95; 0,92–0,98), niedrigerem Hautinfektionsrisiko (HR 0,96; 0,93–0,99) und niedrigerer Sterblichkeit (HR 0,89; 0,82–0,98). Keine Unterschiede bei Pyelonephritis oder gastrointestinaler Infektion.",
+    transfer:"USA-Daten (TriNetX), Kostenübernahme unterschiedlich; Übertragbarkeit auf deutsches System begrenzt"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2345,7 +2354,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "19.11.2026";
+const NEWS_STAND = "20.11.2026";
 const NEWS = [
   {titel:"App-Programme bei Adipositas: Meta-Analyse zeigt 2,6 kg Unterschied", datum:"2026-10-27", url:"https://www.monitor-versorgungsforschung.de/news/app-programme-bei-adipositas-meta-analyse-zeigt-26-kg-unterschied/"},
   {titel:"Orale Adipositastherapie für Selbstzahler: GreenMedical erweitert Angebot", datum:"2026-09-01", url:"https://www.monitor-versorgungsforschung.de/news/orale-adipositastherapie-fuer-selbstzahler-greenmedical-erweitert-angebot/"},
